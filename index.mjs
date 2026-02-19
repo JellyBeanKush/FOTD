@@ -2,111 +2,88 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-// Pulling the key safely from GitHub Secrets
-const GEMINI_KEY = process.env.GEMINI_API_KEY; 
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En";
-const HISTORY_FILE = 'used_facts.json';
-const CURRENT_FILE = 'current_fact.txt';
+const CONFIG = {
+    GEMINI_KEY: process.env.GEMINI_API_KEY,
+    GROQ_KEY: process.env.GROQ_API_KEY,
+    DISCORD_URL: "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En",
+    HISTORY_FILE: 'used_facts.json',
+    BACKUP_FILE: 'backup_facts.json'
+};
 
-const genAI = new GoogleGenerativeAI(GEMINI_KEY);
+const PROMPT = `Find one interesting fun fact for adults. 
+TONE: Conversational, concise, English only. Max 3 sentences.
+TOPIC: Science, history, or engineering. No dark/medical stuff.
+SOURCE: Provide a real, working URL to a reputable source.
+OUTPUT: JSON ONLY: {"fact": "text", "source": "url"}`;
 
+// --- The Bouncer (URL Verifier) ---
 async function checkUrl(url) {
     try {
-        const response = await fetch(url, {
-            headers: { 
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-                'Accept': 'text/html'
-            },
-            signal: AbortSignal.timeout(8000)
+        const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(6000) });
+        if (res.status === 404) return false;
+        const text = await res.text();
+        return !["page not found", "404 error"].some(m => text.toLowerCase().includes(m));
+    } catch { return false; }
+}
+
+// --- Attempt 1: Gemini 3 ---
+async function tryGemini() {
+    console.log("🚀 Tier 1: Trying Gemini 3 Flash...");
+    try {
+        const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
+        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview", tools: [{ googleSearch: {} }] });
+        const result = await model.generateContent(PROMPT);
+        const data = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
+        if (await checkUrl(data.source)) return data;
+    } catch (e) { console.log(`Gemini Failed: ${e.status || e.message}`); }
+    return null;
+}
+
+// --- Attempt 2: Groq (Llama 3.3) ---
+async function tryGroq() {
+    console.log("⚡ Tier 2: Falling back to Groq (Llama)...");
+    try {
+        const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+            method: "POST",
+            headers: { "Authorization": `Bearer ${CONFIG.GROQ_KEY}`, "Content-Type": "application/json" },
+            body: JSON.stringify({
+                model: "llama-3.3-70b-versatile",
+                messages: [{ role: "user", content: PROMPT }],
+                response_format: { type: "json_object" }
+            })
         });
-        
-        // If it's a hard error (404), it's dead.
-        if (!response.ok && response.status !== 403) return false;
-
-        // Soft 404 Check: Some sites (Britannica) send a "Success" page that just says "Not Found"
-        const bodyText = await response.text();
-        const lowerText = bodyText.toLowerCase();
-        const soft404Markers = ["page not found", "404 error", "couldn't find that page", "article not found"];
-        
-        if (soft404Markers.some(marker => lowerText.includes(marker))) return false;
-
-        return true; 
-    } catch (error) {
-        return false;
-    }
+        const json = await response.json();
+        const data = JSON.parse(json.choices[0].message.content);
+        if (await checkUrl(data.source)) return data;
+    } catch (e) { console.log(`Groq Failed: ${e.message}`); }
+    return null;
 }
 
 async function main() {
-    if (!GEMINI_KEY) {
-        console.error("ERROR: GEMINI_API_KEY is missing from GitHub Secrets!");
-        process.exit(1);
+    let finalFact = await tryGemini();
+    
+    if (!finalFact) finalFact = await tryGroq();
+
+    if (!finalFact && fs.existsSync(CONFIG.BACKUP_FILE)) {
+        console.log("📦 Tier 3: APIs down. Using local backup...");
+        const backups = JSON.parse(fs.readFileSync(CONFIG.BACKUP_FILE, 'utf8'));
+        finalFact = backups[Math.floor(Math.random() * backups.length)];
     }
 
-    try {
-        let history = [];
-        if (fs.existsSync(HISTORY_FILE)) {
-            try { history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8')); } catch (e) { history = []; }
-        }
-
-        // USING GEMINI 3 FREE (FLASH PREVIEW)
-        const model = genAI.getGenerativeModel({ 
-            model: "gemini-3-flash-preview", 
-            tools: [{ googleSearch: {} }] // Enabled Grounding
-        });
-
-        let validData = null;
-        let attempts = 0;
-
-        while (!validData && attempts < 5) {
-            attempts++;
-            console.log(`Attempt ${attempts}: Generating grounded fact...`);
-
-            const prompt = `Search for and generate one interesting fun fact for adults. 
-            TONE: Conversational, concise, like you're talking to a friend. 
-            TOPIC: Focus on science, history, or engineering. English only. No dark/medical topics.
-            SOURCE: Provide a direct, working URL to a reputable source. 
-            UNIQUE: Do not use: ${history.slice(-15).join(', ')}.
-            OUTPUT: JSON ONLY: {"fact": "text", "source": "url"}`;
-
-            const result = await model.generateContent(prompt);
-            const response = await result.response;
-            let text = response.text().replace(/```json/g, "").replace(/```/g, "").trim();
-            const data = JSON.parse(text);
-
-            console.log(`Verifying: ${data.source}`);
-            if (await checkUrl(data.source)) {
-                validData = data;
-            } else {
-                console.log("Link failed bouncer check. Retrying...");
-            }
-        }
-
-        if (!validData) process.exit(1);
-
-        // Update files
-        history.push(validData.fact);
-        fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
-        fs.writeFileSync(CURRENT_FILE, validData.fact); 
-
-        // Send to Discord
-        await fetch(WEBHOOK_URL, {
+    if (finalFact) {
+        await fetch(CONFIG.DISCORD_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 username: "Fact of the Day",
-                avatar_url: "https://i.imgur.com/8nLFCvp.png",
                 embeds: [{
                     title: "✨ Today's Fact",
-                    description: `${validData.fact}\n\n🔗 **[Source](${validData.source})**`,
+                    description: `${finalFact.fact}\n\n🔗 **[Source](${finalFact.source})**`,
                     color: 0x00ff99
                 }]
             })
         });
-
-        console.log("Success! Fact posted with verified link.");
-    } catch (error) {
-        console.error("Fatal Error:", error);
-        process.exit(1);
+        console.log("Done!");
     }
 }
 main();
