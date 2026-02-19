@@ -18,18 +18,23 @@ async function main() {
             } catch (e) { history = []; }
         }
 
-        // Using the 3.0 Flash model (Standard for Free Tier in 2026)
         const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
-        const prompt = `Generate one highly interesting, sophisticated fun fact for an adult audience. 
-        CRITICAL CONTENT FILTERS:
-        1. NO "gross," bodily function, or medical horror facts.
-        2. NO dark, depressing, or death-related topics.
-        3. NO cutesy or "kid-oriented" trivia.
-        4. Focus on high-level science, architecture, history, or engineering.
-        5. UNIQUE CHECK: Do not repeat these: ${history.slice(-15).join(', ')}.
+        const prompt = `Generate one interesting, sophisticated fun fact for an adult audience. 
+        STYLE RULES:
+        1. Use natural, conversational English (how you'd tell a friend at a bar).
+        2. Keep it concise. No "walls of text."
+        3. NO gross/medical, dark/depressing, or cutesy/kid stuff.
+        4. Focus on cool science, history, or engineering.
+        5. LANGUAGE: English only.
 
-        Return ONLY a JSON object: {"fact": "the text", "source": "verified_url"}`;
+        LINK RULES:
+        - You MUST provide a real, working URL to a reputable source. 
+        - Double-check that the URL is a standard, permanent link (no temporary or broken paths).
+
+        UNIQUE CHECK: Do not repeat these: ${history.slice(-15).join(', ')}.
+
+        Return ONLY a JSON object: {"fact": "the conversational text", "source": "verified_url"}`;
 
         const result = await model.generateContent(prompt);
         const response = await result.response;
@@ -37,18 +42,17 @@ async function main() {
         
         const data = JSON.parse(text);
 
-        // Save History
+        // Update history and current text file
         history.push(data.fact);
         fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
         fs.writeFileSync(CURRENT_FILE, data.fact); 
 
-        // Discord Payload
         const payload = {
             username: "Fact of the Day",
             avatar_url: "https://i.imgur.com/8nLFCvp.png",
             embeds: [{
                 title: "✨ Today's Fact",
-                description: `${data.fact}\n\n🔗 **[Click to Verify Source](${data.source})**`,
+                description: `${data.fact}\n\n🔗 **[Source](${data.source})**`,
                 color: 0x00ff99
             }]
         };
@@ -59,7 +63,7 @@ async function main() {
             body: JSON.stringify(payload)
         });
 
-        console.log("Success! Fact posted via Gemini 3 Flash.");
+        console.log("Success! Conversational fact posted.");
     } catch (error) {
         console.error("Error:", error);
         process.exit(1);
