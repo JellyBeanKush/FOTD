@@ -21,13 +21,12 @@ async function checkUrl(url) {
 
         if (!response.ok && response.status !== 403) return false;
 
-        // NEW: Check the actual text of the page for "Soft 404" indicators
         const bodyText = await response.text();
         const lowerText = bodyText.toLowerCase();
+        // Catch those annoying "Page Not Found" screens that pretend to be a success
         const soft404Markers = ["page not found", "404 error", "couldn't find that page", "article not found"];
         
-        if (soft404Markers.some(marker => lowerText.includes(marker)) && !lowerText.includes("here is a fact about 404 errors")) {
-            console.log("Detected a 'Soft 404' error page. Rejecting.");
+        if (soft404Markers.some(marker => lowerText.includes(marker))) {
             return false;
         }
 
@@ -44,10 +43,10 @@ async function main() {
             try { history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8')); } catch (e) { history = []; }
         }
 
-        // ENABLING SEARCH GROUNDING: This tells Gemini to use Google Search to find real links
+        // Use the current 2026 model: gemini-3-flash-preview
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-1.5-flash", // Using the most stable grounding model
-            tools: [{ googleSearch: {} }] 
+            model: "gemini-3-flash-preview", 
+            tools: [{ googleSearch: {} }] // This enables real-time web verification
         });
 
         let validData = null;
@@ -55,34 +54,41 @@ async function main() {
 
         while (!validData && attempts < 5) {
             attempts++;
-            console.log(`Attempt ${attempts}: Generating grounded fact...`);
+            console.log(`Attempt ${attempts}: Generating fact using Gemini 3 Search Grounding...`);
 
-            const prompt = `Search for and generate one interesting, sophisticated fun fact for adults. 
-            TONE: Conversational English, concise, no walls of text.
-            TOPIC: Science, history, or engineering. No gross/dark/cutesy stuff.
-            LINK: Provide a direct, working URL to a reputable source (like Britannica, NASA, or a University).
+            const prompt = `Find one interesting fun fact for adults. 
+            TONE: Conversational, like a person talking to a friend. No "AI-voice."
+            RULES: Concise (max 3 sentences), English only. NO gross/dark/medical topics.
+            SOURCE: You MUST provide a real, working URL to a reputable source. 
             UNIQUE: Avoid: ${history.slice(-15).join(', ')}.
-            OUTPUT: JSON ONLY: {"fact": "text", "source": "url"}`;
+            OUTPUT: Return ONLY JSON: {"fact": "text", "source": "url"}`;
 
             const result = await model.generateContent(prompt);
             const response = await result.response;
+            
+            // Cleanup the response text just in case Gemini wraps it in markdown
             let text = response.text().replace(/```json/g, "").replace(/```/g, "").trim();
             const data = JSON.parse(text);
 
-            console.log(`Testing URL: ${data.source}`);
+            console.log(`Verifying: ${data.source}`);
             if (await checkUrl(data.source)) {
                 validData = data;
             } else {
-                console.log("Link failed content check. Retrying...");
+                console.log("Link failed verification. Retrying...");
             }
         }
 
-        if (!validData) process.exit(1);
+        if (!validData) {
+            console.error("Could not find a valid fact/link after 5 tries.");
+            process.exit(1);
+        }
 
+        // Save progress
         history.push(validData.fact);
         fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
         fs.writeFileSync(CURRENT_FILE, validData.fact); 
 
+        // Post to Discord
         await fetch(WEBHOOK_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -97,9 +103,9 @@ async function main() {
             })
         });
 
-        console.log("Success! Fact posted with grounded, verified link.");
+        console.log("Success! Grounded fact posted.");
     } catch (error) {
-        console.error("Error:", error);
+        console.error("Fatal Error:", error);
         process.exit(1);
     }
 }
