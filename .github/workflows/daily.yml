@@ -1,0 +1,15 @@
+name: Daily Fact Post
+on:
+  schedule:
+    - cron: '30 14 * * *' # Runs every day at 9:30 AM EST
+  workflow_dispatch:      # Allows you to click "Run Workflow" to test it
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: node index.mjs
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
