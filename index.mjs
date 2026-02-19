@@ -11,31 +11,38 @@ const genAI = new GoogleGenerativeAI(GEMINI_KEY);
 
 async function main() {
     try {
-        // 1. Load History
         let history = [];
         if (fs.existsSync(HISTORY_FILE)) {
-            history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+            try {
+                history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+            } catch (e) { history = []; }
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        // Using the 3.0 Flash model (Standard for Free Tier in 2026)
+        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
-        // 2. Request unique fact
-        const prompt = `Generate one interesting, sophisticated fun fact for an adult audience. 
-        CRITICAL FILTERS: No gross stuff, no death, no cutesy trivia. Focus on science, history, or engineering.
-        UNIQUE CHECK: Do not provide any of these previous facts: ${history.slice(-20).join(', ')}.
-        Return ONLY a JSON object: {"fact": "the text", "source": "URL"}`;
+        const prompt = `Generate one highly interesting, sophisticated fun fact for an adult audience. 
+        CRITICAL CONTENT FILTERS:
+        1. NO "gross," bodily function, or medical horror facts.
+        2. NO dark, depressing, or death-related topics.
+        3. NO cutesy or "kid-oriented" trivia.
+        4. Focus on high-level science, architecture, history, or engineering.
+        5. UNIQUE CHECK: Do not repeat these: ${history.slice(-15).join(', ')}.
+
+        Return ONLY a JSON object: {"fact": "the text", "source": "verified_url"}`;
 
         const result = await model.generateContent(prompt);
         const response = await result.response;
-        const text = response.text().replace(/```json|```/g, "").trim();
+        let text = response.text().replace(/```json/g, "").replace(/```/g, "").trim();
+        
         const data = JSON.parse(text);
 
-        // 3. Save to History and Current Text File
+        // Save History
         history.push(data.fact);
         fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
-        fs.writeFileSync(CURRENT_FILE, data.fact); // Just the raw text for Mix It Up
+        fs.writeFileSync(CURRENT_FILE, data.fact); 
 
-        // 4. Send to Discord
+        // Discord Payload
         const payload = {
             username: "Fact of the Day",
             avatar_url: "https://i.imgur.com/8nLFCvp.png",
@@ -52,7 +59,7 @@ async function main() {
             body: JSON.stringify(payload)
         });
 
-        console.log("Fact processed and saved!");
+        console.log("Success! Fact posted via Gemini 3 Flash.");
     } catch (error) {
         console.error("Error:", error);
         process.exit(1);
