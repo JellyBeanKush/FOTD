@@ -1,7 +1,7 @@
 name: Daily Fact Post
 on:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch: 
 
 jobs:
@@ -11,26 +11,22 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Install Dependencies
         run: |
           npm init -y
           npm install @google/generative-ai node-fetch
-          
       - name: Run Fact Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # This injects the secret
         run: node index.mjs
-
       - name: Save Changes
         run: |
           git config --global user.name "FactBot"
           git config --global user.email "bot@github.com"
-          # These lines ensure the files exist so git doesn't error out
-          touch used_facts.json current_fact.txt 
           git add used_facts.json current_fact.txt
-          git commit -m "Update daily fact history" || echo "No changes to commit"
+          git commit -m "Update history" || echo "No changes"
           git push
