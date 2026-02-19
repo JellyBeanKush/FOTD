@@ -9,17 +9,30 @@ const CURRENT_FILE = 'current_fact.txt';
 
 const genAI = new GoogleGenerativeAI(GEMINI_KEY);
 
-// NEW: The Bouncer. This function actually tests the URL.
+// UPDATED: The Smarter Bouncer
 async function checkUrl(url) {
     try {
-        // We pretend to be a standard web browser so sites don't block the check
         const response = await fetch(url, {
-            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
-            timeout: 5000 // Give up if the site takes longer than 5 seconds
+            headers: { 
+                // Disguise the bot as a normal Windows/Chrome user
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml',
+                'Accept-Language': 'en-US,en;q=0.9'
+            },
+            signal: AbortSignal.timeout(8000) // Give it up to 8 seconds to load
         });
-        return response.ok; // Only returns true if the website successfully loads (status 200-299)
+        
+        // If it's a standard 200 OK, it passes.
+        // If it's a 403 (Forbidden) or 401 (Unauthorized), the page EXISTS, it's just blocking our bot. We let it pass!
+        if (response.ok || response.status === 403 || response.status === 401) {
+            return true; 
+        }
+        
+        // If it's 404 (Not Found) or anything else, it goes in the trash.
+        console.log(`Failed with status: ${response.status}`);
+        return false; 
     } catch (error) {
-        return false; // If it 404s, times out, or crashes, it returns false.
+        return false; // Timeouts or network crashes go in the trash
     }
 }
 
@@ -38,7 +51,6 @@ async function main() {
         let attempts = 0;
         const maxAttempts = 5;
 
-        // NEW: The Retry Loop. Keep trying until we get a working link.
         while (!validData && attempts < maxAttempts) {
             attempts++;
             console.log(`Attempt ${attempts}: Asking AI for a fact...`);
@@ -70,22 +82,20 @@ async function main() {
 
                 if (isAlive) {
                     console.log("URL is valid! Proceeding...");
-                    validData = data; // Break the loop!
+                    validData = data; 
                 } else {
-                    console.log("URL is broken or blocked. Trashing it and trying again.");
+                    console.log("URL is a 404 or dead. Trashing it and trying again.");
                 }
             } catch (err) {
                 console.log("AI returned bad formatting. Retrying...");
             }
         }
 
-        // If it failed 5 times in a row, shut it down so it doesn't post garbage.
         if (!validData) {
             console.error("Failed to find a working link after 5 tries.");
             process.exit(1); 
         }
 
-        // Update history and current text file
         history.push(validData.fact);
         fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
         fs.writeFileSync(CURRENT_FILE, validData.fact); 
@@ -106,7 +116,7 @@ async function main() {
             body: JSON.stringify(payload)
         });
 
-        console.log("Success! Fact posted with a physically verified link.");
+        console.log("Success! Fact posted with a verified link.");
     } catch (error) {
         console.error("Error:", error);
         process.exit(1);
