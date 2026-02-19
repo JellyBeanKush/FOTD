@@ -1,24 +1,35 @@
 import fetch from 'node-fetch';
 
-// Your provided Webhook URL
 const WEBHOOK_URL = "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En";
 
 async function main() {
     try {
-        // Fetch a random fact from the API
-        const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/today');
-        if (!response.ok) throw new Error(`API Error: ${response.status}`);
-        
+        // Fetching from a more reliable "Fun Fact" source
+        const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en');
         const data = await response.json();
 
-        // Prepare the payload for Discord
+        // Discord Embed Payload
         const payload = {
             username: "Fact of the Day",
-            avatar_url: "https://i.imgur.com/8nLFCvp.png", // A lightbulb icon
-            content: `🧐 **SQUISHY FACT OF THE DAY**\n\n> ${data.text}`
+            avatar_url: "https://i.imgur.com/8nLFCvp.png", 
+            embeds: [{
+                title: "✨ Today's Fact",
+                description: data.text,
+                color: 0xffcc00, // Gold color
+                fields: [
+                    {
+                        name: "Verification",
+                        value: `[View Source/Verify](${data.source_url})`,
+                        inline: true
+                    }
+                ],
+                footer: {
+                    text: "Fact of the Day • Automated Daily Updates"
+                },
+                timestamp: new Date().toISOString()
+            }]
         };
 
-        // Send to Discord via Webhook
         const discordResponse = await fetch(WEBHOOK_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -28,10 +39,10 @@ async function main() {
         if (discordResponse.ok) {
             console.log("Fact posted successfully!");
         } else {
-            console.log("Failed to post to Discord:", discordResponse.statusText);
+            console.log("Discord error:", discordResponse.statusText);
         }
     } catch (error) {
-        console.error("Error running Fact of the Day:", error);
+        console.error("Error:", error);
         process.exit(1);
     }
 }
