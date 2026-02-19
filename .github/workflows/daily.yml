@@ -2,18 +2,25 @@ name: Daily Fact Post
 on:
   schedule:
     - cron: '0 14 * * *'
-  workflow_dispatch: # Allows you to manually trigger it for testing
+  workflow_dispatch: 
 
 jobs:
-  post-fact:
+  post:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to save history files
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Install dependencies
-        run: npm install
-      - name: Run Fact Script
-        run: node index.mjs
+      - run: npm install
+      - run: node index.mjs
+      - name: Save Changes
+        run: |
+          git config --global user.name "FactBot"
+          git config --global user.email "bot@github.com"
+          git add used_facts.json current_fact.txt
+          git commit -m "Update daily fact history" || echo "No changes to commit"
+          git push
