@@ -22,6 +22,7 @@ jobs:
       - name: Run Fact Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # This injects the secret
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }} # Added this
         run: node index.mjs
       - name: Save Changes
         run: |
