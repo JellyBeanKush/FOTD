@@ -8,19 +8,29 @@ jobs:
   post:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed to save history files
+      contents: write
     steps:
       - uses: actions/checkout@v4
+      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install
-      - run: node index.mjs
+
+      - name: Install Dependencies
+        run: |
+          npm init -y
+          npm install @google/generative-ai node-fetch
+          
+      - name: Run Fact Script
+        run: node index.mjs
+
       - name: Save Changes
         run: |
           git config --global user.name "FactBot"
           git config --global user.email "bot@github.com"
+          # These lines ensure the files exist so git doesn't error out
+          touch used_facts.json current_fact.txt 
           git add used_facts.json current_fact.txt
           git commit -m "Update daily fact history" || echo "No changes to commit"
           git push
