@@ -1,15 +1,19 @@
 name: Daily Fact Post
 on:
   schedule:
-    - cron: '30 14 * * *' # Runs every day at 9:30 AM EST
-  workflow_dispatch:      # Allows you to click "Run Workflow" to test it
+    - cron: '0 14 * * *'
+  workflow_dispatch: # Allows you to manually trigger it for testing
 
 jobs:
-  post:
+  post-fact:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm install
-      - run: node index.mjs
-        env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install
+      - name: Run Fact Script
+        run: node index.mjs
