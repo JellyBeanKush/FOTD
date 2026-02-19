@@ -4,90 +4,74 @@ import fetch from 'node-fetch';
 const CONFIG = {
     GEMINI_KEY: process.env.GEMINI_API_KEY,
     GROQ_KEY: process.env.GROQ_API_KEY,
-    DISCORD_URL: "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En"
+    DISCORD_URL: "https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
 };
 
-const PROMPT = `Return a JSON object with one interesting fun fact for adults. 
-Rules: Concise, science/history/engineering focus, max 3 sentences. 
-Include a "source" URL to a reputable site.
-JSON format: {"fact": "...", "source": "..."}`;
+const PROMPT = `Generate one interesting, verifiable fun fact for adults. 
+Science/History focus. Max 3 sentences. 
+JSON ONLY: {"fact": "text", "source": "url"}`;
 
+// Tier 3: Internal Safety Net
 const EMERGENCY_FACTS = [
-    { fact: "The world's oldest known wooden structure is a 476,000-year-old log structure found in Zambia.", source: "https://www.bbc.com/news/science-environment-66863002" },
-    { fact: "A day on Venus is longer than a year on Venus; it takes 243 Earth days to rotate once.", source: "https://science.nasa.gov/venus/venus-facts/" }
+    { fact: "The 'Eiffel Tower' can grow 15cm taller in summer due to thermal expansion.", source: "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size" },
+    { fact: "A single bolt of lightning can toast 100,000 slices of bread.", source: "https://www.weather.gov/safety/lightning-science-overview" }
 ];
 
-async function postToDiscord(data) {
-    console.log("📤 Posting to Discord...");
-    const res = await fetch(CONFIG.DISCORD_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            username: "Fact of the Day",
-            embeds: [{
-                title: "✨ Today's Fact",
-                description: `${data.fact}\n\n🔗 **[Source](${data.source})**`,
-                color: 0x00ff99
-            }]
-        })
-    });
-    if (res.ok) console.log("✅ Posted successfully!");
-    else throw new Error(`Discord Error: ${res.status}`);
+async function checkUrl(url) {
+    try {
+        const res = await fetch(url, { 
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+            signal: AbortSignal.timeout(5000) 
+        });
+        // 404 means the AI hallucinated the link; 403/headers mean it's just a bot block
+        return res.status !== 404; 
+    } catch { return false; }
 }
 
 async function main() {
     let finalFact = null;
 
-    // TIER 1: GEMINI 3 FLASH
-    if (CONFIG.GEMINI_KEY) {
-        try {
-            console.log("🚀 Tier 1: Trying Gemini 3 Flash...");
-            const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
-            const model = genAI.getGenerativeModel({ 
-                model: "gemini-3-flash-preview", 
-                tools: [{ googleSearch: {} }] 
-            });
-            const result = await model.generateContent(PROMPT);
-            const text = result.response.text().replace(/```json|```/g, "").trim();
-            finalFact = JSON.parse(text);
-        } catch (e) {
-            console.log(`⚠️ Gemini 3 failed (likely 429). Error: ${e.message}`);
-        }
-    }
+    // TIER 1: Gemini 3 Flash
+    try {
+        console.log("🚀 Tier 1: Gemini 3...");
+        const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
+        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview", tools: [{ googleSearch: {} }] });
+        const result = await model.generateContent(PROMPT);
+        const data = JSON.parse(result.response.text().replace(/```json|```/g, ""));
+        if (await checkUrl(data.source)) finalFact = data;
+    } catch (e) { console.log(`Tier 1 Skip: ${e.message}`); }
 
-    // TIER 2: GROQ (LLAMA 3.3)
+    // TIER 2: Groq Fallback
     if (!finalFact && CONFIG.GROQ_KEY) {
         try {
-            console.log("⚡ Tier 2: Falling back to Groq...");
-            const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+            console.log("⚡ Tier 2: Groq...");
+            const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
                 method: "POST",
-                headers: { 
-                    "Authorization": `Bearer ${CONFIG.GROQ_KEY}`, 
-                    "Content-Type": "application/json" 
-                },
+                headers: { "Authorization": `Bearer ${CONFIG.GROQ_KEY}`, "Content-Type": "application/json" },
                 body: JSON.stringify({
                     model: "llama-3.3-70b-versatile",
                     messages: [{ role: "user", content: PROMPT }],
                     response_format: { type: "json_object" }
                 })
             });
-            const json = await response.json();
+            const json = await res.json();
             finalFact = JSON.parse(json.choices[0].message.content);
-        } catch (e) {
-            console.log(`⚠️ Groq failed. Error: ${e.message}`);
-        }
+        } catch (e) { console.log(`Tier 2 Skip: ${e.message}`); }
     }
 
-    // TIER 3: EMERGENCY STASH
+    // TIER 3: Emergency Backup
     if (!finalFact) {
-        console.log("📦 Tier 3: Using internal emergency backup...");
+        console.log("📦 Tier 3: Local Stash...");
         finalFact = EMERGENCY_FACTS[Math.floor(Math.random() * EMERGENCY_FACTS.length)];
     }
 
-    await postToDiscord(finalFact);
+    // Post to Discord
+    await fetch(CONFIG.DISCORD_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            embeds: [{ title: "✨ Daily Fact", description: `${finalFact.fact}\n\n[Source](${finalFact.source})`, color: 0x00ff99 }]
+        })
+    });
 }
-
-main().catch(err => {
-    console.error("💀 Fatal Script Error:", err);
-    process.exit(1);
-});
+main();
