@@ -1,17 +1,10 @@
 {
-  "name": "fact-of-the-day-bot",
-  "version": "1.1.0",
-  "description": "Discord bot with multi-AI redundancy for daily facts",
-  "main": "index.mjs",
+  "name": "fotd-bot",
+  "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "start": "node index.mjs"
-  },
+  "main": "index.mjs",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "node-fetch": "^3.3.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
