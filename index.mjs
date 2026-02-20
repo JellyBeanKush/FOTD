@@ -1,96 +1,79 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import fetch from 'node-fetch';
+import fs from 'fs';
 
 const CONFIG = {
     GEMINI_KEY: process.env.GEMINI_API_KEY,
-    GROQ_KEY: process.env.GROQ_API_KEY,
-    // Using your hardcoded URL as fallback if secret isn't set
-    DISCORD_URL: process.env.DISCORD_WEBHOOK_URL || "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En"
+    DISCORD_URL: "https://discord.com/api/webhooks/1474172208187445339/ILPeGeXs2MXh6wCsqPzJw7z5Pc8K6gyAHWLEvH0r8Xvy-MoOMcqTQmI0tuW6r7whB3En",
+    SAVE_FILE: 'current_fact.txt',
+    HISTORY_FILE: 'used_facts.json'
 };
 
-const PROMPT = `Return a JSON object with one interesting fun fact for adults. JSON ONLY: {"fact": "text", "source": "url"}`;
+// Standardized YYYY-MM-DD for Oregon time
+const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
-const EMERGENCY_FACTS = [
-    { fact: "The world's oldest known wooden structure is a 476,000-year-old log structure found in Zambia.", source: "https://www.bbc.com/news/science-environment-66863002" },
-    { fact: "A day on Venus is longer than a year on Venus; it takes 243 Earth days to rotate once.", source: "https://science.nasa.gov/venus/venus-facts/" }
-];
-
-async function postToDiscord(data) {
-    console.log("📤 Attempting to post to Discord...");
-    try {
-        const res = await fetch(CONFIG.DISCORD_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                username: "Fact of the Day",
-                embeds: [{
-                    title: "✨ Today's Fact",
-                    description: `${data.fact}\n\n🔗 **[Source](${data.source})**`,
-                    color: 0x00ff99
-                }]
-            })
-        });
-        console.log(res.ok ? "✅ POST SUCCESSFUL" : `❌ DISCORD REJECTED: ${res.status}`);
-    } catch (err) {
-        console.error("💀 DISCORD NETWORK ERROR:", err.message);
-    }
+async function postToDiscord(factData) {
+    const discordPayload = {
+        username: "Fact of the Day",
+        embeds: [{
+            title: `📅 ON THIS DAY: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' })}`,
+            description: `## **${factData.eventTitle}**\n\n> ${factData.description}\n\n**Historical Significance**\n${factData.significance}`,
+            color: 0x3498db 
+        }]
+    };
+    await fetch(CONFIG.DISCORD_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(discordPayload)
+    });
 }
 
 async function main() {
-    let finalFact = null;
-
-    // TIER 1: GEMINI
-    if (CONFIG.GEMINI_KEY) {
+    // 1. REPOST CHECK
+    if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
-            console.log("🚀 Tier 1: Gemini 3...");
-            const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
-            const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview", tools: [{ googleSearch: {} }] });
-            const result = await model.generateContent(PROMPT);
-            const text = result.response.text().replace(/```json|```/g, "").trim();
-            finalFact = JSON.parse(text);
-            console.log("✅ Gemini Fact Acquired");
-        } catch (e) {
-            console.log(`⚠️ Gemini Failed: ${e.message}`);
-        }
-    } else {
-        console.log("⏩ Skipping Gemini: No Key Found");
-    }
-
-    // TIER 2: GROQ
-    if (!finalFact && CONFIG.GROQ_KEY) {
-        try {
-            console.log("⚡ Tier 2: Groq...");
-            const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-                method: "POST",
-                headers: { 
-                    "Authorization": `Bearer ${CONFIG.GROQ_KEY}`, 
-                    "Content-Type": "application/json" 
-                },
-                body: JSON.stringify({
-                    model: "llama-3.3-70b-versatile",
-                    messages: [{ role: "user", content: PROMPT }],
-                    response_format: { type: "json_object" }
-                })
-            });
-            const json = await response.json();
-            if (json.choices && json.choices[0]) {
-                finalFact = JSON.parse(json.choices[0].message.content);
-                console.log("✅ Groq Fact Acquired");
+            const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
+            if ((saved.generatedDate || saved.date) === today) {
+                console.log(`♻️ Fact for ${today} found. Updating Discord...`);
+                await postToDiscord(saved);
+                return;
             }
-        } catch (e) {
-            console.log(`⚠️ Groq Failed: ${e.message}`);
-        }
-    } else if (!finalFact) {
-        console.log("⏩ Skipping Groq: No Key Found");
+        } catch (e) { console.log("Initializing new JSON format..."); }
     }
 
-    // TIER 3: EMERGENCY
-    if (!finalFact) {
-        console.log("📦 Tier 3: Using internal emergency backup...");
-        finalFact = EMERGENCY_FACTS[Math.floor(Math.random() * EMERGENCY_FACTS.length)];
+    // 2. LOAD HISTORY
+    let historyData = [];
+    if (fs.existsSync(CONFIG.HISTORY_FILE)) {
+        try {
+            historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8'));
+        } catch (e) { console.log("History file initialized."); }
     }
+    const usedEvents = historyData.map(h => h.eventTitle.toLowerCase());
 
-    await postToDiscord(finalFact);
+    // 3. GENERATE NEW FACT
+    console.log(`🚀 No fact found for ${today}. Generating...`);
+    const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+
+    const PROMPT = `Provide a unique, fascinating historical event for this calendar day. 
+    JSON ONLY: {
+      "eventTitle": "Short Title",
+      "description": "2-3 sentence engaging description.",
+      "significance": "Why it matters."
+    }`;
+    
+    const result = await model.generateContent(PROMPT + ` Avoid these topics: ${usedEvents.join(", ")}`);
+    const factData = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
+
+    if (factData) {
+        factData.generatedDate = today;
+        fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData));
+        
+        historyData.unshift(factData); 
+        fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
+        
+        await postToDiscord(factData);
+        console.log(`✅ Fact posted: ${factData.eventTitle}`);
+    }
 }
-
 main();
