@@ -1,6 +1,26 @@
 [
-  "The 2,000-year durability of ancient Roman concrete is attributed to a chemical process called 'hot mixing,' which incorporates microscopic lime clasts into the material. When structural cracks develop and allow water infiltration, these clasts dissolve and recrystallize as calcium carbonate, effectively self-healing the concrete and preventing the structural degradation that typically plagues modern Portland cement.",
-  "When the U.S. was building the SR-71 Blackbird, they realized they didn't have enough titanium to handle the extreme heat of Mach 3 speeds. In a wild twist of Cold War irony, the CIA ended up buying the metal from the Soviet Union—the very country they were building the plane to spy on—using a complex web of shell companies to hide where the material was actually going.",
-  "About 1.7 billion years ago, nature beat us to the punch by building its own nuclear reactor. In Gabon, Africa, a uranium deposit naturally hit critical mass and triggered a self-sustaining fission reaction that ran for hundreds of thousands of years. It functioned just like a modern power plant, but it was all a complete geological accident caused by the perfect mix of mineral deposits and groundwater."
-  "There is a species of jellyfish that is immortal, the Turritopsis dohrnii, also known as the 'immortal jellyfish,' which can transform its body into a younger state through a process called transdifferentiation."
+  {
+    "eventTitle": "Ancient Roman Concrete",
+    "description": "The 2,000-year durability of ancient Roman concrete is attributed to a chemical process called 'hot mixing,' which incorporates microscopic lime clasts into the material.",
+    "significance": "When cracks develop, these clasts dissolve and recrystallize, effectively self-healing the concrete.",
+    "generatedDate": "2026-02-19"
+  },
+  {
+    "eventTitle": "SR-71 Blackbird Titanium",
+    "description": "The CIA bought titanium from the Soviet Union through shell companies to build the SR-71 Blackbird, the very plane designed to spy on the Soviets.",
+    "significance": "It represents one of the most ironic logistical feats of the Cold War.",
+    "generatedDate": "2026-02-18"
+  },
+  {
+    "eventTitle": "Oklo Natural Nuclear Reactor",
+    "description": "In Gabon, Africa, a uranium deposit naturally hit critical mass 1.7 billion years ago, functioning as a self-sustaining fission reactor for millennia.",
+    "significance": "It is the only known instance of a natural nuclear reactor on Earth.",
+    "generatedDate": "2026-02-17"
+  },
+  {
+    "eventTitle": "Immortal Jellyfish",
+    "description": "The Turritopsis dohrnii can revert its cells to their earliest form through transdifferentiation, effectively restarting its life cycle.",
+    "significance": "It is the only known 'immortal' creature, providing unique insights into biological aging.",
+    "generatedDate": "2026-02-16"
+  }
 ]
