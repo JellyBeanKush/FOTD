@@ -1,36 +1,23 @@
 name: Daily Fact Bot
-
 on:
   schedule:
-    # 18:07 UTC is 10:07 AM Pacific Standard Time (PST)
     - cron: '7 18 * * *'
-  workflow_dispatch: # Allows you to run it manually via the Actions tab
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Dependencies
-        run: npm install @google/generative-ai node-fetch
-
-      - name: Run Fact Script
+      - uses: actions/checkout@v4
+      - run: npm install
+      - name: Run Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node index.mjs
-
-      - name: Commit and Push Changes
+      - name: Commit Changes
         run: |
           git config --global user.name "FactBot"
           git config --global user.email "actions@github.com"
-          # Syncs these specific filenames seen in your GitHub screenshot
           git add current_fact.txt used_facts.json
-          git commit -m "Update daily fact files [skip ci]" || echo "No changes to commit"
+          git commit -m "Update history [skip ci]" || echo "No changes"
           git push
