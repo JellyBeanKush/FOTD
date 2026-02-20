@@ -13,7 +13,6 @@ const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_An
 
 async function postToDiscord(factData) {
     const discordPayload = {
-        username: "Fact of the Day",
         embeds: [{
             title: `📅 ON THIS DAY: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' })}`,
             description: `## **${factData.eventTitle}**\n\n> ${factData.description}\n\n**Historical Significance**\n${factData.significance}`,
