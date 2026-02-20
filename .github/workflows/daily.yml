@@ -1,18 +1,18 @@
-name: Daily Fact Post
+name: Daily Fact Bot
 
 on:
   schedule:
-    - cron: '0 18 * * *' # 2 PM UTC daily
-  workflow_dispatch:      # Allows you to run it manually to test
+    # 18:07 UTC is 10:07 AM Pacific Standard Time
+    - cron: '7 18 * * *'
+  workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
-  run-fact:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup Node
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -23,6 +23,12 @@ jobs:
       - name: Run Fact Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: node index.mjs
+        run: node generate-fact.mjs
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "FactBot"
+          git config --global user.email "actions@github.com"
+          git add current-fact.txt fact-history.json
+          git commit -m "Update daily fact files [skip ci]" || echo "No changes to commit"
+          git push
