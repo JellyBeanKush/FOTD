@@ -6,30 +6,57 @@ const CONFIG = {
     GEMINI_KEY: process.env.GEMINI_API_KEY,
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
-    HISTORY_FILE: 'used_facts.json'
+    HISTORY_FILE: 'fact_history.json',
+    PRIMARY_MODEL: "gemini-3-flash-preview",
+    BACKUP_MODEL: "gemini-1.5-flash"
 };
 
 const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
 async function postToDiscord(factData) {
     const discordPayload = {
+        // No username/avatar: uses your Webhook settings
         embeds: [{
-            title: `📅 ON THIS DAY: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' })}`,
-            description: `## **${factData.eventTitle}**\n\n> ${factData.description}\n\n**Historical Significance**\n${factData.significance}`,
-            color: 0x3498db 
+            title: "Did You Know?",
+            description: factData.fact,
+            color: 0x3498db, // Fact Blue
+            footer: {
+                text: `Source: Wikipedia • ${factData.topic}`
+            },
+            url: factData.sourceUrl
         }]
     };
-    await fetch(CONFIG.DISCORD_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(discordPayload) });
+    
+    await fetch(CONFIG.DISCORD_URL, { 
+        method: 'POST', 
+        headers: { 'Content-Type': 'application/json' }, 
+        body: JSON.stringify(discordPayload) 
+    });
+}
+
+async function generateWithRetry(modelName, prompt, retries = 3) {
+    const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
+    const model = genAI.getGenerativeModel({ model: modelName });
+
+    for (let i = 0; i < retries; i++) {
+        try {
+            const result = await model.generateContent(prompt);
+            return result.response.text().replace(/```json|```/g, "").trim();
+        } catch (error) {
+            if (error.message.includes("503") || error.message.includes("429")) {
+                console.log(`Model busy. Retry ${i + 1}/3...`);
+                await new Promise(r => setTimeout(r, 5000));
+            } else { throw error; }
+        }
+    }
+    throw new Error("Retries exhausted.");
 }
 
 async function main() {
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
-            if (saved.generatedDate === today) {
-                await postToDiscord(saved);
-                return;
-            }
+            if (saved.generatedDate === today) return;
         } catch (e) {}
     }
 
@@ -37,19 +64,31 @@ async function main() {
     if (fs.existsSync(CONFIG.HISTORY_FILE)) {
         try { historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8')); } catch (e) {}
     }
-    const usedEvents = historyData.map(h => h.eventTitle.toLowerCase());
+    const usedTopics = historyData.slice(0, 30).map(h => h.topic);
 
-    const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
-    const result = await model.generateContent(`Unique historical event. JSON ONLY: {"eventTitle": "Title", "description": "text", "significance": "text"}. Avoid: ${usedEvents.join(", ")}`);
-    const factData = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
+    const prompt = `Provide a mind-blowing fact. JSON ONLY: {"fact": "text", "topic": "Subject", "sourceUrl": "Wikipedia URL"}. DO NOT use: ${usedTopics.join(", ")}`;
+    
+    let responseText;
+    try {
+        responseText = await generateWithRetry(CONFIG.PRIMARY_MODEL, prompt);
+    } catch (e) {
+        responseText = await generateWithRetry(CONFIG.BACKUP_MODEL, prompt);
+    }
 
-    if (factData) {
+    try {
+        const factData = JSON.parse(responseText);
         factData.generatedDate = today;
+        
         fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData));
-        historyData.unshift(factData); 
-        fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
+        historyData.unshift(factData);
+        fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 50), null, 2));
+        
         await postToDiscord(factData);
+        console.log("Fact posted!");
+    } catch (err) {
+        console.error("Error:", err.message);
+        process.exit(1);
     }
 }
+
 main();
