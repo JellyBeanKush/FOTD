@@ -7,7 +7,6 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'fact_history.json',
-    // 2026 Stable Model Pathing
     PRIMARY_MODEL: "gemini-3-flash-preview", 
     BACKUP_MODEL: "gemini-2.0-flash" 
 };
@@ -16,7 +15,6 @@ const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_An
 
 async function postToDiscord(factData) {
     const discordPayload = {
-        // No username/avatar: respects your Webhook settings
         embeds: [{
             title: "Did You Know?",
             description: factData.fact,
@@ -37,17 +35,22 @@ async function postToDiscord(factData) {
 
 async function generateWithRetry(modelName, prompt, retries = 3) {
     const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
-    const model = genAI.getGenerativeModel({ model: modelName });
+    
+    // FIX: Explicitly forcing the SDK to look in the v1beta endpoint for the new models
+    const model = genAI.getGenerativeModel(
+        { model: modelName }, 
+        { apiVersion: 'v1beta' }
+    );
 
     for (let i = 0; i < retries; i++) {
         try {
             const result = await model.generateContent(prompt);
             return result.response.text().replace(/```json|```/g, "").trim();
         } catch (error) {
-            // Handling both 503 (Busy) and 429 (Quota) with a retry
             if (error.message.includes("503") || error.message.includes("429")) {
                 console.log(`Model ${modelName} busy/throttled. Retry ${i + 1}/3...`);
-                await new Promise(r => setTimeout(r, 5000));
+                // Bumping the wait to 10 seconds to better clear rate limits
+                await new Promise(r => setTimeout(r, 10000));
             } else { throw error; }
         }
     }
