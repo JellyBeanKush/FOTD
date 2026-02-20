@@ -7,19 +7,20 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'fact_history.json',
-    PRIMARY_MODEL: "gemini-3-flash-preview",
-    BACKUP_MODEL: "gemini-1.5-flash"
+    // 2026 Stable Model Pathing
+    PRIMARY_MODEL: "gemini-3-flash-preview", 
+    BACKUP_MODEL: "gemini-2.0-flash" 
 };
 
 const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
 async function postToDiscord(factData) {
     const discordPayload = {
-        // No username/avatar: uses your Webhook settings
+        // No username/avatar: respects your Webhook settings
         embeds: [{
             title: "Did You Know?",
             description: factData.fact,
-            color: 0x3498db, // Fact Blue
+            color: 0x3498db, 
             footer: {
                 text: `Source: Wikipedia • ${factData.topic}`
             },
@@ -43,20 +44,24 @@ async function generateWithRetry(modelName, prompt, retries = 3) {
             const result = await model.generateContent(prompt);
             return result.response.text().replace(/```json|```/g, "").trim();
         } catch (error) {
+            // Handling both 503 (Busy) and 429 (Quota) with a retry
             if (error.message.includes("503") || error.message.includes("429")) {
-                console.log(`Model busy. Retry ${i + 1}/3...`);
+                console.log(`Model ${modelName} busy/throttled. Retry ${i + 1}/3...`);
                 await new Promise(r => setTimeout(r, 5000));
             } else { throw error; }
         }
     }
-    throw new Error("Retries exhausted.");
+    throw new Error(`All retries failed for ${modelName}`);
 }
 
 async function main() {
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
-            if (saved.generatedDate === today) return;
+            if (saved.generatedDate === today) {
+                console.log("Fact already posted today.");
+                return;
+            }
         } catch (e) {}
     }
 
@@ -70,8 +75,10 @@ async function main() {
     
     let responseText;
     try {
+        console.log(`Attempting ${CONFIG.PRIMARY_MODEL}...`);
         responseText = await generateWithRetry(CONFIG.PRIMARY_MODEL, prompt);
     } catch (e) {
+        console.log(`Primary failed (${e.message}). Switching to ${CONFIG.BACKUP_MODEL}...`);
         responseText = await generateWithRetry(CONFIG.BACKUP_MODEL, prompt);
     }
 
@@ -84,9 +91,9 @@ async function main() {
         fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 50), null, 2));
         
         await postToDiscord(factData);
-        console.log("Fact posted!");
+        console.log("Fact posted successfully!");
     } catch (err) {
-        console.error("Error:", err.message);
+        console.error("Critical Error:", err.message);
         process.exit(1);
     }
 }
