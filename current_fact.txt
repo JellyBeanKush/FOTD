@@ -1,1 +1,1 @@
-{"fact":"Every second, trillions of nearly massless, chargeless particles called neutrinos pass through your body, originating mostly from the Sun, without interacting with any of your atoms.","topic":"Particle Physics","sourceUrl":"https://en.wikipedia.org/wiki/Neutrino","generatedDate":"2026-02-20"}
+{"fact":"If Earth's entire 4.5-billion-year history were compressed into a single 24-hour day, Homo sapiens would appear only in the last few seconds before midnight.","topic":"Deep Time","sourceUrl":"https://en.wikipedia.org/wiki/Deep_time","generatedDate":"2026-02-21"}
