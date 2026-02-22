@@ -1,1 +1,1 @@
-{"fact":"If Earth's entire 4.5-billion-year history were compressed into a single 24-hour day, Homo sapiens would appear only in the last few seconds before midnight.","topic":"Deep Time","sourceUrl":"https://en.wikipedia.org/wiki/Deep_time","generatedDate":"2026-02-21"}
+{"fact":"A 'jiffy' is an actual, precisely defined unit of time in physics, equal to the time it takes for light to travel one centimeter in a vacuum, which is approximately 33.3564 picoseconds.","topic":"Physics","sourceUrl":"https://en.wikipedia.org/wiki/Jiffy_(time)","generatedDate":"2026-02-22"}
