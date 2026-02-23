@@ -14,19 +14,19 @@ const CONFIG = {
 const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
 async function postToDiscord(factData) {
+    // Extracting the domain name for the link text (e.g., Wikipedia)
+    const sourceName = factData.sourceUrl.includes("wikipedia.org") ? "Wikipedia" : "Source";
+
     const discordPayload = {
         embeds: [{
             title: `📌 ${factData.eventTitle}`,
-            description: factData.description,
+            // Description now includes the clickable source link
+            description: `${factData.description}\n\n[Source: ${sourceName}](${factData.sourceUrl})`,
             color: 0x3498db, 
             image: {
                 url: factData.imageUrl 
             },
-            // Footer now only contains the linked source text
-            footer: {
-                text: `Source: ${factData.sourceUrl}`
-            },
-            url: factData.sourceUrl || "https://wikipedia.org"
+            url: factData.sourceUrl // Makes the title clickable too
         }]
     };
     
@@ -80,7 +80,7 @@ async function main() {
       "eventTitle": "Title", 
       "description": "The fact in 1-2 sentences", 
       "sourceUrl": "Wikipedia URL",
-      "imageUrl": "Direct high-res image URL relevant to the topic"
+      "imageUrl": "Direct URL to the main image from the Wikipedia page"
     }. 
     DO NOT include 'significance'.
     DO NOT use these topics: ${usedTitles.join(", ")}`;
@@ -103,7 +103,7 @@ async function main() {
         fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
         
         await postToDiscord(factData);
-        console.log("Clean fact posted successfully!");
+        console.log("Success! Fact posted with clickable source and image.");
     } catch (err) {
         console.error("Error:", err.message);
         process.exit(1);
