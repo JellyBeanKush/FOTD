@@ -7,7 +7,7 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
-    PRIMARY_MODEL: "gemini-1.5-flash", 
+    PRIMARY_MODEL: "gemini-2.5-flash", 
     BACKUP_MODEL: "gemini-1.5-flash" 
 };
 
