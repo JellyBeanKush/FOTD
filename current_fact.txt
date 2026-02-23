@@ -1,1 +1,1 @@
-
+{"eventTitle":"Cosmic Latte","description":"Did you know the average color of the universe is a beige-white, given the name 'Cosmic Latte,' determined by scientists averaging the light from hundreds of thousands of galaxies?","sourceUrl":"https://en.wikipedia.org/wiki/Cosmic_Latte","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/1/14/Cosmic_Latte.jpg","generatedDate":"2026-02-23"}
