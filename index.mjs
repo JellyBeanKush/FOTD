@@ -8,7 +8,7 @@ const CONFIG = {
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
     PRIMARY_MODEL: "gemini-2.5-flash", 
-    BACKUP_MODEL: "gemini-1.5-flash" 
+    BACKUP_MODEL: "gemini-2.0-flash-latest" 
 };
 
 const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
@@ -19,11 +19,12 @@ async function postToDiscord(factData) {
             title: `📌 ${factData.eventTitle}`,
             description: factData.description,
             color: 0x3498db, 
-            fields: [
-                { name: "Significance", value: factData.significance }
-            ],
+            image: {
+                url: factData.imageUrl 
+            },
+            // Footer now only contains the linked source text
             footer: {
-                text: `Source: Wikipedia • Generated on ${today}`
+                text: `Source: ${factData.sourceUrl}`
             },
             url: factData.sourceUrl || "https://wikipedia.org"
         }]
@@ -46,17 +47,15 @@ async function generateWithRetry(modelName, prompt, retries = 3) {
             const text = result.response.text().replace(/```json|```/g, "").trim();
             return text;
         } catch (error) {
-            if (error.message.includes("503") || error.message.includes("429")) {
-                console.log(`Model ${modelName} busy. Retry ${i + 1}/3...`);
-                await new Promise(r => setTimeout(r, 10000));
+            console.log(`Error with ${modelName}: ${error.message}`);
+            if (i < retries - 1) {
+                await new Promise(r => setTimeout(r, 5000));
             } else { throw error; }
         }
     }
-    throw new Error(`All retries failed for ${modelName}`);
 }
 
 async function main() {
-    // 1. Check if we already ran today
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
@@ -64,21 +63,26 @@ async function main() {
                 console.log("Fact already posted today.");
                 return;
             }
-        } catch (e) { console.log("Creating new save file..."); }
+        } catch (e) {}
     }
 
-    // 2. Load History
     let historyData = [];
     if (fs.existsSync(CONFIG.HISTORY_FILE)) {
         try { 
             historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8')); 
-        } catch (e) { console.log("History file empty or corrupted."); }
+        } catch (e) {}
     }
 
-    // 3. Prepare Prompt (exclude previous titles)
-    const usedTitles = historyData.slice(0, 40).map(h => h.eventTitle);
+    const usedTitles = historyData.slice(0, 50).map(h => h.eventTitle);
+    
     const prompt = `Provide a mind-blowing fact. 
-    JSON ONLY: {"eventTitle": "Title", "description": "Short description", "significance": "Why it matters", "sourceUrl": "Wikipedia URL"}. 
+    JSON ONLY: {
+      "eventTitle": "Title", 
+      "description": "The fact in 1-2 sentences", 
+      "sourceUrl": "Wikipedia URL",
+      "imageUrl": "Direct high-res image URL relevant to the topic"
+    }. 
+    DO NOT include 'significance'.
     DO NOT use these topics: ${usedTitles.join(", ")}`;
     
     let responseText;
@@ -90,22 +94,18 @@ async function main() {
         responseText = await generateWithRetry(CONFIG.BACKUP_MODEL, prompt);
     }
 
-    // 4. Parse, Save, and Post
     try {
         const factData = JSON.parse(responseText);
         factData.generatedDate = today;
         
-        // Save current for check
         fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData));
-        
-        // Update history
         historyData.unshift(factData);
         fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
         
         await postToDiscord(factData);
-        console.log("Fact posted and history updated!");
+        console.log("Clean fact posted successfully!");
     } catch (err) {
-        console.error("Critical Error:", err.message);
+        console.error("Error:", err.message);
         process.exit(1);
     }
 }
