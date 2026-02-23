@@ -11,20 +11,16 @@ const CONFIG = {
     BACKUP_MODEL: "gemini-2.0-flash-latest" 
 };
 
-// Formatting date for the header: Month, Date, Year
 const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' };
 const displayDate = new Date().toLocaleDateString('en-US', options);
 const todayISO = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
 async function postToDiscord(factData) {
-    const sourceName = factData.sourceUrl.includes("wikipedia.org") ? "Wikipedia" : "Source";
-
     const discordPayload = {
         embeds: [{
-            // Header updated to Fact of the Day : Month, Date, Year
             title: `🧠 Fact of the Day : ${displayDate}`,
-            // We moved the specific fact title into the description for better visibility
-            description: `**${factData.eventTitle}**\n\n${factData.description}\n\n[Source: ${sourceName}](${factData.sourceUrl})`,
+            // Conversational text + minimalist [SOURCE] link
+            description: `${factData.description}\n\n[SOURCE](${factData.sourceUrl})`,
             color: 0x3498db, 
             image: {
                 url: factData.imageUrl 
@@ -49,7 +45,6 @@ async function generateWithRetry(modelName, prompt, retries = 3) {
             const text = result.response.text().replace(/```json|```/g, "").trim();
             return text;
         } catch (error) {
-            console.log(`Error with ${modelName}: ${error.message}`);
             if (i < retries - 1) await new Promise(r => setTimeout(r, 5000));
             else throw error;
         }
@@ -61,7 +56,7 @@ async function main() {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
             if (saved.generatedDate === todayISO) {
-                console.log("Fact already posted today.");
+                console.log("Already posted today.");
                 return;
             }
         } catch (e) {}
@@ -72,26 +67,25 @@ async function main() {
         try { historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8')); } catch (e) {}
     }
 
-    const usedTitles = historyData.slice(0, 50).map(h => h.eventTitle);
+    const usedFacts = historyData.slice(0, 50).map(h => h.eventTitle);
     
-    // Prompt updated for image reliability and removed significance
-    const prompt = `Provide a mind-blowing fact. 
+    // Prompt adjusted for conversational tone and better image links
+    const prompt = `Provide a short, mind-blowing fact. 
+    Write it in a conversational, engaging tone (e.g., "Did you know..."). Keep it under 40 words.
     JSON ONLY: {
-      "eventTitle": "Fact Subject Title", 
-      "description": "The fact in 1-2 sentences", 
+      "eventTitle": "Topic Subject",
+      "description": "The conversational fact", 
       "sourceUrl": "Wikipedia URL",
-      "imageUrl": "DIRECT link to a high-res .jpg or .png image from the Wikipedia page"
+      "imageUrl": "Direct high-res .jpg or .png link from that Wikipedia page"
     }. 
-    CRITICAL: Ensure the imageUrl ends in .jpg, .png, or .webp so Discord can render it.
-    DO NOT include 'significance'.
-    DO NOT use these topics: ${usedTitles.join(", ")}`;
+    CRITICAL: imageUrl MUST be a direct file link so Discord can display it.
+    DO NOT include 'significance' or an extra title.
+    DO NOT use these topics: ${usedFacts.join(", ")}`;
     
     let responseText;
     try {
-        console.log(`Attempting ${CONFIG.PRIMARY_MODEL}...`);
         responseText = await generateWithRetry(CONFIG.PRIMARY_MODEL, prompt);
     } catch (e) {
-        console.log(`Primary failed. Switching to ${CONFIG.BACKUP_MODEL}...`);
         responseText = await generateWithRetry(CONFIG.BACKUP_MODEL, prompt);
     }
 
@@ -104,7 +98,7 @@ async function main() {
         fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
         
         await postToDiscord(factData);
-        console.log("Success! Posted with New Header and Image.");
+        console.log("Conversational fact posted!");
     } catch (err) {
         console.error("Error:", err.message);
         process.exit(1);
