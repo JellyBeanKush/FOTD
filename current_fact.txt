@@ -1,1 +1,1 @@
-
+{"eventTitle":"Tardigrades: Nature's Ultimate Survivors","description":"Tardigrades, also known as water bears, are microscopic invertebrates renowned for their ability to survive extreme conditions. They can endure the vacuum of space, intense radiation, and temperatures ranging from near absolute zero to over 150°C (302°F) by entering a reversible state of suspended animation.","sourceUrl":"https://en.wikipedia.org/wiki/Tardigrade","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/2/23/Tardigrada_from_moss.jpg","generatedDate":"2026-02-23"}
