@@ -1,1 +1,1 @@
-{"eventTitle":"Unimaginable Shuffles","description":"There are 52 factorial (52!) possible ways to arrange a standard deck of 52 playing cards. This number is so astronomically vast, approximately 8 x 10^67, that it vastly exceeds the estimated number of atoms on Earth, meaning it's highly probable every shuffle creates a unique sequence never seen before.","sourceUrl":"https://en.wikipedia.org/wiki/Permutation","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/e/e4/Playing_cards_fanned.jpg","generatedDate":"2026-02-23"}
+
