@@ -95,7 +95,7 @@ async function main() {
         
         fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData));
         historyData.unshift(factData);
-        fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
+        fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(history, null, 2));
         
         await postToDiscord(factData);
         console.log("Conversational fact posted!");
