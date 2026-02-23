@@ -1,23 +1,37 @@
-name: Daily Fact Bot
+name: Daily Fact Poster
+
 on:
   schedule:
-    - cron: '7 18 * * *'
-  workflow_dispatch:
+    - cron: '0 15 * * *' # Runs at 8 AM PT daily
+  workflow_dispatch: # Allows you to run it manually for testing
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # IMPORTANT: Allows the bot to save files
     steps:
-      - uses: actions/checkout@v4
-      - run: npm install
-      - name: Run Script
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Fact Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: node index.mjs
-      - name: Commit Changes
+        run: node index.js
+
+      - name: Save History Back to Repo
         run: |
-          git config --global user.name "FactBot"
-          git config --global user.email "actions@github.com"
-          git add current_fact.txt used_facts.json
-          git commit -m "Update history [skip ci]" || echo "No changes"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add used_facts.json current_fact.txt
+          git commit -m "Update history: $(date +'%Y-%m-%d') [skip ci]" || echo "No changes to commit"
           git push
