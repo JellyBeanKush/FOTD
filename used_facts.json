@@ -1,5 +1,12 @@
 [
   {
+    "eventTitle": "Wombat Cube Poop",
+    "description": "Did you know that wombats are the only animals known to produce cube-shaped poop? They use it to mark their territory, and its unique shape keeps it from rolling away!",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wombat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vombatus_ursinus_scat.jpg",
+    "generatedDate": "2026-02-26"
+  },
+  {
     "eventTitle": "Ocean Oxygen Production",
     "description": "Did you know most of the oxygen we breathe doesn't come from trees, but from tiny marine organisms like phytoplankton in the ocean?",
     "sourceUrl": "https://en.wikipedia.org/wiki/Phytoplankton",
