@@ -1,5 +1,12 @@
 [
   {
+    "eventTitle": "Trees vs. Stars",
+    "description": "Did you know there are more individual trees on Earth, estimated at 3 trillion, than there are stars in the entire Milky Way galaxy?",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tree",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Trees_in_a_Forest.jpg",
+    "generatedDate": "2026-03-03"
+  },
+  {
     "eventTitle": "Pluto's Size",
     "description": "Did you know Pluto is smaller than the United States? It's even smaller than some moons in our solar system, making its dwarf planet status feel even more dramatic!",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pluto",
