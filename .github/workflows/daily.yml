@@ -1,37 +1,38 @@
-name: Daily Fact Poster
+name: Fact Bot
 
 on:
   schedule:
-    - cron: '0 15 * * *' # Runs at 8 AM PT daily
-  workflow_dispatch: # Allows you to run it manually for testing
+    - cron: '45 14 * * *'
+  workflow_dispatch:
 
 jobs:
-  build:
+  run-bot:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # IMPORTANT: Allows the bot to save files
+      contents: write
+
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Install Dependencies
-        run: npm install
+        # This matches the 'import' statements in your index.mjs
+        run: npm install @google/generative-ai node-fetch
 
       - name: Run Fact Script
+        run: node index.mjs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: node index.mjs
 
-      - name: Save History Back to Repo
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add used_facts.json current_fact.txt
-          git commit -m "Update history: $(date +'%Y-%m-%d') [skip ci]" || echo "No changes to commit"
-          git push
+          git config --global user.name "Fact Bot"
+          git config --global user.email "bot@github.com"
+          git add current_fact.txt used_facts.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Daily Fact [skip ci]" && git push)
