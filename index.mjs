@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenAI } from "@google/genai";
 import fetch from 'node-fetch';
 import fs from 'fs';
 
@@ -7,11 +7,10 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
-    // 2026 Autopilot Models
+    // 2026 Ready Models
     MODELS: [
-        "gemini-flash-latest", // Primary (Gemini 3.1 Flash-Lite)
-        "gemini-pro-latest",   // Pro Fallback
-        "gemini-2.5-flash",    
+        "gemini-3.1-flash-lite-preview", 
+        "gemini-3-flash-preview", 
         "gemini-1.5-flash"
     ]
 };
@@ -24,7 +23,7 @@ async function postToDiscord(factData) {
     const discordPayload = {
         embeds: [{
             title: `🧠 Fact of the Day : ${displayDate}`,
-            // Conversational text + minimalist [SOURCE] link
+            // Matching your original conversational description style
             description: `${factData.description}\n\n[SOURCE](${factData.sourceUrl})`,
             color: 0x3498db, 
             image: {
@@ -45,19 +44,20 @@ async function postToDiscord(factData) {
 }
 
 async function main() {
-    // Check if we already ran today
+    // 1. Check for Daily Run
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
             if (saved.generatedDate === todayISO) {
-                console.log("Already posted today. Skipping execution.");
+                console.log("Already posted today. Skipping.");
                 return;
             }
         } catch (e) {
-            console.warn("Could not read save file, proceeding anyway.");
+            console.warn("Save file unreadable, proceeding.");
         }
     }
 
+    // 2. Load History
     let historyData = [];
     if (fs.existsSync(CONFIG.HISTORY_FILE)) {
         try { 
@@ -67,7 +67,6 @@ async function main() {
         }
     }
 
-    // Context limit: only show the last 50 facts to the AI to prevent prompt overflow
     const usedFacts = historyData.slice(0, 50).map(h => h.eventTitle);
     
     const prompt = `Provide a short, mind-blowing fact. 
@@ -78,50 +77,48 @@ async function main() {
       "sourceUrl": "Wikipedia URL",
       "imageUrl": "Direct high-res .jpg or .png link from that Wikipedia page"
     }. 
-    CRITICAL: imageUrl MUST be a direct file link so Discord can display it.
-    DO NOT include 'significance' or an extra title.
+    CRITICAL: imageUrl MUST be a direct file link for Discord.
     DO NOT use these topics: ${usedFacts.join(", ")}`;
     
-    const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
+    const client = new GoogleGenAI({ apiKey: CONFIG.GEMINI_KEY });
 
     for (const modelName of CONFIG.MODELS) {
         try {
             console.log(`Attempting Fact of the Day with ${modelName}...`);
-            const model = genAI.getGenerativeModel({ 
+            
+            // Fixed field: responseMimeType (CamelCase for 2026 SDK)
+            const result = await client.models.generateContent({
                 model: modelName,
-                generationConfig: { response_mime_type: "application/json" }
+                contents: prompt,
+                config: {
+                    responseMimeType: "application/json",
+                    thinkingConfig: { thinkingLevel: "minimal" }
+                }
             });
 
-            const result = await model.generateContent(prompt);
-            const responseText = result.response.text();
-            
-            // Extract JSON with Regex safety
+            const responseText = result.text;
             const jsonMatch = responseText.match(/\{[\s\S]*\}/);
             const factData = JSON.parse(jsonMatch ? jsonMatch[0] : responseText);
             
             factData.generatedDate = todayISO;
             
-            // Save Current State
+            // 3. Save Files
             fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData, null, 2));
-            
-            // Update Infinite History
             historyData.unshift(factData);
             fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
             
+            // 4. Post
             await postToDiscord(factData);
-            console.log(`Successfully posted fact using ${modelName}!`);
-            return; // Exit successfully
+            console.log(`Success using ${modelName}!`);
+            return; 
 
         } catch (err) {
             console.warn(`⚠️ ${modelName} failed: ${err.message}`);
             
-            // If rate limited, wait 10 seconds before fallback
             if (err.message.includes("429")) {
-                console.log("Rate limit hit. Cooling down for 10s...");
                 await new Promise(r => setTimeout(r, 10000));
             }
 
-            // If this was the last model, exit with error
             if (modelName === CONFIG.MODELS[CONFIG.MODELS.length - 1]) {
                 throw new Error("TOTAL FAILURE: All models exhausted.");
             }
