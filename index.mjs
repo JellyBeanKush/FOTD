@@ -40,7 +40,10 @@ async function main() {
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
-            if (saved.generatedDate === todayISO) return;
+            if (saved.generatedDate === todayISO) {
+                console.log("Already ran today.");
+                return;
+            }
         } catch (e) {}
     }
 
@@ -65,7 +68,7 @@ async function main() {
             console.log(`Attempting with ${modelName}...`);
             const model = genAI.getGenerativeModel({ 
                 model: modelName,
-                // Changed from response_mime_type to responseMimeType
+                // The fix: CamelCase is required for the modern SDK
                 generationConfig: { responseMimeType: "application/json" }
             });
 
@@ -78,6 +81,7 @@ async function main() {
             fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
             
             await postToDiscord(factData);
+            console.log("Success!");
             return; 
         } catch (err) {
             console.warn(`⚠️ ${modelName} failed: ${err.message}`);
