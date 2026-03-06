@@ -7,7 +7,12 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
-    MODELS: ["gemini-1.5-flash", "gemini-1.5-pro"]
+    // 2026 Primary Models
+    MODELS: [
+        "gemini-3.1-flash-lite-preview", 
+        "gemini-3-flash-preview", 
+        "gemini-2.5-flash"
+    ]
 };
 
 const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' };
@@ -37,10 +42,7 @@ async function main() {
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
-            if (saved.generatedDate === todayISO) {
-                console.log("Already ran today.");
-                return;
-            }
+            if (saved.generatedDate === todayISO) return;
         } catch (e) {}
     }
 
@@ -58,7 +60,6 @@ async function main() {
       "imageUrl": "Direct .jpg/.png link from Wikipedia"
     }. Avoid: ${usedFacts.join(", ")}`;
     
-    // We pass the API version 'v1beta' here to ensure responseMimeType works
     const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
 
     for (const modelName of CONFIG.MODELS) {
@@ -66,13 +67,12 @@ async function main() {
             console.log(`Attempting with ${modelName}...`);
             const model = genAI.getGenerativeModel({ 
                 model: modelName,
-                // Using the snake_case version which is safer for this specific library version
-                generationConfig: { response_mime_type: "application/json" }
-            }, { apiVersion: 'v1beta' });
+                // Standard 2026 CamelCase field
+                generationConfig: { responseMimeType: "application/json" }
+            });
 
             const result = await model.generateContent(prompt);
-            const responseText = result.response.text();
-            const factData = JSON.parse(responseText.match(/\{[\s\S]*\}/)[0]);
+            const factData = JSON.parse(result.response.text().match(/\{[\s\S]*\}/)[0]);
             
             factData.generatedDate = todayISO;
             fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData, null, 2));
