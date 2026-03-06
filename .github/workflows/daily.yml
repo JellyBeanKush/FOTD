@@ -21,7 +21,8 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        run: npm install @google/generative-ai@0.21.0 node-fetch
+        # Updated to the current stable 2026 library version
+        run: npm install @google/generative-ai@latest node-fetch
 
       - name: Run Fact Script
         run: node index.mjs
@@ -33,5 +34,5 @@ jobs:
         run: |
           git config --global user.name "Fact Bot"
           git config --global user.email "bot@github.com"
-          git add current_fact.txt used_facts.json
+          git add current_fact.txt used_facts.json package.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update Daily Fact [skip ci]" && git push)
