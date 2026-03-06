@@ -21,8 +21,7 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        # This matches the 'import' statements in your index.mjs
-        run: npm install @google/generative-ai node-fetch
+        run: npm install @google/generative-ai@0.21.0 node-fetch
 
       - name: Run Fact Script
         run: node index.mjs
