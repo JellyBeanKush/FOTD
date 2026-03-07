@@ -1,5 +1,12 @@
 [
   {
+    "eventTitle": "Time Dilation",
+    "description": "Did you know that because of time dilation, astronauts on the ISS age slightly slower than people on Earth? You literally age less the faster you move through space.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Time_dilation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/International_Space_Station_after_undocking_of_Soyuz_TMA-19.jpg",
+    "generatedDate": "2026-03-07"
+  },
+  {
     "eventTitle": "The Shortest War",
     "description": "Did you know the shortest war in history, between Britain and Zanzibar in 1896, lasted only 38 to 45 minutes? Zanzibar surrendered after its palace was shelled!",
     "sourceUrl": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
