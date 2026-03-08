@@ -1,7 +1,7 @@
 {
-  "eventTitle": "Time Dilation",
-  "description": "Did you know that because of time dilation, astronauts on the ISS age slightly slower than people on Earth? You literally age less the faster you move through space.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Time_dilation",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/International_Space_Station_after_undocking_of_Soyuz_TMA-19.jpg",
-  "generatedDate": "2026-03-07"
+  "eventTitle": "The Longevity of Sharks",
+  "description": "Did you know that Greenland sharks can live for over 400 years? Some currently swimming were born before the invention of the telescope.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Greenland_shark",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Greenland_shark.jpg",
+  "generatedDate": "2026-03-08"
 }
