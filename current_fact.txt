@@ -1,7 +1,7 @@
 {
-  "eventTitle": "The Longevity of Sharks",
-  "description": "Did you know that Greenland sharks can live for over 400 years? Some currently swimming were born before the invention of the telescope.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Greenland_shark",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Greenland_shark.jpg",
-  "generatedDate": "2026-03-08"
+  "eventTitle": "Paper to the Moon",
+  "description": "Did you know that if you could fold a standard piece of paper 42 times, its thickness would be enough to reach the Moon? That's the power of exponential growth!",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Paper_folding",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Paper-folding-8-times.jpg",
+  "generatedDate": "2026-03-09"
 }
