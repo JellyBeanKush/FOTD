@@ -1,5 +1,12 @@
 [
   {
+    "eventTitle": "Sam Dente",
+    "description": "Did you know Sam Dente was an MLB shortstop who famously became the first player to ever hit a grand slam in a World Series game while playing for the Cleveland Indians in 1948?",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Dente",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sam_Dente_1952.jpg",
+    "generatedDate": "2026-03-11"
+  },
+  {
     "eventTitle": "Quantum Entanglement",
     "description": "Did you know that particles can be linked so that changing one instantly affects the other, even if they are on opposite sides of the universe? Einstein called it 'spooky action at a distance.'",
     "sourceUrl": "https://en.wikipedia.org/wiki/Quantum_entanglement",
