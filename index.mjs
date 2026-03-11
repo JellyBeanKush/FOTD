@@ -7,7 +7,6 @@ const CONFIG = {
     DISCORD_URL: process.env.DISCORD_WEBHOOK_URL,
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
-    // 2026 Primary Models
     MODELS: [
         "gemini-3.1-flash-lite-preview", 
         "gemini-3-flash-preview", 
@@ -18,6 +17,18 @@ const CONFIG = {
 const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' };
 const displayDate = new Date().toLocaleDateString('en-US', options);
 const todayISO = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
+
+// Function to fetch a truly random Wikipedia topic
+async function getRandomTopic() {
+    try {
+        const response = await fetch("https://en.wikipedia.org/api/rest_v1/page/random/summary");
+        const data = await response.json();
+        return { title: data.title, url: data.content_urls.desktop.page };
+    } catch (e) {
+        console.error("Wiki Random Fetch Failed:", e);
+        return { title: "Surprise me", url: "https://en.wikipedia.org" };
+    }
+}
 
 async function postToDiscord(factData) {
     const discordPayload = {
@@ -39,6 +50,7 @@ async function postToDiscord(factData) {
 }
 
 async function main() {
+    // 1. Skip if we already posted today
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
@@ -46,36 +58,51 @@ async function main() {
         } catch (e) {}
     }
 
+    // 2. Load history and get a random topic from Wikipedia
     let historyData = [];
     if (fs.existsSync(CONFIG.HISTORY_FILE)) {
         try { historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8')); } catch (e) {}
     }
+    
+    const usedTitles = historyData.slice(0, 100).map(h => h.eventTitle.toLowerCase());
+    const wikiTopic = await getRandomTopic();
 
-    const usedFacts = historyData.slice(0, 50).map(h => h.eventTitle);
-    const prompt = `Provide a short, mind-blowing fact. Conversational tone ("Did you know..."). Under 40 words.
+    // 3. Craft a prompt that forces the AI to use the specific Wiki topic
+    const prompt = `Task: Provide a mind-blowing, conversational fact about the Wikipedia topic: "${wikiTopic.title}".
+    Tone: Fun, surprising, "Did you know..."
+    Length: Under 40 words.
+    
     JSON ONLY: {
-      "eventTitle": "Subject",
+      "eventTitle": "${wikiTopic.title}",
       "description": "The fact", 
-      "sourceUrl": "Wikipedia URL",
-      "imageUrl": "Direct .jpg/.png link from Wikipedia"
-    }. Avoid: ${usedFacts.join(", ")}`;
+      "sourceUrl": "${wikiTopic.url}",
+      "imageUrl": "A relevant .jpg/.png image link related to this topic"
+    }
+    
+    Avoid subjects in this list: ${usedTitles.join(", ")}`;
     
     const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
 
     for (const modelName of CONFIG.MODELS) {
         try {
-            console.log(`Attempting with ${modelName}...`);
+            console.log(`Attempting with ${modelName} using topic: ${wikiTopic.title}...`);
             const model = genAI.getGenerativeModel({ 
                 model: modelName,
-                // Standard 2026 CamelCase field
                 generationConfig: { responseMimeType: "application/json" }
             });
 
             const result = await model.generateContent(prompt);
-            const factData = JSON.parse(result.response.text().match(/\{[\s\S]*\}/)[0]);
+            const rawText = result.response.text().match(/\{[\s\S]*\}/)[0];
+            const factData = JSON.parse(rawText);
+
+            // Validation: Check if AI hallucinated a duplicate despite our specific Wiki topic
+            if (usedTitles.includes(factData.eventTitle.toLowerCase())) {
+                throw new Error(`Duplicate topic: ${factData.eventTitle}`);
+            }
             
             factData.generatedDate = todayISO;
             fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData, null, 2));
+            
             historyData.unshift(factData);
             fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
             
@@ -83,7 +110,7 @@ async function main() {
             console.log("Success! Posted to Discord.");
             return; 
         } catch (err) {
-            console.warn(`⚠️ ${modelName} failed: ${err.message}`);
+            console.warn(`⚠️ ${modelName} failed or produced duplicate: ${err.message}`);
         }
     }
 }
