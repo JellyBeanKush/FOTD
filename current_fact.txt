@@ -1,7 +1,1 @@
-{
-  "eventTitle": "Cleopatra's Era",
-  "description": "Did you know that Cleopatra lived closer in time to the invention of the iPhone than she did to the completion of the Great Pyramid of Giza?",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cleopatra_VII_Philopator.jpg",
-  "generatedDate": "2026-03-11"
-}
+
