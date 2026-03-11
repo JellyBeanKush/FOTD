@@ -1,7 +1,7 @@
 {
-  "eventTitle": "Quantum Entanglement",
-  "description": "Did you know that particles can be linked so that changing one instantly affects the other, even if they are on opposite sides of the universe? Einstein called it 'spooky action at a distance.'",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Quantum_entanglement",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Quantum_entanglement.jpg",
-  "generatedDate": "2026-03-10"
+  "eventTitle": "Cleopatra's Era",
+  "description": "Did you know that Cleopatra lived closer in time to the invention of the iPhone than she did to the completion of the Great Pyramid of Giza?",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cleopatra_VII_Philopator.jpg",
+  "generatedDate": "2026-03-11"
 }
