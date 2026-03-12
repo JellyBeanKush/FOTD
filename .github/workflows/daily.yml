@@ -1,31 +1,21 @@
 name: Daily Fact Bot
-
 on:
   schedule:
-    - cron: '0 16 * * *' # Runs daily at 9:00 AM PST
-  workflow_dispatch:      # Allows you to run it manually for testing
-
+    - cron: '0 16 * * *'
+  workflow_dispatch:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     env:
-      # Forces the runner to use Node 24 to avoid deprecation errors
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js 24
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: 'npm'
-
-      - name: Install Dependencies
-        run: npm install
-
+      - run: npm install
       - name: Run Bot
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: node fact_bot.mjs
+        run: node index.mjs
