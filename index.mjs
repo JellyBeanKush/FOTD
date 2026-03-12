@@ -8,11 +8,11 @@ const CONFIG = {
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
     MODELS: [
-        "gemini-3.1-flash-lite-preview", // Your preferred default
-        "gemini-3-flash-preview",       // Next level down
-        "gemini-2.0-flash",             // 2.0 Stable
-        "gemini-1.5-flash-latest",      // 1.5 Stable (adding -latest fixes the 404)
-        "gemini-1.5-pro-latest"         // Heavy-duty backup
+        "gemini-3.1-flash-lite-preview", 
+        "gemini-3-flash-preview",       
+        "gemini-2.0-flash",             
+        "gemini-1.5-flash-latest",      
+        "gemini-1.5-pro-latest"         
     ]
 };
 
@@ -20,56 +20,48 @@ const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Ame
 const displayDate = new Date().toLocaleDateString('en-US', options);
 const todayISO = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 /**
- * Fetches a high-quality topic from Wikipedia's Featured Feed.
- * This avoids "stubs" and boring dictionary definitions.
+ * Fetches a TRULY RANDOM high-quality topic.
+ * Rejects "stubs" to ensure Gemini has enough context to find a "deep cut" fact.
  */
-async function getFeaturedTopic() {
-    try {
-        const now = new Date();
-        const year = now.getFullYear();
-        const month = String(now.getMonth() + 1).padStart(2, '0');
-        const day = String(now.getDate()).padStart(2, '0');
-        
-        const url = `https://en.wikipedia.org/api/rest_v1/feed/featured/${year}/${month}/${day}`;
-        const response = await fetch(url);
-        if (!response.ok) throw new Error("Wiki Feed not available");
-        
-        const data = await response.json();
-        
-        // Prioritize "On This Day", then "Today's Featured Article"
-        let selection;
-        if (data.onthisday && data.onthisday.length > 0) {
-            selection = data.onthisday[Math.floor(Math.random() * data.onthisday.length)];
-        } else {
-            selection = data.tfa;
+async function getRandomQualityTopic() {
+    for (let i = 0; i < 5; i++) {
+        try {
+            const response = await fetch("https://en.wikipedia.org/api/rest_v1/page/random/summary");
+            const data = await response.json();
+            
+            // Filter: Ensure it has an extract and is longer than a dictionary stub
+            if (data.extract && data.extract.length > 250) {
+                return {
+                    title: data.title,
+                    url: data.content_urls.desktop.page,
+                    thumbnail: data.thumbnail ? data.thumbnail.source : null,
+                    extract: data.extract
+                };
+            }
+        } catch (e) {
+            console.error("Wiki Random Fetch Error:", e);
         }
-
-        const page = selection.pages ? selection.pages[0] : selection;
-
-        return {
-            title: page.title,
-            url: page.content_urls.desktop.page,
-            thumbnail: page.thumbnail ? page.thumbnail.source : null,
-            extract: page.extract // Give the AI some context to work with
-        };
-    } catch (e) {
-        console.error("Wiki Fetch Failed, using backup:", e);
-        return { 
-            title: "The Great Emu War", 
-            url: "https://en.wikipedia.org/wiki/Emu_War",
-            extract: "A nuisance wildlife management military operation undertaken in Australia in 1932."
-        };
     }
+    // Final fallback if 5 random picks fail
+    return { 
+        title: "Pando (tree)", 
+        url: "https://en.wikipedia.org/wiki/Pando_(tree)", 
+        extract: "Pando is a clonal colony of an individual male quaking aspen determined to be a single living organism by identical genetic markers." 
+    };
 }
 
 async function postToDiscord(factData) {
     const discordPayload = {
         embeds: [{
-            title: `🧠 Fact of the Day: ${displayDate}`,
-            description: `${factData.description}\n\n**[READ MORE](${factData.sourceUrl})**`,
+            // Uses the Gemini-generated headline for the title
+            title: `🧠 ${factData.headline}`,
+            description: `**Did you know?** ${factData.description}\n\n**[Learn about ${factData.eventTitle}](${factData.sourceUrl})**`,
             color: 0x3498db,
-            image: { url: factData.imageUrl }
+            image: { url: factData.imageUrl },
+            footer: { text: `Random Fact • ${displayDate}` }
         }]
     };
     
@@ -101,21 +93,22 @@ async function main() {
     }
     
     const usedTitles = historyData.slice(0, 50).map(h => h.eventTitle.toLowerCase());
-    const wikiTopic = await getFeaturedTopic();
+    const wikiTopic = await getRandomQualityTopic();
 
     // 3. Prompt Engineering
     const prompt = `
-        Task: Provide a mind-blowing, conversational fact about the Wikipedia topic: "${wikiTopic.title}".
-        Context: ${wikiTopic.extract}
+        Task: Provide a mind-blowing, conversational, and obscure fact about the Wikipedia topic: "${wikiTopic.title}".
+        Topic Context: ${wikiTopic.extract}
         
-        Rules:
-        - Tone: Surprising, fun, slightly witty.
-        - Obscurity: Don't give the most obvious fact. Find a "deep cut."
-        - Avoid these previous topics: ${usedTitles.join(", ")}
-        - Length: Under 45 words.
+        Requirements:
+        1. "headline": A punchy, catchy 3-5 word headline.
+        2. "description": A "deep cut" fact (under 45 words). Surprising tone.
+        3. Do NOT mention dates or "today in history" - this is for random knowledge.
+        4. Avoid these previous topics: ${usedTitles.join(", ")}
 
         JSON ONLY:
         {
+          "headline": "Headline Here",
           "eventTitle": "${wikiTopic.title}",
           "description": "The surprising fact here",
           "sourceUrl": "${wikiTopic.url}",
@@ -147,10 +140,15 @@ async function main() {
             fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
             
             await postToDiscord(factData);
-            console.log("Success! Posted to Discord.");
+            console.log(`Success! Posted to Discord using ${modelName}.`);
             return; 
         } catch (err) {
             console.warn(`⚠️ ${modelName} failed: ${err.message}`);
+            // If it's a rate limit error, wait a few seconds before trying the next model
+            if (err.message.includes("429")) {
+                console.log("Waiting 5 seconds for quota reset...");
+                await sleep(5000);
+            }
         }
     }
 }
