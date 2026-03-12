@@ -1,7 +1,1 @@
-{
-  "eventTitle": "Dudebox",
-  "description": "Did you know Dudebox was an innovative, open-source hardware platform designed to turn simple, affordable components into a fully functional, DIY music synthesizer for creative sound experimentation?",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Dudebox",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Dudebox_Synthesizer.jpg",
-  "generatedDate": "2026-03-12"
-}
+
