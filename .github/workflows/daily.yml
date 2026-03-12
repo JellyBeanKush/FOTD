@@ -1,38 +1,31 @@
-name: Fact Bot
+name: Daily Fact Bot
 
 on:
   schedule:
-    - cron: '45 14 * * *'
-  workflow_dispatch:
+    - cron: '0 16 * * *' # Runs daily at 9:00 AM PST
+  workflow_dispatch:      # Allows you to run it manually for testing
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    env:
+      # Forces the runner to use Node 24 to avoid deprecation errors
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'npm'
 
       - name: Install Dependencies
-        # Updated to the current stable 2026 library version
-        run: npm install @google/generative-ai@latest node-fetch
+        run: npm install
 
-      - name: Run Fact Script
-        run: node index.mjs
+      - name: Run Bot
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "Fact Bot"
-          git config --global user.email "bot@github.com"
-          git add current_fact.txt used_facts.json package.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Daily Fact [skip ci]" && git push)
+        run: node fact_bot.mjs
