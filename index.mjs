@@ -8,9 +8,8 @@ const CONFIG = {
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
     MODELS: [
-        "gemini-3.1-flash-lite-preview", 
-        "gemini-3-flash-preview", 
-        "gemini-2.5-flash"
+        "gemini-2.0-flash", // Using the latest stable flash models
+        "gemini-1.5-flash"
     ]
 };
 
@@ -18,36 +17,55 @@ const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Ame
 const displayDate = new Date().toLocaleDateString('en-US', options);
 const todayISO = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
-// Function to fetch a truly random Wikipedia topic
-async function getRandomTopic() {
+/**
+ * Fetches a high-quality topic from Wikipedia's Featured Feed.
+ * This avoids "stubs" and boring dictionary definitions.
+ */
+async function getFeaturedTopic() {
     try {
-        // This fetches the "On This Day" and "Featured" articles for today
-        const response = await fetch(`https://en.wikipedia.org/api/rest_v1/feed/featured/${new Date().getFullYear()}/${(new Date().getMonth() + 1).toString().padStart(2, '0')}/${new Date().getDate().toString().padStart(2, '0')}`);
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        
+        const url = `https://en.wikipedia.org/api/rest_v1/feed/featured/${year}/${month}/${day}`;
+        const response = await fetch(url);
+        if (!response.ok) throw new Error("Wiki Feed not available");
+        
         const data = await response.json();
         
-        // Pick from 'onthisday' (events), 'tfa' (today's featured article), or 'mostread'
-        const source = data.onthisday ? data.onthisday[Math.floor(Math.random() * data.onthisday.length)] : data.tfa;
-        
-        // Sometimes "onthisday" returns multiple pages, we'll take the first relevant one
-        const page = source.pages ? source.pages[0] : source;
+        // Prioritize "On This Day", then "Today's Featured Article"
+        let selection;
+        if (data.onthisday && data.onthisday.length > 0) {
+            selection = data.onthisday[Math.floor(Math.random() * data.onthisday.length)];
+        } else {
+            selection = data.tfa;
+        }
 
-        return { 
-            title: page.title, 
+        const page = selection.pages ? selection.pages[0] : selection;
+
+        return {
+            title: page.title,
             url: page.content_urls.desktop.page,
-            thumbnail: page.thumbnail ? page.thumbnail.source : null 
+            thumbnail: page.thumbnail ? page.thumbnail.source : null,
+            extract: page.extract // Give the AI some context to work with
         };
     } catch (e) {
-        console.error("Wiki Feed Fetch Failed:", e);
-        return { title: "The Great Emu War", url: "https://en.wikipedia.org/wiki/Emu_War" };
+        console.error("Wiki Fetch Failed, using backup:", e);
+        return { 
+            title: "The Great Emu War", 
+            url: "https://en.wikipedia.org/wiki/Emu_War",
+            extract: "A nuisance wildlife management military operation undertaken in Australia in 1932."
+        };
     }
 }
 
 async function postToDiscord(factData) {
     const discordPayload = {
         embeds: [{
-            title: `🧠 Fact of the Day : ${displayDate}`,
-            description: `${factData.description}\n\n[SOURCE](${factData.sourceUrl})`,
-            color: 0x3498db, 
+            title: `🧠 Fact of the Day: ${displayDate}`,
+            description: `${factData.description}\n\n**[READ MORE](${factData.sourceUrl})**`,
+            color: 0x3498db,
             image: { url: factData.imageUrl }
         }]
     };
@@ -62,45 +80,44 @@ async function postToDiscord(factData) {
 }
 
 async function main() {
-    // 1. Skip if we already posted today
+    // 1. Prevent duplicate runs today
     if (fs.existsSync(CONFIG.SAVE_FILE)) {
         try {
             const saved = JSON.parse(fs.readFileSync(CONFIG.SAVE_FILE, 'utf8'));
-            if (saved.generatedDate === todayISO) return;
+            if (saved.generatedDate === todayISO) {
+                console.log("Already posted today. Skipping.");
+                return;
+            }
         } catch (e) {}
     }
 
-    // 2. Load history and get a random topic from Wikipedia
+    // 2. Load history and get topic
     let historyData = [];
     if (fs.existsSync(CONFIG.HISTORY_FILE)) {
         try { historyData = JSON.parse(fs.readFileSync(CONFIG.HISTORY_FILE, 'utf8')); } catch (e) {}
     }
     
-    const usedTitles = historyData.slice(0, 100).map(h => h.eventTitle.toLowerCase());
-    const wikiTopic = await getRandomTopic();
+    const usedTitles = historyData.slice(0, 50).map(h => h.eventTitle.toLowerCase());
+    const wikiTopic = await getFeaturedTopic();
 
-    // 3. Craft a prompt that forces the AI to use the specific Wiki topic
+    // 3. Prompt Engineering
     const prompt = `
-  Context: You are a curator for a "Fact of the Day" bot. Your audience loves the weird, the obscure, and the slightly unsettling.
-  
-  Topic: "${wikiTopic.title}" (Link: ${wikiTopic.url})
-  
-  Task:
-  1. Research this specific topic. 
-  2. Find a "deep cut" fact. 
-  3. Avoid cliché "did you know" facts (e.g., no mention of the moon, basic history dates, or common science facts).
-  4. If the topic is boring, find a weird connection to a more interesting sub-topic within that page.
+        Task: Provide a mind-blowing, conversational fact about the Wikipedia topic: "${wikiTopic.title}".
+        Context: ${wikiTopic.extract}
+        
+        Rules:
+        - Tone: Surprising, fun, slightly witty.
+        - Obscurity: Don't give the most obvious fact. Find a "deep cut."
+        - Avoid these previous topics: ${usedTitles.join(", ")}
+        - Length: Under 45 words.
 
-  Format: JSON ONLY
-  {
-    "eventTitle": "${wikiTopic.title}",
-    "description": "Short, punchy fact (max 45 words). Use a conversational, slightly witty tone.",
-    "sourceUrl": "${wikiTopic.url}",
-    "imageUrl": "${wikiTopic.thumbnail || "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"}" 
-  }
-`;
-    
-    Avoid subjects in this list: ${usedTitles.join(", ")}`;
+        JSON ONLY:
+        {
+          "eventTitle": "${wikiTopic.title}",
+          "description": "The surprising fact here",
+          "sourceUrl": "${wikiTopic.url}",
+          "imageUrl": "${wikiTopic.thumbnail || "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"}"
+        }`;
     
     const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_KEY);
 
@@ -113,10 +130,9 @@ async function main() {
             });
 
             const result = await model.generateContent(prompt);
-            const rawText = result.response.text().match(/\{[\s\S]*\}/)[0];
-            const factData = JSON.parse(rawText);
+            const responseText = result.response.text();
+            const factData = JSON.parse(responseText);
 
-            // Validation: Check if AI hallucinated a duplicate despite our specific Wiki topic
             if (usedTitles.includes(factData.eventTitle.toLowerCase())) {
                 throw new Error(`Duplicate topic: ${factData.eventTitle}`);
             }
@@ -125,18 +141,19 @@ async function main() {
             fs.writeFileSync(CONFIG.SAVE_FILE, JSON.stringify(factData, null, 2));
             
             historyData.unshift(factData);
-            fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData, null, 2));
+            fs.writeFileSync(CONFIG.HISTORY_FILE, JSON.stringify(historyData.slice(0, 100), null, 2));
             
             await postToDiscord(factData);
             console.log("Success! Posted to Discord.");
             return; 
         } catch (err) {
-            console.warn(`⚠️ ${modelName} failed or produced duplicate: ${err.message}`);
+            console.warn(`⚠️ ${modelName} failed: ${err.message}`);
         }
     }
 }
 
 main().catch(err => {
-    console.error("\n💥 Bot crashed:", err.message);
+    console.error("\n💥 Bot crashed!");
+    console.error(err);
     process.exit(1);
 });
