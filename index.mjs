@@ -8,8 +8,11 @@ const CONFIG = {
     SAVE_FILE: 'current_fact.txt',
     HISTORY_FILE: 'used_facts.json',
     MODELS: [
-        "gemini-2.0-flash", // Using the latest stable flash models
-        "gemini-1.5-flash"
+        "gemini-3.1-flash-lite-preview", // Your preferred default
+        "gemini-3-flash-preview",       // Next level down
+        "gemini-2.0-flash",             // 2.0 Stable
+        "gemini-1.5-flash-latest",      // 1.5 Stable (adding -latest fixes the 404)
+        "gemini-1.5-pro-latest"         // Heavy-duty backup
     ]
 };
 
