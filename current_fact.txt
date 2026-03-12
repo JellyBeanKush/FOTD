@@ -1,7 +1,7 @@
 {
-  "eventTitle": "Sam Dente",
-  "description": "Did you know Sam Dente was an MLB shortstop who famously became the first player to ever hit a grand slam in a World Series game while playing for the Cleveland Indians in 1948?",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Dente",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sam_Dente_1952.jpg",
-  "generatedDate": "2026-03-11"
+  "eventTitle": "Dudebox",
+  "description": "Did you know Dudebox was an innovative, open-source hardware platform designed to turn simple, affordable components into a fully functional, DIY music synthesizer for creative sound experimentation?",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dudebox",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Dudebox_Synthesizer.jpg",
+  "generatedDate": "2026-03-12"
 }
