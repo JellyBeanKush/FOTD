@@ -56,9 +56,9 @@ async function getRandomQualityTopic() {
 async function postToDiscord(factData) {
     const discordPayload = {
         embeds: [{
-            // Uses the Gemini-generated headline for the title
             title: `🧠 ${factData.headline}`,
-            description: `**Did you know?** ${factData.description}\n\n**[Learn about ${factData.eventTitle}](${factData.sourceUrl})**`,
+            // DESCRIPTION UPDATED: Combines context and the fact description
+            description: `**The Context:** ${factData.context}\n\n**Did you know?** ${factData.description}\n\n**[Learn about ${factData.eventTitle}](${factData.sourceUrl})**`,
             color: 0x3498db,
             image: { url: factData.imageUrl },
             footer: { text: `Random Fact • ${displayDate}` }
@@ -102,13 +102,15 @@ async function main() {
         
         Requirements:
         1. "headline": A punchy, catchy 3-5 word headline.
-        2. "description": A "deep cut" fact (under 45 words). Surprising tone.
-        3. Do NOT mention dates or "today in history" - this is for random knowledge.
-        4. Avoid these previous topics: ${usedTitles.join(", ")}
+        2. "context": A 1-2 sentence foundation. Explain what this is/who they are as if the reader has NEVER heard of it. Focus on the "who, what, and where."
+        3. "description": A "deep cut" fact (under 45 words) that follows the context. Surprising tone.
+        4. Do NOT mention dates or "today in history" - this is for random knowledge.
+        5. Avoid these previous topics: ${usedTitles.join(", ")}
 
         JSON ONLY:
         {
           "headline": "Headline Here",
+          "context": "The foundation info here",
           "eventTitle": "${wikiTopic.title}",
           "description": "The surprising fact here",
           "sourceUrl": "${wikiTopic.url}",
@@ -144,7 +146,6 @@ async function main() {
             return; 
         } catch (err) {
             console.warn(`⚠️ ${modelName} failed: ${err.message}`);
-            // If it's a rate limit error, wait a few seconds before trying the next model
             if (err.message.includes("429")) {
                 console.log("Waiting 5 seconds for quota reset...");
                 await sleep(5000);
