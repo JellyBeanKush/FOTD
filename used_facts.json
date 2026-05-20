@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Redcar's Sea Giants",
+    "context": "Teesside Wind Farm is a collection of 27 massive offshore wind turbines situated in the North Sea, specifically positioned just off the coast of Redcar in Northern England.",
+    "eventTitle": "Teesside Wind Farm",
+    "description": "These turbines were specifically engineered with a unique 'monopile' foundation design that allows them to withstand the intense, shifting seabed currents of the North Sea, effectively turning a rugged industrial coastline into a massive renewable power station.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Teesside_Wind_Farm",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg/330px-Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg",
+    "generatedDate": "2026-05-20"
+  },
+  {
     "eventTitle": "Sam Dente",
     "description": "Did you know Sam Dente was an MLB shortstop who famously became the first player to ever hit a grand slam in a World Series game while playing for the Cleveland Indians in 1948?",
     "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Dente",
