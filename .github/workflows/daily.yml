@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '0 16 * * *'
   workflow_dispatch:
+
+# Grants the workflow permission to commit and push changes back to the repo
+permissions:
+  contents: write
+
 jobs:
   run-bot:
     runs-on: ubuntu-latest
@@ -10,12 +15,24 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+          
       - run: npm install
+      
       - name: Run Bot
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node index.mjs
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add current_fact.txt used_facts.json
+          
+          # Only commits and pushes if files actually changed, preventing empty commit errors
+          git diff-index --quiet HEAD || (git commit -m "🤖 Update daily fact data [skip ci]" && git push)
