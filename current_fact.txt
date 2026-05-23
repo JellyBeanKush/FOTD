@@ -1,9 +1,9 @@
 {
-  "headline": "Beijing's Hidden Iconic Brew",
-  "context": "Beijing Beer is a regional lager produced for the Chinese capital by the global powerhouse Asahi Breweries. It is recognized by its distinctive branding featuring the city's historic Temple of Heaven.",
-  "eventTitle": "Beijing Beer",
-  "description": "While marketed as a local Beijing staple, the beer is actually a product of the Japanese giant Asahi. It cleverly disguises its multinational origins by using the iconic Temple of Heaven as its primary emblem to project local cultural authenticity.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Beijing_Beer",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Beijing_Beer_Asahi_Co_Ltd_%2820220418135405%29.jpg/330px-Beijing_Beer_Asahi_Co_Ltd_%2820220418135405%29.jpg",
-  "generatedDate": "2026-05-22"
+  "headline": "Milton's Secret Source",
+  "context": "Genesis B is a fragment of Old English poetry found in an 11th-century manuscript that retells the biblical Fall of Satan and humanity. It stands out because it was translated from a lost Old Saxon original poem.",
+  "eventTitle": "Genesis B",
+  "description": "Scholars believe John Milton likely read this poem before writing 'Paradise Lost.' The poem's vivid, cinematic depiction of a prideful, rebellious Satan echoes so closely in Milton’s epic that Genesis B is often considered the stylistic ancestor of his masterpiece.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Genesis_B",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg/330px-Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg",
+  "generatedDate": "2026-05-23"
 }
