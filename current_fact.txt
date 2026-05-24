@@ -1,9 +1,9 @@
 {
-  "headline": "Milton's Secret Source",
-  "context": "Genesis B is a fragment of Old English poetry found in an 11th-century manuscript that retells the biblical Fall of Satan and humanity. It stands out because it was translated from a lost Old Saxon original poem.",
-  "eventTitle": "Genesis B",
-  "description": "Scholars believe John Milton likely read this poem before writing 'Paradise Lost.' The poem's vivid, cinematic depiction of a prideful, rebellious Satan echoes so closely in Milton’s epic that Genesis B is often considered the stylistic ancestor of his masterpiece.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Genesis_B",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg/330px-Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg",
-  "generatedDate": "2026-05-23"
+  "headline": "Lost Teenage Sonic Gold",
+  "context": "This compilation series serves as a high-octane archive of raw, fuzz-drenched garage rock recorded by obscure American bands during the mid-sixties. It acts as a time capsule for amateur musicians who chased fame in local basements and community halls.",
+  "eventTitle": "Last of the Garage Punk Unknowns, Volumes 1 & 2: American Teenage Garage Hoot 1965–1967",
+  "description": "Many of the bands featured here recorded only a single 45rpm record before disappearing into total obscurity. Their raw, distorted sounds were essentially salvaged from rotting garage sale crates, proving that some of the greatest music ever made was never actually released.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2%3A_American_Teenage_Garage_Hoot_1965%E2%80%931967",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2.jpg",
+  "generatedDate": "2026-05-24"
 }
