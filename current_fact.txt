@@ -1,9 +1,9 @@
 {
-  "headline": "Lost Teenage Sonic Gold",
-  "context": "This compilation series serves as a high-octane archive of raw, fuzz-drenched garage rock recorded by obscure American bands during the mid-sixties. It acts as a time capsule for amateur musicians who chased fame in local basements and community halls.",
-  "eventTitle": "Last of the Garage Punk Unknowns, Volumes 1 & 2: American Teenage Garage Hoot 1965–1967",
-  "description": "Many of the bands featured here recorded only a single 45rpm record before disappearing into total obscurity. Their raw, distorted sounds were essentially salvaged from rotting garage sale crates, proving that some of the greatest music ever made was never actually released.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2%3A_American_Teenage_Garage_Hoot_1965%E2%80%931967",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2.jpg",
-  "generatedDate": "2026-05-24"
+  "headline": "Poetry Carved in Bark",
+  "context": "Popeswood is a small, historic village in Berkshire, England, located between the towns of Binfield and Bracknell. It is a quiet residential area that grew out of ancient woodland once used for royal hunting.",
+  "eventTitle": "Popeswood",
+  "description": "The village is named after poet Alexander Pope, who spent his youth wandering the local forest. He was so obsessed with a specific oak tree that he carved 'Here Pope Sang' into its bark, making it a literary landmark.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Popeswood",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Moor_Close%2C_Newbold_College%2C_Binfield.jpg/330px-Moor_Close%2C_Newbold_College%2C_Binfield.jpg",
+  "generatedDate": "2026-05-25"
 }
