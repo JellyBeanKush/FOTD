@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Goshen’s Secret Wooden Puzzle",
+    "context": "The Scranton House is a rare historic home located in Goshen, New Hampshire, recognized for its unique construction techniques from the mid-19th century. It stands as a notable example of a specific regional architectural style involving timber frame variations.",
+    "eventTitle": "Scranton House",
+    "description": "This house is a structural anomaly among its neighbors because it was built using surprisingly thin plank-framing. While nearby houses feature bulky, heavy logs, this dwelling relies on slender boards that challenge the era's standard structural design for such resilient builds.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Scranton_House",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/GoshenNH_ScrantonHouse.jpg/330px-GoshenNH_ScrantonHouse.jpg",
+    "generatedDate": "2026-06-01"
+  },
+  {
     "headline": "Guarding the Pacific Coast",
     "context": "The Western Defense Command was the primary United States Army formation responsible for protecting the Pacific coastline and training ground troops for overseas combat during global conflict.",
     "eventTitle": "Western Defense Command",
