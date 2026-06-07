@@ -1,9 +1,9 @@
 {
-  "headline": "Pregnancy's Most Expensive Stylist",
-  "context": "Pregnant in Heels was a reality series following Rosie Pope, a high-end maternity concierge in New York City, as she navigated the eccentric demands of ultra-wealthy expectant parents.",
-  "eventTitle": "Pregnant in Heels",
-  "description": "Rosie Pope wasn't just a TV personality; she actually pioneered the 'maternity concierge' industry, charging elite clients thousands of dollars to curate everything from nursery interior design to hospital wardrobe planning for the fabulously wealthy.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Pregnant_in_Heels",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Pregnant_in_Heels.jpg",
-  "generatedDate": "2026-06-06"
+  "headline": "Japan's Hidden Power Giant",
+  "context": "Hamahara Dam is a significant gravity dam tucked away in the Shimane Prefecture of Japan, designed primarily for hydroelectric power generation.",
+  "eventTitle": "Hamahara Dam",
+  "description": "Despite its modest profile, the dam manages an enormous catchment area of 3,000 square kilometers, effectively harnessing the flow of the Gō-no-kawa river system to fuel the regional power grid with remarkable efficiency.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hamahara_Dam",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hamahara-1731-r1.JPG/330px-Hamahara-1731-r1.JPG",
+  "generatedDate": "2026-06-07"
 }
