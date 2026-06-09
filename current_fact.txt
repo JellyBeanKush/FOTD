@@ -1,9 +1,9 @@
 {
-  "headline": "Photons Splitting Into Twins",
-  "context": "Spontaneous parametric down-conversion is a quantum mechanical process where a single high-energy photon strikes a specialized crystal and splits into two lower-energy \"daughter\" photons. This process acts as a bridge between classical light and the strange, interconnected world of quantum physics.",
-  "eventTitle": "Spontaneous parametric down-conversion",
-  "description": "It is so rare that it only happens to about one in every billion photons passing through the crystal. You are essentially waiting for a billion-to-one cosmic lottery win just to manufacture a single pair of entangled light particles.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spontaneous_Parametric_Downconversion.png/330px-Spontaneous_Parametric_Downconversion.png",
-  "generatedDate": "2026-06-08"
+  "headline": "Ancient Living Time Capsules",
+  "context": "The Tagbanwa are an indigenous ethnic group native to Palawan, Philippines, widely considered to be among the direct descendants of the prehistoric Tabon Man. They possess a distinct culture deeply rooted in the preservation of their ancestral lands and traditional maritime rituals.",
+  "eventTitle": "Tagbanwa",
+  "description": "They are one of the few groups in the world who maintain a complex indigenous writing system based on ancient Brahmic scripts. Their unique syllabary is still ritually carved into bamboo, acting as a living link to pre-colonial Southeast Asian communication.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Tagbanwa",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coron_Island%2C_Palawan%2C_Philippines.jpg/330px-Coron_Island%2C_Palawan%2C_Philippines.jpg",
+  "generatedDate": "2026-06-09"
 }
