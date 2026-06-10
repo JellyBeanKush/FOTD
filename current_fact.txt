@@ -1,9 +1,9 @@
 {
-  "headline": "Ancient Living Time Capsules",
-  "context": "The Tagbanwa are an indigenous ethnic group native to Palawan, Philippines, widely considered to be among the direct descendants of the prehistoric Tabon Man. They possess a distinct culture deeply rooted in the preservation of their ancestral lands and traditional maritime rituals.",
-  "eventTitle": "Tagbanwa",
-  "description": "They are one of the few groups in the world who maintain a complex indigenous writing system based on ancient Brahmic scripts. Their unique syllabary is still ritually carved into bamboo, acting as a living link to pre-colonial Southeast Asian communication.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Tagbanwa",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coron_Island%2C_Palawan%2C_Philippines.jpg/330px-Coron_Island%2C_Palawan%2C_Philippines.jpg",
-  "generatedDate": "2026-06-09"
+  "headline": "Finland's Student Mega-City",
+  "context": "The Turku Student Village is a massive residential complex in Finland that houses thousands of university students across nearly a hundred buildings. It serves as a dense, self-contained community for those attending the city's major academic institutions.",
+  "eventTitle": "Turku Student Village",
+  "description": "It features a legendary tower called 'Ikituuri,' which was once the tallest student apartment building in the world and serves as a local landmark that literally defines the skyline for students navigating the maze-like campus.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Turku_Student_Village",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/TYS_ikituuri_001.jpg/330px-TYS_ikituuri_001.jpg",
+  "generatedDate": "2026-06-10"
 }
