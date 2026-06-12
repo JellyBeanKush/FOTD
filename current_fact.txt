@@ -1,9 +1,9 @@
 {
-  "headline": "Corporate Private Prison Roots",
-  "context": "The Old Huntington Jail is a small, stone detention facility located in the mining town of Huntington, Arkansas. It was constructed by the Kansas and Texas Coal Company to maintain order within the settlement they established.",
-  "eventTitle": "Old Huntington Jail",
-  "description": "It wasn't a government project; it was a company-built lockup. The mining corporation literally owned the town's legal system, effectively turning the jail into a private tool for controlling their workforce in a lawless, remote industrial outpost.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Old_Huntington_Jail",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Old_Huntington_Jail%2C_West_View.JPG/330px-Old_Huntington_Jail%2C_West_View.JPG",
-  "generatedDate": "2026-06-11"
+  "headline": "Amiga's Forgotten Mascot",
+  "context": "Brian the Lion is a 1994 platformer for the Amiga and CD32 where you guide a stylized, bipedal lion through vibrant, challenging levels. Developed by Reflections, it stands as one of the final major platforming efforts for the iconic 16-bit computer.",
+  "eventTitle": "Brian the Lion",
+  "description": "While most platformers relied on static pixels, Brian was animated with a bizarre 'claymation' style look, yet the developers secretly programmed the game so the lion’s tail movement occasionally triggers a frame-skip glitch that makes him briefly invincible to projectiles.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Brian_the_Lion",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/BrianTheLion.jpg",
+  "generatedDate": "2026-06-12"
 }
