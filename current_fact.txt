@@ -1,9 +1,9 @@
 {
-  "headline": "Amiga's Forgotten Mascot",
-  "context": "Brian the Lion is a 1994 platformer for the Amiga and CD32 where you guide a stylized, bipedal lion through vibrant, challenging levels. Developed by Reflections, it stands as one of the final major platforming efforts for the iconic 16-bit computer.",
-  "eventTitle": "Brian the Lion",
-  "description": "While most platformers relied on static pixels, Brian was animated with a bizarre 'claymation' style look, yet the developers secretly programmed the game so the lion’s tail movement occasionally triggers a frame-skip glitch that makes him briefly invincible to projectiles.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Brian_the_Lion",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/BrianTheLion.jpg",
-  "generatedDate": "2026-06-12"
+  "headline": "Cameo Spawns Cult Legend",
+  "context": "Manu Uncle is a celebrated 1988 Malayalam comedy-drama about a group of children involved in a mystery, directed by Dennis Joseph.",
+  "eventTitle": "Manu Uncle",
+  "description": "While Suresh Gopi’s role as the hot-headed S.I. Minnal Prathapan was intended as a minor cameo, the character became so iconic that he evolved into a standalone cult figure, eventually inspiring a massive fan following decades after the film's initial release.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Manu_Uncle",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Manu_Uncle.png",
+  "generatedDate": "2026-06-13"
 }
