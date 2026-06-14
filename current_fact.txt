@@ -1,9 +1,9 @@
 {
-  "headline": "Cameo Spawns Cult Legend",
-  "context": "Manu Uncle is a celebrated 1988 Malayalam comedy-drama about a group of children involved in a mystery, directed by Dennis Joseph.",
-  "eventTitle": "Manu Uncle",
-  "description": "While Suresh Gopi’s role as the hot-headed S.I. Minnal Prathapan was intended as a minor cameo, the character became so iconic that he evolved into a standalone cult figure, eventually inspiring a massive fan following decades after the film's initial release.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Manu_Uncle",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Manu_Uncle.png",
-  "generatedDate": "2026-06-13"
+  "headline": "Pop Star's Resilience Tour",
+  "context": "Ayumi Hamasaki, one of Japan's most successful solo artists, launched this massive concert series to lift national morale following the catastrophic 2011 Tohoku earthquake and tsunami. The tour spanned multiple chapters, evolving from a standard production into a stripped-back, emotionally charged response to a country in crisis.",
+  "eventTitle": "Power of Music 2011 A",
+  "description": "To maintain solidarity, Hamasaki performed wearing a simple t-shirt instead of her trademark elaborate, high-fashion costumes. She strictly prohibited the usual pyrotechnics and complex stage machinery, shifting the entire focus to raw vocal delivery as an act of national healing.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Power_of_Music_2011_A",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Power_of_Music_2011_A.jpg",
+  "generatedDate": "2026-06-14"
 }
