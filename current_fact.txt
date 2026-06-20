@@ -1,9 +1,9 @@
 {
-  "headline": "Masterpieces from a Barbershop",
-  "context": "The Ward Brothers' House and Shop in Crisfield, Maryland, was the modest base of operations for Lem and Steve Ward, two brothers who revolutionized American wildlife art.",
-  "eventTitle": "Ward Brothers' House and Shop",
-  "description": "While running their local barbershop, the brothers carved intricate, life-like bird decoys between haircuts. These folk-art carvings evolved from simple hunting tools into high-end collector items that now fetch hundreds of thousands of dollars at world-class auctions.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ward_Brothers'_House_and_Shop",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ward_Brothers%27_Home_%2821628648495%29.jpg/330px-Ward_Brothers%27_Home_%2821628648495%29.jpg",
-  "generatedDate": "2026-06-19"
+  "headline": "New Jersey's Secret Canyon",
+  "context": "Warren County is a rural, mountainous region in northwestern New Jersey defined by its dramatic topography along the Delaware River. It serves as a natural gateway between the Garden State and Pennsylvania.",
+  "eventTitle": "Warren County, New Jersey",
+  "description": "The county contains the Delaware Water Gap, a massive, stunning breach in the Appalachian Mountains. It is so geographically significant that it is one of the few places where a river cuts directly through a mountain range rather than flowing around it.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Warren_County%2C_New_Jersey",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Delaware_Water_Gap.jpg/330px-Delaware_Water_Gap.jpg",
+  "generatedDate": "2026-06-20"
 }
