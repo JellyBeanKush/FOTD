@@ -1,9 +1,9 @@
 {
-  "headline": "Shattering Silent Sentinels",
-  "context": "The al-Askari Mosque in Samarra, Iraq, is one of the holiest sites in Shia Islam. A major bombing targeted this historic shrine, leading to the dramatic collapse of its towering minarets.",
-  "eventTitle": "2007 al-Askari mosque bombing",
-  "description": "Remarkably, despite the total destruction of the two iconic ten-story minarets, the attack resulted in zero casualties. The structural collapse was so precise that it turned these massive, ancient architectural landmarks into rubble without harming a single person nearby.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/2007_al-Askari_mosque_bombing",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Al-Askari_Mosque_2006.jpg/330px-Al-Askari_Mosque_2006.jpg",
-  "generatedDate": "2026-06-21"
+  "headline": "Bogart's Ghostly Broadway Debut",
+  "context": "Written by and starring Woody Allen, this 1969 Broadway production follows a neurotic film critic who seeks romantic advice from the hallucinatory, cigar-chomping spirit of Humphrey Bogart.",
+  "eventTitle": "Play It Again, Sam (play)",
+  "description": "The play features the hallucinated Bogart constantly critiquing the protagonist’s life. Interestingly, Allen famously never actually says the iconic line 'Play it again, Sam' in either the original play or the subsequent film adaptation.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Play_It_Again%2C_Sam_(play)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Meirav_Shirom_in_Play_it_again_sam.jpg/330px-Meirav_Shirom_in_Play_it_again_sam.jpg",
+  "generatedDate": "2026-06-22"
 }
