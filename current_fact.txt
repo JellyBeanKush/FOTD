@@ -1,9 +1,9 @@
 {
-  "headline": "Bogart's Ghostly Broadway Debut",
-  "context": "Written by and starring Woody Allen, this 1969 Broadway production follows a neurotic film critic who seeks romantic advice from the hallucinatory, cigar-chomping spirit of Humphrey Bogart.",
-  "eventTitle": "Play It Again, Sam (play)",
-  "description": "The play features the hallucinated Bogart constantly critiquing the protagonist’s life. Interestingly, Allen famously never actually says the iconic line 'Play it again, Sam' in either the original play or the subsequent film adaptation.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Play_It_Again%2C_Sam_(play)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Meirav_Shirom_in_Play_it_again_sam.jpg/330px-Meirav_Shirom_in_Play_it_again_sam.jpg",
-  "generatedDate": "2026-06-22"
+  "headline": "A Forgotten Border War",
+  "context": "This conflict was a territorial struggle between the Grand Duchy of Lithuania and the rising Principality of Moscow over control of borderlands and key regional influence.",
+  "eventTitle": "Lithuanian–Muscovite War (1487–1494)",
+  "description": "It featured a bizarre geopolitical crossover: the Christian-led Lithuanians fought alongside the crumbling Golden Horde against a Moscow-Crimean Khanate alliance, essentially pitting nomadic legacy powers against one another in a desperate bid to reshape the map of Eastern Europe.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Muscovite_War_(1487%E2%80%931494)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VKL-1462-ru.png/330px-VKL-1462-ru.png",
+  "generatedDate": "2026-06-23"
 }
