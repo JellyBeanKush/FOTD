@@ -1,9 +1,9 @@
 {
-  "headline": "A Forgotten Border War",
-  "context": "This conflict was a territorial struggle between the Grand Duchy of Lithuania and the rising Principality of Moscow over control of borderlands and key regional influence.",
-  "eventTitle": "Lithuanian–Muscovite War (1487–1494)",
-  "description": "It featured a bizarre geopolitical crossover: the Christian-led Lithuanians fought alongside the crumbling Golden Horde against a Moscow-Crimean Khanate alliance, essentially pitting nomadic legacy powers against one another in a desperate bid to reshape the map of Eastern Europe.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Muscovite_War_(1487%E2%80%931494)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VKL-1462-ru.png/330px-VKL-1462-ru.png",
-  "generatedDate": "2026-06-23"
+  "headline": "Science Behind The Sweat",
+  "context": "The School of Kinesiology at the University of Michigan is a specialized research hub in Ann Arbor dedicated to the study of human movement, exercise physiology, and athletic performance.",
+  "eventTitle": "School of Kinesiology",
+  "description": "It wasn't just built for sports; the school actually pioneered research into 'biomechanical efficiency,' using high-speed motion capture to map how humans move. They essentially turned the human body into a complex biological machine to unlock athletic secrets.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/School_of_Kinesiology",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg/330px-Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg",
+  "generatedDate": "2026-06-24"
 }
