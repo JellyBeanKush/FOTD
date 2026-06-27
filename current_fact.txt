@@ -1,9 +1,9 @@
 {
-  "headline": "France's Secret Diplomatic Walls",
-  "context": "The Ministry for Europe and Foreign Affairs is the French government body responsible for managing international relations and diplomacy. Located at the famous 37 Quai d'Orsay in Paris, it serves as the command center for France's global political footprint.",
-  "eventTitle": "Ministry for Europe and Foreign Affairs (France)",
-  "description": "While the exterior is an architectural masterpiece, the building's basement hides a secret: it was constructed on a foundation so unstable that it had to be reinforced with massive concrete pilings to prevent the ministry from slowly sinking into the Seine river.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ministry_for_Europe_and_Foreign_Affairs_(France)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Minist%C3%A8re_de_l%27Europe_et_des_Affaires_%C3%89trang%C3%A8res.svg/330px-Minist%C3%A8re_de_l%27Europe_et_des_Affaires_%C3%89trang%C3%A8res.svg.png",
-  "generatedDate": "2026-06-26"
+  "headline": "Brazil's Olympic Hidden Gem",
+  "context": "Associação Desportiva Centro Olímpico is a professional women's football club based in São Paulo, Brazil. It operates as part of the city's specialized Centre of Olympic Training and Research.",
+  "eventTitle": "Associação Desportiva Centro Olímpico",
+  "description": "The club was directed by the legendary Brazilian basketball icon 'Magic' Paula Silva, who pivoted from dominating the court as one of the world's greatest point guards to shaping a championship-winning powerhouse on the football pitch.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Centro_Ol%C3%ADmpico",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Centro_Olimpico.jpg",
+  "generatedDate": "2026-06-27"
 }
