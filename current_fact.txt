@@ -1,9 +1,9 @@
 {
-  "headline": "Brazil's Olympic Hidden Gem",
-  "context": "Associação Desportiva Centro Olímpico is a professional women's football club based in São Paulo, Brazil. It operates as part of the city's specialized Centre of Olympic Training and Research.",
-  "eventTitle": "Associação Desportiva Centro Olímpico",
-  "description": "The club was directed by the legendary Brazilian basketball icon 'Magic' Paula Silva, who pivoted from dominating the court as one of the world's greatest point guards to shaping a championship-winning powerhouse on the football pitch.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Desportiva_Centro_Ol%C3%ADmpico",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Centro_Olimpico.jpg",
-  "generatedDate": "2026-06-27"
+  "headline": "Game Show Cultural Phenomenon",
+  "context": "Wil Time Bigtime was a high-energy Philippine variety show hosted by television personality Willie Revillame on the TV5 network. The program was famous for its massive studio prizes and frantic, audience-driven game segments.",
+  "eventTitle": "Wil Time Bigtime",
+  "description": "The show famously featured a segment where the host would spontaneously give away houses and luxury cars to contestants live on air, often turning the game show stage into a venue for genuine, life-altering financial interventions for struggling families.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Wil_Time_Bigtime",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/72/Wiltime_bigtime.jpg",
+  "generatedDate": "2026-06-28"
 }
