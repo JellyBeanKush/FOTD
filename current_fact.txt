@@ -1,9 +1,9 @@
 {
-  "headline": "Game Show Cultural Phenomenon",
-  "context": "Wil Time Bigtime was a high-energy Philippine variety show hosted by television personality Willie Revillame on the TV5 network. The program was famous for its massive studio prizes and frantic, audience-driven game segments.",
-  "eventTitle": "Wil Time Bigtime",
-  "description": "The show famously featured a segment where the host would spontaneously give away houses and luxury cars to contestants live on air, often turning the game show stage into a venue for genuine, life-altering financial interventions for struggling families.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Wil_Time_Bigtime",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/72/Wiltime_bigtime.jpg",
-  "generatedDate": "2026-06-28"
+  "headline": "Soccer's Invisible Powerhouse",
+  "context": "The 2019 Notre Dame Fighting Irish were a Division I collegiate men's soccer program representing the University of Notre Dame in the competitive Atlantic Coast Conference.",
+  "eventTitle": "2019 Notre Dame Fighting Irish men's soccer team",
+  "description": "Despite a challenging season, the team featured defender Felicien Dumas, who led the entire nation in goals from the defensive position, effectively acting as a secret offensive weapon who could strike from anywhere on the field.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/2019_Notre_Dame_Fighting_Irish_men's_soccer_team",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/330px-Notre_Dame_Fighting_Irish_logo.svg.png",
+  "generatedDate": "2026-06-29"
 }
