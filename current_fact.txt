@@ -1,9 +1,9 @@
 {
-  "headline": "A Royal Heart Mystery",
-  "context": "St Anne’s Church is a historic Anglican parish church located in the heart of London’s bustling Soho district. It was established to serve the growing local community within the Liberty of Westminster.",
-  "eventTitle": "St Anne's Church, Soho",
-  "description": "While most of the church was destroyed during the Blitz, the tower survived. Hidden inside is the burial place of King Theodore of Corsica, a man who reigned over an entire island nation before dying a pauper in a nearby debtors' prison.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/St_Anne's_Church%2C_Soho",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/West_Face_of_the_Church_of_Saint_Anne%2C_Soho_%2801%29.jpg/330px-West_Face_of_the_Church_of_Saint_Anne%2C_Soho_%2801%29.jpg",
-  "generatedDate": "2026-06-30"
+  "headline": "The Lion Khan's Legacy",
+  "context": "Arslan Giray was a powerful ruler of the Crimean Khanate, a historically significant Turkic state based in the Crimean Peninsula. As a member of the Giray dynasty, he played a central role in the shifting political landscape between the Ottoman and Russian empires.",
+  "eventTitle": "Arslan Giray",
+  "description": "While he is best known for his rule, Arslan’s family tree was effectively a dynasty of rulers; he was one of three brothers who each served as Khan, creating a rare fraternal monopoly over the throne that was almost unprecedented.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Arslan_Giray",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Giray_tamga_grayscale.svg/330px-Giray_tamga_grayscale.svg.png",
+  "generatedDate": "2026-07-01"
 }
