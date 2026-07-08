@@ -1,9 +1,9 @@
 {
-  "headline": "Junior Hockey's Hidden Tiers",
-  "context": "This tournament serves as the secondary and tertiary levels of the global under-20 ice hockey hierarchy, determining which nations move up or down in the International Ice Hockey Federation's rankings.",
-  "eventTitle": "2014 World Junior Ice Hockey Championships – Division I",
-  "description": "While elite powers grab headlines, the Division I tournament featured a bizarrely lopsided result where Kazakhstan utterly dismantled the field, finishing with a perfect record and a staggering plus-21 goal differential to earn their promotion.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/2014_World_Junior_Ice_Hockey_Championships_%E2%80%93_Division_I",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/2014_World_Junior_Ice_Hockey_Championships_%E2%80%93_Division_I.png",
-  "generatedDate": "2026-07-07"
+  "headline": "China's Digital Gatekeeper",
+  "context": "Baidu is a massive Chinese multinational technology firm that operates the country's most popular search engine. It serves as the primary gateway to the internet for millions of users by providing everything from mapping services to advanced artificial intelligence.",
+  "eventTitle": "Baidu",
+  "description": "Beyond search, Baidu operates 'Baidu Baike,' an online encyclopedia that is larger than English Wikipedia. Unlike Wikipedia’s open-edit model, Baidu’s version is strictly moderated by paid staff to ensure entries align with internal quality and regulatory guidelines.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Baidu",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg/330px-Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg",
+  "generatedDate": "2026-07-08"
 }
