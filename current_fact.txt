@@ -1,9 +1,9 @@
 {
-  "headline": "China's Digital Gatekeeper",
-  "context": "Baidu is a massive Chinese multinational technology firm that operates the country's most popular search engine. It serves as the primary gateway to the internet for millions of users by providing everything from mapping services to advanced artificial intelligence.",
-  "eventTitle": "Baidu",
-  "description": "Beyond search, Baidu operates 'Baidu Baike,' an online encyclopedia that is larger than English Wikipedia. Unlike Wikipedia’s open-edit model, Baidu’s version is strictly moderated by paid staff to ensure entries align with internal quality and regulatory guidelines.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Baidu",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg/330px-Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg",
-  "generatedDate": "2026-07-08"
+  "headline": "A Grudge-Fueled Movie",
+  "context": "Private Duty Nurses is a 1970s exploitation film produced by New World Pictures that follows the lives and romantic entanglements of healthcare professionals in an urban hospital.",
+  "eventTitle": "Private Duty Nurses",
+  "description": "The film’s title exists only because a nursing organization sent a furious letter of complaint about a predecessor movie. Instead of apologizing, producer Roger Corman used the group's exact name as the title for the sequel to troll them.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Private_Duty_Nurses",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Private_Duty_Nurses.jpg",
+  "generatedDate": "2026-07-09"
 }
