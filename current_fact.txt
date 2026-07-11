@@ -1,9 +1,9 @@
 {
-  "headline": "A Revengeful Fashion Twist",
-  "context": "Directed by Robert Bresson, this French film is a stylish, modernized update of an 18th-century literary plot centered on a jilted noblewoman’s elaborate scheme to ruin her former lover. It takes place in Paris and focuses on the high-stakes manipulation of social reputation.",
-  "eventTitle": "Les Dames du Bois de Boulogne",
-  "description": "Jean Cocteau wrote the film's dialogue, but Bresson famously forced his actors to deliver their lines in a flat, emotionless monotone. He wanted them to perform like puppets, stripping away all theatricality to let the viewer discover the emotion themselves.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Les_Dames_du_Bois_de_Boulogne",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Lesdamesduboisdeboulogne.png",
-  "generatedDate": "2026-07-10"
+  "headline": "Auckland's Secret Volcanic Scars",
+  "context": "Puhinui Reserve is a vast protected landscape in South Auckland that features a working farm and crucial wetlands situated on the edge of the Manukau Harbour. It serves as a historically significant site for local iwi, specifically the Te Ākitai Waiohua and Ngāti Te Ata tribes.",
+  "eventTitle": "Puhinui Reserve",
+  "description": "Hidden within the reserve are the Puhinui Craters, a rare geological curiosity where the land literally collapsed. Unlike standard explosive volcanoes, these craters were formed by unique 'phreatic' eruptions—steam explosions caused by boiling groundwater hitting hot lava trapped beneath the surface.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Puhinui_Reserve",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Puhinui_Craters_2018.jpg/330px-Puhinui_Craters_2018.jpg",
+  "generatedDate": "2026-07-11"
 }
