@@ -1,9 +1,9 @@
 {
-  "headline": "Auckland's Secret Volcanic Scars",
-  "context": "Puhinui Reserve is a vast protected landscape in South Auckland that features a working farm and crucial wetlands situated on the edge of the Manukau Harbour. It serves as a historically significant site for local iwi, specifically the Te Ākitai Waiohua and Ngāti Te Ata tribes.",
-  "eventTitle": "Puhinui Reserve",
-  "description": "Hidden within the reserve are the Puhinui Craters, a rare geological curiosity where the land literally collapsed. Unlike standard explosive volcanoes, these craters were formed by unique 'phreatic' eruptions—steam explosions caused by boiling groundwater hitting hot lava trapped beneath the surface.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Puhinui_Reserve",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Puhinui_Craters_2018.jpg/330px-Puhinui_Craters_2018.jpg",
-  "generatedDate": "2026-07-11"
+  "headline": "A Warrior Without War",
+  "context": "Sir John Keegan was one of the most influential military historians of the 20th century, renowned for his profound analysis of the human experience of battle.",
+  "eventTitle": "John Keegan",
+  "description": "Despite being considered the preeminent authority on the psychology of combat, Keegan was physically disabled from childhood and never actually served a single day as a soldier in his life.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/John_Keegan",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/John_Keegan.jpg",
+  "generatedDate": "2026-07-12"
 }
