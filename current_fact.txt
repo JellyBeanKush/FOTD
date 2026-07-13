@@ -1,9 +1,9 @@
 {
-  "headline": "A Warrior Without War",
-  "context": "Sir John Keegan was one of the most influential military historians of the 20th century, renowned for his profound analysis of the human experience of battle.",
-  "eventTitle": "John Keegan",
-  "description": "Despite being considered the preeminent authority on the psychology of combat, Keegan was physically disabled from childhood and never actually served a single day as a soldier in his life.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/John_Keegan",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/John_Keegan.jpg",
-  "generatedDate": "2026-07-12"
+  "headline": "Australia's Queen of Daytime",
+  "context": "Kerri-Anne Kennerley is an iconic Australian media personality who has anchored national television and radio for over half a century. She is a household name in Australia, famous for her long-running breakfast and midday talk show programs.",
+  "eventTitle": "Kerri-Anne Kennerley",
+  "description": "At 67 years old, she performed a jaw-dropping aerial trapeze act while suspended high above the stage in the musical Pippin, proving she is far more than just a talk show host—she is a legit circus performer.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kerri-Anne_Kennerley",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kerri-Anne_Kennerley_2017_01.jpg/330px-Kerri-Anne_Kennerley_2017_01.jpg",
+  "generatedDate": "2026-07-13"
 }
