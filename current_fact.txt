@@ -1,9 +1,9 @@
 {
-  "headline": "Australia's Queen of Daytime",
-  "context": "Kerri-Anne Kennerley is an iconic Australian media personality who has anchored national television and radio for over half a century. She is a household name in Australia, famous for her long-running breakfast and midday talk show programs.",
-  "eventTitle": "Kerri-Anne Kennerley",
-  "description": "At 67 years old, she performed a jaw-dropping aerial trapeze act while suspended high above the stage in the musical Pippin, proving she is far more than just a talk show host—she is a legit circus performer.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Kerri-Anne_Kennerley",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kerri-Anne_Kennerley_2017_01.jpg/330px-Kerri-Anne_Kennerley_2017_01.jpg",
-  "generatedDate": "2026-07-13"
+  "headline": "Teenage Heavy Metal Prodigies",
+  "context": "Sturm und Drang were a Finnish heavy metal band whose debut album, 'Learning to Rock', exploded onto the scene while the members were still barely old enough to drive. This release turned the adolescent group into an international sensation almost overnight.",
+  "eventTitle": "Learning to Rock",
+  "description": "To boost their rock credibility, the teenage band managed to recruit heavy metal legend Udo Dirkschneider of Accept to provide backing vocals on a special version of their hit 'Forever,' bridging a massive generational gap in the process.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Learning_to_Rock",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Sturm_und_Drang_-_Learning_to_Rock_album_art.jpg",
+  "generatedDate": "2026-07-14"
 }
