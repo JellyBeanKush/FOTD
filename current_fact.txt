@@ -1,9 +1,9 @@
 {
-  "headline": "Cleveland's Georgian Transit Hub",
-  "context": "Shaker Square station is a key stop on the RTA Blue and Green light rail lines located within the historic Shaker Square neighborhood of Cleveland, Ohio. It acts as a primary transfer point for passengers navigating the city's unique median-running transit system.",
-  "eventTitle": "Shaker Square station",
-  "description": "The station is anchored by a massive, architecturally protected shopping district inspired by the Georgian style of royal squares in London, making it one of the only rapid transit hubs in the country framed by an original colonial-revival urban planning masterpiece.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Shaker_Square_station",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Shaker_Square_station.jpg/330px-Shaker_Square_station.jpg",
-  "generatedDate": "2026-07-15"
+  "headline": "A Fortress of Faith",
+  "context": "St. Martin's Cathedral is a stunning Roman Catholic landmark located in Eisenstadt, Austria, serving as the official seat of the local bishop.",
+  "eventTitle": "Eisenstadt Cathedral",
+  "description": "While it looks like a typical house of worship, its thick, formidable walls were actually engineered to double as a defensive fortress, designed to protect the local townspeople from invading forces during the turbulent centuries of its early existence.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Eisenstadt_Cathedral",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kismarton_l%C3%A9gifot%C3%B32.jpg",
+  "generatedDate": "2026-07-16"
 }
