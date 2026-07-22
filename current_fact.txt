@@ -1,9 +1,9 @@
 {
-  "headline": "A Romanesque Legal Fortress",
-  "context": "The Old Post Office and Courthouse is a historic federal building located on Genesee Street in Auburn, New York, serving as a pillar of the United States District Court for the Northern District of New York.",
-  "eventTitle": "Old Post Office and Courthouse (Auburn, New York)",
-  "description": "While it looks like a standard fortress, the building was designed using the Richardsonian Romanesque style, intentionally featuring massive, heavy stonework intended to project an image of unshakeable federal authority to anyone walking through its doors.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Old_Post_Office_and_Courthouse_(Auburn%2C_New_York)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Post_Office_and_Federal_Court_House_Auburn.jpg/330px-Post_Office_and_Federal_Court_House_Auburn.jpg",
-  "generatedDate": "2026-07-21"
+  "headline": "A Cliffside Phoenix",
+  "context": "The Grand Canyon Lodge is a historic resort complex perched precariously on Bright Angel Point at the North Rim of the Grand Canyon. It serves as a rustic sanctuary providing dining and lodging to visitors exploring the canyon's rugged wilderness.",
+  "eventTitle": "Grand Canyon Lodge",
+  "description": "The current lodge was actually built on the charred foundation of its predecessor. After the original building burned to the ground in a catastrophic fire, architects scavenged the remaining limestone base to construct the sprawling rustic structure you see standing there now.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canyon_Lodge",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Grand_Canyon_view_from_Grand_Canyon_Lodge.jpg/330px-Grand_Canyon_view_from_Grand_Canyon_Lodge.jpg",
+  "generatedDate": "2026-07-22"
 }
