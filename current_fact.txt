@@ -1,9 +1,9 @@
 {
-  "headline": "The Lizard That Swims",
-  "context": "The Southern California legless lizard is a small, burrowing reptile native to the sandy soils of Southern California and Baja California. Despite appearing like a snake, it is actually a lizard that evolved to lose its legs for efficient navigation through loose sediment.",
-  "eventTitle": "Anniella stebbinsi",
-  "description": "These lizards effectively 'swim' through sand rather than crawling on top of it. They possess specialized shovel-shaped snouts that allow them to plunge headfirst into loose substrate, disappearing into the ground in mere seconds to hunt insects hidden beneath the surface.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Anniella_stebbinsi",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Anniella_stebbinsi_8672345.jpg/330px-Anniella_stebbinsi_8672345.jpg",
-  "generatedDate": "2026-07-23"
+  "headline": "Warships' Endless Decorative Tail",
+  "context": "A commissioning pennant is a long, thin streamer flown from the masthead of a warship to signify that it is officially in service. It acts as a visual badge, marking the ship as an active vessel commanded by a commissioned officer.",
+  "eventTitle": "Commissioning pennant",
+  "description": "When a ship finally retires, it flies a 'paying off' pennant that can be hundreds of feet long. Sailors often stitch extra pieces of fabric to the end, ensuring the streamer is physically longer than the entire ship itself.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Commissioning_pennant",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/USS_Constitution_commissioning_pennant.jpg/320px-USS_Constitution_commissioning_pennant.jpg",
+  "generatedDate": "2026-07-24"
 }
