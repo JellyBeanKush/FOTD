@@ -1,9 +1,9 @@
 {
-  "headline": "Lava's Airborne Sculptures",
-  "context": "Agglomerate is a volcanic rock formed by the accumulation of large, coarse fragments ejected during an eruption. These fragments are primarily 'volcanic bombs,' which are chunks of magma that were still liquid when launched into the sky.",
-  "eventTitle": "Agglomerate",
-  "description": "These volcanic bombs act like aerodynamic projectiles; as they spin through the air while cooling, their viscous, molten state forces them to naturally morph into spindle, ribbon, or even amoeboid shapes before they crash back to earth, effectively sculpting themselves mid-flight.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Agglomerate",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Agglomerate.jpg/330px-Agglomerate.jpg",
-  "generatedDate": "2026-07-25"
+  "headline": "Hidden Golf Course Kingdom",
+  "context": "Greatwood is a sprawling master-planned community nestled in the city of Sugar Land, Texas. It serves as a residential suburb that was formally integrated into the larger city structure relatively recently.",
+  "eventTitle": "Greatwood, Sugar Land, Texas",
+  "description": "The neighborhood was built directly upon the footprint of a historic, large-scale sugar plantation, meaning its modern suburban cul-de-sacs are literally sitting on top of the expansive agricultural fields that once fueled the regional sugar industry.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Greatwood%2C_Sugar_Land%2C_Texas",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/FortBend_County_Greatwood.svg/330px-FortBend_County_Greatwood.svg.png",
+  "generatedDate": "2026-07-26"
 }
