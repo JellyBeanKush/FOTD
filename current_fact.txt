@@ -1,9 +1,9 @@
 {
-  "headline": "Dallas's Secret Soccer Talent",
-  "context": "North Texas SC is a professional soccer team based in Mansfield, serving as the official developmental reserve squad for the Major League Soccer club, FC Dallas.",
-  "eventTitle": "North Texas SC",
-  "description": "They are one of the only professional reserve teams in history to instantly win a league title in their inaugural season, effectively dominating the USL League One competition right out of the gate while most other teams were still finding their footing.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/North_Texas_SC",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/NTSC-Primary-CMYK.svg/330px-NTSC-Primary-CMYK.svg.png",
-  "generatedDate": "2026-07-30"
+  "headline": "A Legacy Along Rivers",
+  "context": "Chandpur Government College is a historic public institution located in Chandpur, Bangladesh, serving as a major hub for higher secondary and university-level education in the Chittagong Division.",
+  "eventTitle": "Chandpur Government College",
+  "description": "Beyond academics, this campus serves as a critical cultural anchor for a city famously known as the 'City of Rivers' due to its unique position at the confluence of the mighty Meghna and Dakatia rivers.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chandpur_Government_College",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chandpur_Gov%27t_college_Main_gate-2021.jpg/330px-Chandpur_Gov%27t_college_Main_gate-2021.jpg",
+  "generatedDate": "2026-07-31"
 }
