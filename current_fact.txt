@@ -1,9 +1,9 @@
 {
-  "headline": "A Legacy Along Rivers",
-  "context": "Chandpur Government College is a historic public institution located in Chandpur, Bangladesh, serving as a major hub for higher secondary and university-level education in the Chittagong Division.",
-  "eventTitle": "Chandpur Government College",
-  "description": "Beyond academics, this campus serves as a critical cultural anchor for a city famously known as the 'City of Rivers' due to its unique position at the confluence of the mighty Meghna and Dakatia rivers.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Chandpur_Government_College",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chandpur_Gov%27t_college_Main_gate-2021.jpg/330px-Chandpur_Gov%27t_college_Main_gate-2021.jpg",
-  "generatedDate": "2026-07-31"
+  "headline": "Tennessee's Italianate Hidden Gem",
+  "context": "The John M. Rorex House is a historic residence located in Maryville, Tennessee, recognized for its distinct Italianate architectural style. Originally built for a local farmer, it remains a preserved landmark of the region's domestic history.",
+  "eventTitle": "John M. Rorex House",
+  "description": "While many historic homes were leveled for suburban sprawl, this house survived partly due to the Kimbrough family, who maintained the structure long after the original farming lifestyle vanished from the rapidly developing Maryville landscape.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/John_M._Rorex_House",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/John_M._Rorex_House.JPG/330px-John_M._Rorex_House.JPG",
+  "generatedDate": "2026-08-01"
 }
