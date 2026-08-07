@@ -1,9 +1,9 @@
 {
-  "headline": "Russia's Secret Art Engine",
-  "context": "Based in Saint Petersburg, the Imperial Society for the Encouragement of the Arts was a prestigious organization dedicated to identifying and funding talented painters and sculptors across the Russian Empire.",
-  "eventTitle": "Imperial Society for the Encouragement of the Arts",
-  "description": "They didn't just write checks; they operated a massive, covert distribution network that mass-produced affordable art prints, effectively turning Russian peasantry into the world's most unlikely collectors of fine art masterpieces.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Imperial_Society_for_the_Encouragement_of_the_Arts",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Obshchestvo_pooshchreniya_khudozhestv_S.-Petersburg_1912.jpg/330px-Obshchestvo_pooshchreniya_khudozhestv_S.-Petersburg_1912.jpg",
-  "generatedDate": "2026-08-05"
+  "headline": "Texas’s Ancient Ocean Tomb",
+  "context": "El Capitan is a massive, limestone-capped peak rising abruptly from the high desert floor in Guadalupe Mountains National Park, Texas. It serves as the striking southern anchor of the Guadalupe Mountain range.",
+  "eventTitle": "El Capitan (Texas)",
+  "description": "That iconic cliff isn't just a mountain; it is the fossilized remains of the largest Permian-era coral reef on Earth. You are literally looking at a petrified undersea graveyard that was shoved miles into the sky by tectonic forces.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/El_Capitan_(Texas)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/El_Capitan_TX_2.JPG/330px-El_Capitan_TX_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-07"
 }
