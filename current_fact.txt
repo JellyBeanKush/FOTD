@@ -1,9 +1,9 @@
 {
-  "headline": "Texas’s Ancient Ocean Tomb",
-  "context": "El Capitan is a massive, limestone-capped peak rising abruptly from the high desert floor in Guadalupe Mountains National Park, Texas. It serves as the striking southern anchor of the Guadalupe Mountain range.",
-  "eventTitle": "El Capitan (Texas)",
-  "description": "That iconic cliff isn't just a mountain; it is the fossilized remains of the largest Permian-era coral reef on Earth. You are literally looking at a petrified undersea graveyard that was shoved miles into the sky by tectonic forces.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/El_Capitan_(Texas)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/El_Capitan_TX_2.JPG/330px-El_Capitan_TX_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-07"
+  "headline": "Ukraine's Gender Policy Architect",
+  "context": "Maryna Bardina is a prominent Ukrainian politician serving as a People's Deputy in the Verkhovna Rada. She specializes in international diplomacy and has become a leading voice for human rights and gender equality within the Ukrainian legislative system.",
+  "eventTitle": "Maryna Bardina",
+  "description": "Before entering high-level politics, she was a dedicated activist who helped craft legislative frameworks that fundamentally reshaped how Ukraine addresses gender-based violence and equal representation in public service, effectively institutionalizing equality from the ground up.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Maryna_Bardina",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%91%D0%B0%D1%80%D0%B4%D1%96%D0%BD%D0%B0_%D0%BF%D1%96%D0%B4_%D1%87%D0%B0%D1%81_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D1%97_%22%D0%94%D1%96%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%BF%D1%80%D0%BE_%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B8._%D0%9D%D0%B0_%D1%88%D0%BB%D1%8F%D1%85%D1%83_%D0%B4%D0%BE_%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81%D0%B0%22.jpg/330px-%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%91%D0%B0%D1%80%D0%B4%D1%96%D0%BD%D0%B0_%D0%BF%D1%96%D0%B4_%D1%87%D0%B0%D1%81_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D1%97_%22%D0%94%D1%96%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%BF%D1%80%D0%BE_%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B8._%D0%9D%D0%B0_%D1%88%D0%BB%D1%8F%D1%85%D1%83_%D0%B4%D0%BE_%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81%D0%B0%22.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-08"
 }
