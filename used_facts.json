@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Australia's Ghostly River Flag",
+    "context": "The Murray River Flag is a rare maritime emblem traditionally flown by paddle steamers navigating the vast Murray-Darling river system in Australia. It remains a symbol of regional identity for vessels traversing the inland waterways of New South Wales, Victoria, and South Australia.",
+    "eventTitle": "Murray River Flag",
+    "description": "Despite its iconic status on the river, the original design is a complete mystery. We have absolutely no physical evidence or fragments of the first version, leaving historians to piece together its origins from little more than old verbal cheers.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Murray_River_Flag",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Murray_River_Flag_%28Combined%29.svg/330px-Murray_River_Flag_%28Combined%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-09"
+  },
+  {
     "headline": "Ukraine's Gender Policy Architect",
     "context": "Maryna Bardina is a prominent Ukrainian politician serving as a People's Deputy in the Verkhovna Rada. She specializes in international diplomacy and has become a leading voice for human rights and gender equality within the Ukrainian legislative system.",
     "eventTitle": "Maryna Bardina",
@@ -849,11 +858,5 @@
     "description": "The CIA bought titanium from the Soviet Union through shell companies to build the SR-71 Blackbird, the very plane designed to spy on the Soviets.",
     "significance": "It represents one of the most ironic logistical feats of the Cold War.",
     "generatedDate": "2026-02-18"
-  },
-  {
-    "eventTitle": "Oklo Natural Nuclear Reactor",
-    "description": "In Gabon, Africa, a uranium deposit naturally hit critical mass 1.7 billion years ago, functioning as a self-sustaining fission reactor for millennia.",
-    "significance": "It is the only known instance of a natural nuclear reactor on Earth.",
-    "generatedDate": "2026-02-17"
   }
 ]

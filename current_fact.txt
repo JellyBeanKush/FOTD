@@ -1,9 +1,9 @@
 {
-  "headline": "Ukraine's Gender Policy Architect",
-  "context": "Maryna Bardina is a prominent Ukrainian politician serving as a People's Deputy in the Verkhovna Rada. She specializes in international diplomacy and has become a leading voice for human rights and gender equality within the Ukrainian legislative system.",
-  "eventTitle": "Maryna Bardina",
-  "description": "Before entering high-level politics, she was a dedicated activist who helped craft legislative frameworks that fundamentally reshaped how Ukraine addresses gender-based violence and equal representation in public service, effectively institutionalizing equality from the ground up.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Maryna_Bardina",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%91%D0%B0%D1%80%D0%B4%D1%96%D0%BD%D0%B0_%D0%BF%D1%96%D0%B4_%D1%87%D0%B0%D1%81_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D1%97_%22%D0%94%D1%96%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%BF%D1%80%D0%BE_%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B8._%D0%9D%D0%B0_%D1%88%D0%BB%D1%8F%D1%85%D1%83_%D0%B4%D0%BE_%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81%D0%B0%22.jpg/330px-%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%91%D0%B0%D1%80%D0%B4%D1%96%D0%BD%D0%B0_%D0%BF%D1%96%D0%B4_%D1%87%D0%B0%D1%81_%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D1%97_%22%D0%94%D1%96%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%BF%D1%80%D0%BE_%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B8._%D0%9D%D0%B0_%D1%88%D0%BB%D1%8F%D1%85%D1%83_%D0%B4%D0%BE_%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81%D0%B0%22.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-08"
+  "headline": "Australia's Ghostly River Flag",
+  "context": "The Murray River Flag is a rare maritime emblem traditionally flown by paddle steamers navigating the vast Murray-Darling river system in Australia. It remains a symbol of regional identity for vessels traversing the inland waterways of New South Wales, Victoria, and South Australia.",
+  "eventTitle": "Murray River Flag",
+  "description": "Despite its iconic status on the river, the original design is a complete mystery. We have absolutely no physical evidence or fragments of the first version, leaving historians to piece together its origins from little more than old verbal cheers.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Murray_River_Flag",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Murray_River_Flag_%28Combined%29.svg/330px-Murray_River_Flag_%28Combined%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-09"
 }
