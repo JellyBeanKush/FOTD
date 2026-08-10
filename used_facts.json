@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A Transcontinental Weather Monster",
+    "context": "Typhoon Molave was a catastrophic tropical cyclone that carved a destructive path across the Philippines and Vietnam. It remains one of the most powerful storms to have impacted Indochina in recent years.",
+    "eventTitle": "Typhoon Molave",
+    "description": "Molave pulled off a rare meteorological feat by surviving its journey across the entire Indochinese peninsula. It didn't just strike the coast; it traveled so far inland that it actually dissipated over the mountainous terrain of Myanmar, thousands of miles from its origin.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Typhoon_Molave",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Molave_2020-10-27_0540Z.jpg/330px-Molave_2020-10-27_0540Z.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-10"
+  },
+  {
     "headline": "Australia's Ghostly River Flag",
     "context": "The Murray River Flag is a rare maritime emblem traditionally flown by paddle steamers navigating the vast Murray-Darling river system in Australia. It remains a symbol of regional identity for vessels traversing the inland waterways of New South Wales, Victoria, and South Australia.",
     "eventTitle": "Murray River Flag",
@@ -852,11 +861,5 @@
     "description": "The 2,000-year durability of ancient Roman concrete is attributed to a chemical process called 'hot mixing,' which incorporates microscopic lime clasts into the material.",
     "significance": "When cracks develop, these clasts dissolve and recrystallize, effectively self-healing the concrete.",
     "generatedDate": "2026-02-19"
-  },
-  {
-    "eventTitle": "SR-71 Blackbird Titanium",
-    "description": "The CIA bought titanium from the Soviet Union through shell companies to build the SR-71 Blackbird, the very plane designed to spy on the Soviets.",
-    "significance": "It represents one of the most ironic logistical feats of the Cold War.",
-    "generatedDate": "2026-02-18"
   }
 ]

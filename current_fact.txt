@@ -1,9 +1,9 @@
 {
-  "headline": "Australia's Ghostly River Flag",
-  "context": "The Murray River Flag is a rare maritime emblem traditionally flown by paddle steamers navigating the vast Murray-Darling river system in Australia. It remains a symbol of regional identity for vessels traversing the inland waterways of New South Wales, Victoria, and South Australia.",
-  "eventTitle": "Murray River Flag",
-  "description": "Despite its iconic status on the river, the original design is a complete mystery. We have absolutely no physical evidence or fragments of the first version, leaving historians to piece together its origins from little more than old verbal cheers.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Murray_River_Flag",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Murray_River_Flag_%28Combined%29.svg/330px-Murray_River_Flag_%28Combined%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-09"
+  "headline": "A Transcontinental Weather Monster",
+  "context": "Typhoon Molave was a catastrophic tropical cyclone that carved a destructive path across the Philippines and Vietnam. It remains one of the most powerful storms to have impacted Indochina in recent years.",
+  "eventTitle": "Typhoon Molave",
+  "description": "Molave pulled off a rare meteorological feat by surviving its journey across the entire Indochinese peninsula. It didn't just strike the coast; it traveled so far inland that it actually dissipated over the mountainous terrain of Myanmar, thousands of miles from its origin.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Typhoon_Molave",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Molave_2020-10-27_0540Z.jpg/330px-Molave_2020-10-27_0540Z.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-10"
 }
