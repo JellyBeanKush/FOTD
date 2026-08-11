@@ -1,9 +1,9 @@
 {
-  "headline": "A Transcontinental Weather Monster",
-  "context": "Typhoon Molave was a catastrophic tropical cyclone that carved a destructive path across the Philippines and Vietnam. It remains one of the most powerful storms to have impacted Indochina in recent years.",
-  "eventTitle": "Typhoon Molave",
-  "description": "Molave pulled off a rare meteorological feat by surviving its journey across the entire Indochinese peninsula. It didn't just strike the coast; it traveled so far inland that it actually dissipated over the mountainous terrain of Myanmar, thousands of miles from its origin.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Typhoon_Molave",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Molave_2020-10-27_0540Z.jpg/330px-Molave_2020-10-27_0540Z.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-10"
+  "headline": "Donald Meets His Match",
+  "context": "Beach Picnic is a classic animated short film from Walt Disney Productions featuring the hot-tempered Donald Duck and his loyal dog, Pluto, enjoying a chaotic day by the sea. It marks the very first time the two iconic characters starred together in a standalone film.",
+  "eventTitle": "Beach Picnic (film)",
+  "description": "While Donald Duck usually battles chipmunks or neighbors, this film forces him into an epic, hilarious war with an army of ants. It was the experimental blueprint that solidified the 'Disney trope' of putting a short-tempered lead against a swarm of tiny insects.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Beach_Picnic_(film)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Beach_Picnic_%281939%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-11"
 }
