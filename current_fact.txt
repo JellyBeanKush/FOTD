@@ -1,9 +1,9 @@
 {
-  "headline": "Donald Meets His Match",
-  "context": "Beach Picnic is a classic animated short film from Walt Disney Productions featuring the hot-tempered Donald Duck and his loyal dog, Pluto, enjoying a chaotic day by the sea. It marks the very first time the two iconic characters starred together in a standalone film.",
-  "eventTitle": "Beach Picnic (film)",
-  "description": "While Donald Duck usually battles chipmunks or neighbors, this film forces him into an epic, hilarious war with an army of ants. It was the experimental blueprint that solidified the 'Disney trope' of putting a short-tempered lead against a swarm of tiny insects.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Beach_Picnic_(film)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Beach_Picnic_%281939%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-11"
+  "headline": "Slatina's Hidden Concrete Giant",
+  "context": "The May 1 Stadium is a significant multi-purpose sporting venue located in Slatina, Olt County, primarily serving as the home base for the CSM Slatina football club.",
+  "eventTitle": "May 1 Stadium (Slatina)",
+  "description": "Despite its modest profile, the stadium boasts a massive 10,000-seat capacity—meaning if every resident of a small town showed up, they could almost fill the entire structure just to watch a local Romanian league match.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Stadionul_1_Mai_a.JPG/330px-Stadionul_1_Mai_a.JPG",
+  "generatedDate": "2026-08-12"
 }
