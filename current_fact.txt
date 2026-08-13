@@ -1,9 +1,9 @@
 {
-  "headline": "Slatina's Hidden Concrete Giant",
-  "context": "The May 1 Stadium is a significant multi-purpose sporting venue located in Slatina, Olt County, primarily serving as the home base for the CSM Slatina football club.",
-  "eventTitle": "May 1 Stadium (Slatina)",
-  "description": "Despite its modest profile, the stadium boasts a massive 10,000-seat capacity—meaning if every resident of a small town showed up, they could almost fill the entire structure just to watch a local Romanian league match.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/May_1_Stadium_(Slatina)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Stadionul_1_Mai_a.JPG/330px-Stadionul_1_Mai_a.JPG",
-  "generatedDate": "2026-08-12"
+  "headline": "A Dual-Actor Paradox",
+  "context": "This dark comedy series follows a struggling physician in rural Russia as he grapples with the horrors of his job and his own addiction. The show uniquely features the same protagonist played by two different actors interacting simultaneously as younger and older versions of himself.",
+  "eventTitle": "A Young Doctor's Notebook (TV series)",
+  "description": "It is bizarrely meta that Daniel Radcliffe and Jon Hamm play the exact same character sharing the same internal monologue, often physically occupying the same room while debating their past mistakes like a haunting, grumpy ghost of their own future.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/A_Young_Doctor's_Notebook_(TV_series)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Young-Doctors-Notebook-DVD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-13"
 }
