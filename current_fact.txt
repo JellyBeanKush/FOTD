@@ -1,9 +1,9 @@
 {
-  "headline": "A Dual-Actor Paradox",
-  "context": "This dark comedy series follows a struggling physician in rural Russia as he grapples with the horrors of his job and his own addiction. The show uniquely features the same protagonist played by two different actors interacting simultaneously as younger and older versions of himself.",
-  "eventTitle": "A Young Doctor's Notebook (TV series)",
-  "description": "It is bizarrely meta that Daniel Radcliffe and Jon Hamm play the exact same character sharing the same internal monologue, often physically occupying the same room while debating their past mistakes like a haunting, grumpy ghost of their own future.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/A_Young_Doctor's_Notebook_(TV_series)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Young-Doctors-Notebook-DVD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-13"
+  "headline": "Alabama's Hidden Studio Secret",
+  "context": "Alabama is a legendary American country band known for bridging the gap between traditional country and pop sensibilities. 'Just Us' is their eleventh studio album, serving as a defining piece of their mid-eighties commercial dominance.",
+  "eventTitle": "Just Us (Alabama album)",
+  "description": "While the band is famous for their distinct group sound, this album features a rare track titled 'I'm Stoned,' which caused significant internal friction. It remains one of the few instances where the group leaned into such taboo lyrical territory.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Just_Us_(Alabama_album)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/85/Alabama_-_Just_Us.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-14"
 }
