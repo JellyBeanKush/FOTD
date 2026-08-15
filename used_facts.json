@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Taiwan's Cloud-Piercing Township",
+    "context": "Zhuoxi is a rugged, mountainous indigenous township located in Hualien County, Taiwan, that serves as a home to the Bunun, Truku, and Seediq peoples. It is defined by its extreme elevation and its location directly across the Tropic of Cancer.",
+    "eventTitle": "Zhuoxi",
+    "description": "Because it sits so deep within the Central Mountain Range, Zhuoxi is so vertically steep that the township is actually bisected by the Tropic of Cancer, meaning you can literally walk between two different climatic zones while climbing a single mountain slope.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zhuoxi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Zhuole_Bridge_from_Nanan.jpg/330px-Zhuole_Bridge_from_Nanan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-15"
+  },
+  {
     "headline": "Alabama's Hidden Studio Secret",
     "context": "Alabama is a legendary American country band known for bridging the gap between traditional country and pop sensibilities. 'Just Us' is their eleventh studio album, serving as a defining piece of their mid-eighties commercial dominance.",
     "eventTitle": "Just Us (Alabama album)",
@@ -863,12 +872,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Venus",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus_true_color.jpg",
     "generatedDate": "2026-02-27"
-  },
-  {
-    "eventTitle": "Wombat Cube Poop",
-    "description": "Did you know that wombats are the only animals known to produce cube-shaped poop? They use it to mark their territory, and its unique shape keeps it from rolling away!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Wombat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vombatus_ursinus_scat.jpg",
-    "generatedDate": "2026-02-26"
   }
 ]
