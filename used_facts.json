@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Named After A Champion",
+    "context": "Coronach is a small town located in southern Saskatchewan, Canada, just a stone's throw from the United States border. It serves as a regional hub for mining and power generation on the prairies.",
+    "eventTitle": "Coronach, Saskatchewan",
+    "description": "The town's namesake wasn't a pioneer or a politician, but a British racehorse. It was christened after a thoroughbred that dominated the English turf, cementing a permanent link between Canadian grain country and the elite world of international horse racing.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coronach%2C_Saskatchewan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Poplar_River_Power_Station.jpg/330px-Poplar_River_Power_Station.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-16"
+  },
+  {
     "headline": "Taiwan's Cloud-Piercing Township",
     "context": "Zhuoxi is a rugged, mountainous indigenous township located in Hualien County, Taiwan, that serves as a home to the Bunun, Truku, and Seediq peoples. It is defined by its extreme elevation and its location directly across the Tropic of Cancer.",
     "eventTitle": "Zhuoxi",
@@ -865,12 +874,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Honey",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Honey_pots_from_Tutankhamun%27s_tomb.jpg",
     "generatedDate": "2026-02-28"
-  },
-  {
-    "eventTitle": "Venus's Rotation",
-    "description": "Did you know that on Venus, a single day is actually longer than its entire year? Imagine waiting for sunrise!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Venus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus_true_color.jpg",
-    "generatedDate": "2026-02-27"
   }
 ]
