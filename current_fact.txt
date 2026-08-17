@@ -1,9 +1,9 @@
 {
-  "headline": "Named After A Champion",
-  "context": "Coronach is a small town located in southern Saskatchewan, Canada, just a stone's throw from the United States border. It serves as a regional hub for mining and power generation on the prairies.",
-  "eventTitle": "Coronach, Saskatchewan",
-  "description": "The town's namesake wasn't a pioneer or a politician, but a British racehorse. It was christened after a thoroughbred that dominated the English turf, cementing a permanent link between Canadian grain country and the elite world of international horse racing.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Coronach%2C_Saskatchewan",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Poplar_River_Power_Station.jpg/330px-Poplar_River_Power_Station.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-16"
+  "headline": "The Bahamian High-Jump King",
+  "context": "Charles W. Major Sr. was a legendary Bahamian track and field athlete who became a central figure in American collegiate athletics during the early twentieth century.",
+  "eventTitle": "Charles W. Major",
+  "description": "Major wasn't just a high jumper; he was a literal 'jack of all trades' who dominated the collegiate circuit by mastering pole vaulting and long jumping with equal proficiency, proving that a single athlete could realistically conquer three distinct, highly technical disciplines.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Charles_W._Major",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_W._Major.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-17"
 }
