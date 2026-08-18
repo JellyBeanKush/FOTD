@@ -1,9 +1,9 @@
 {
-  "headline": "The Bahamian High-Jump King",
-  "context": "Charles W. Major Sr. was a legendary Bahamian track and field athlete who became a central figure in American collegiate athletics during the early twentieth century.",
-  "eventTitle": "Charles W. Major",
-  "description": "Major wasn't just a high jumper; he was a literal 'jack of all trades' who dominated the collegiate circuit by mastering pole vaulting and long jumping with equal proficiency, proving that a single athlete could realistically conquer three distinct, highly technical disciplines.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Charles_W._Major",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_W._Major.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-17"
+  "headline": "Cambridge’s First Indian Wrangler",
+  "context": "Ananda Mohan Bose was a legendary Bengali polymath and activist who helped shape the early Indian political movement. Beyond his law and reform work, he was an intellectual giant who broke academic barriers across the ocean.",
+  "eventTitle": "Anandamohan Bose",
+  "description": "Before he was a political icon, he became the first Indian to achieve the rank of 'Wrangler' at Cambridge. This prestigious title was awarded only to those who mastered the highest level of mathematics in the university’s grueling tripos exam.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Anandamohan_Bose",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Anandamohan_Bose.jpg/330px-Anandamohan_Bose.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-18"
 }
