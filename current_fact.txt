@@ -1,9 +1,9 @@
 {
-  "headline": "Cambridge’s First Indian Wrangler",
-  "context": "Ananda Mohan Bose was a legendary Bengali polymath and activist who helped shape the early Indian political movement. Beyond his law and reform work, he was an intellectual giant who broke academic barriers across the ocean.",
-  "eventTitle": "Anandamohan Bose",
-  "description": "Before he was a political icon, he became the first Indian to achieve the rank of 'Wrangler' at Cambridge. This prestigious title was awarded only to those who mastered the highest level of mathematics in the university’s grueling tripos exam.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Anandamohan_Bose",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Anandamohan_Bose.jpg/330px-Anandamohan_Bose.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-18"
+  "headline": "Hong Kong's Action Megahit",
+  "context": "Flying Tiger 3 is a high-octane crime drama from Shaw Brothers Studio that follows a specialized elite police task force navigating complex international conspiracy plots in Hong Kong. It features a massive ensemble cast of veteran TVB superstars known for their intense stunt work and complex character dynamics.",
+  "eventTitle": "Flying Tiger 3",
+  "description": "The series is famous for its 'Star-Studded Overload' strategy, casting so many A-list leading men simultaneously that the production reportedly had to synchronize complex shooting schedules just to keep the primary stars from appearing in different cities on the same day.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Flying_Tiger_3",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/FlyingTiger3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-19"
 }

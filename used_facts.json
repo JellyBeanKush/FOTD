@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Hong Kong's Action Megahit",
+    "context": "Flying Tiger 3 is a high-octane crime drama from Shaw Brothers Studio that follows a specialized elite police task force navigating complex international conspiracy plots in Hong Kong. It features a massive ensemble cast of veteran TVB superstars known for their intense stunt work and complex character dynamics.",
+    "eventTitle": "Flying Tiger 3",
+    "description": "The series is famous for its 'Star-Studded Overload' strategy, casting so many A-list leading men simultaneously that the production reportedly had to synchronize complex shooting schedules just to keep the primary stars from appearing in different cities on the same day.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Flying_Tiger_3",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/FlyingTiger3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-08-19"
+  },
+  {
     "headline": "Cambridge’s First Indian Wrangler",
     "context": "Ananda Mohan Bose was a legendary Bengali polymath and activist who helped shape the early Indian political movement. Beyond his law and reform work, he was an intellectual giant who broke academic barriers across the ocean.",
     "eventTitle": "Anandamohan Bose",
@@ -871,12 +880,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Tree",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Trees_in_a_Forest.jpg",
     "generatedDate": "2026-03-03"
-  },
-  {
-    "eventTitle": "Pluto's Size",
-    "description": "Did you know Pluto is smaller than the United States? It's even smaller than some moons in our solar system, making its dwarf planet status feel even more dramatic!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Pluto",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_Enhanced_Color.jpg",
-    "generatedDate": "2026-03-02"
   }
 ]
