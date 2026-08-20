@@ -1,9 +1,9 @@
 {
-  "headline": "Hong Kong's Action Megahit",
-  "context": "Flying Tiger 3 is a high-octane crime drama from Shaw Brothers Studio that follows a specialized elite police task force navigating complex international conspiracy plots in Hong Kong. It features a massive ensemble cast of veteran TVB superstars known for their intense stunt work and complex character dynamics.",
-  "eventTitle": "Flying Tiger 3",
-  "description": "The series is famous for its 'Star-Studded Overload' strategy, casting so many A-list leading men simultaneously that the production reportedly had to synchronize complex shooting schedules just to keep the primary stars from appearing in different cities on the same day.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Flying_Tiger_3",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/FlyingTiger3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-19"
+  "headline": "Technicolor Horse Racing Drama",
+  "context": "The Homestretch is a classic Technicolor film produced by 20th Century Fox that follows a romance between a socialite and a horse owner set against the world of international horse racing.",
+  "eventTitle": "The Homestretch",
+  "description": "While the film is known for its racing aesthetic, it was shot on location at Churchill Downs, using actual footage from the Kentucky Derby to capture the high-stakes atmosphere of the sport in vivid color.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/The_Homestretch",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Homestretch_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-20"
 }
