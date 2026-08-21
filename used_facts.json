@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Dynamo Speed Demon",
+    "context": "Corey Ashe was a standout American professional soccer player who spent over a decade dominating the left flank in Major League Soccer, primarily for the Houston Dynamo.",
+    "eventTitle": "Corey Ashe",
+    "description": "Before he became an elite lockdown defender, Ashe was a prolific college striker at North Carolina who scored a hat trick in the NCAA semifinals, a rare feat that helped him transition from an attacking force to one of the league's fastest fullbacks.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Corey_Ashe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/26_Corey_Ashe_041710.jpg/330px-26_Corey_Ashe_041710.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-21"
+  },
+  {
     "headline": "Technicolor Horse Racing Drama",
     "context": "The Homestretch is a classic Technicolor film produced by 20th Century Fox that follows a romance between a socialite and a horse owner set against the world of international horse racing.",
     "eventTitle": "The Homestretch",
@@ -875,12 +884,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cleopatra_VII_Altes_Museum.jpg",
     "generatedDate": "2026-03-05"
-  },
-  {
-    "eventTitle": "Atoms in Water",
-    "description": "Did you know there are more atoms in a single glass of water than there are glasses of water in all the Earth's oceans? Mind-boggling!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Water",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Water-glass-water-droplet-isolated.jpg",
-    "generatedDate": "2026-03-04"
   }
 ]

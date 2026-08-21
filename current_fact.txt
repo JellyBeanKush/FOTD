@@ -1,9 +1,9 @@
 {
-  "headline": "Technicolor Horse Racing Drama",
-  "context": "The Homestretch is a classic Technicolor film produced by 20th Century Fox that follows a romance between a socialite and a horse owner set against the world of international horse racing.",
-  "eventTitle": "The Homestretch",
-  "description": "While the film is known for its racing aesthetic, it was shot on location at Churchill Downs, using actual footage from the Kentucky Derby to capture the high-stakes atmosphere of the sport in vivid color.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/The_Homestretch",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Homestretch_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-20"
+  "headline": "The Dynamo Speed Demon",
+  "context": "Corey Ashe was a standout American professional soccer player who spent over a decade dominating the left flank in Major League Soccer, primarily for the Houston Dynamo.",
+  "eventTitle": "Corey Ashe",
+  "description": "Before he became an elite lockdown defender, Ashe was a prolific college striker at North Carolina who scored a hat trick in the NCAA semifinals, a rare feat that helped him transition from an attacking force to one of the league's fastest fullbacks.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Corey_Ashe",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/26_Corey_Ashe_041710.jpg/330px-26_Corey_Ashe_041710.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-21"
 }
