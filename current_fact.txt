@@ -1,9 +1,9 @@
 {
-  "headline": "The Dynamo Speed Demon",
-  "context": "Corey Ashe was a standout American professional soccer player who spent over a decade dominating the left flank in Major League Soccer, primarily for the Houston Dynamo.",
-  "eventTitle": "Corey Ashe",
-  "description": "Before he became an elite lockdown defender, Ashe was a prolific college striker at North Carolina who scored a hat trick in the NCAA semifinals, a rare feat that helped him transition from an attacking force to one of the league's fastest fullbacks.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Corey_Ashe",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/26_Corey_Ashe_041710.jpg/330px-26_Corey_Ashe_041710.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-21"
+  "headline": "Secrets of the Brotherhood",
+  "context": "The Penitentes are a semi-secret religious confraternity of Spanish-American men in New Mexico and Colorado. They formed to maintain faith traditions in remote areas often ignored by official church authorities.",
+  "eventTitle": "Penitentes (New Mexico)",
+  "description": "To seek deep spiritual purification, some members historically participated in extreme ritualistic flagellation and simulated crucifixions, performing these intense acts of devotion in isolated, private meeting houses known as moradas, often hidden far from the public eye.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Penitentes_(New_Mexico)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Penitente_procession_viewers.jpg/330px-Penitente_procession_viewers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-22"
 }
