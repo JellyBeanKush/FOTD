@@ -1,9 +1,9 @@
 {
-  "headline": "Secrets of the Brotherhood",
-  "context": "The Penitentes are a semi-secret religious confraternity of Spanish-American men in New Mexico and Colorado. They formed to maintain faith traditions in remote areas often ignored by official church authorities.",
-  "eventTitle": "Penitentes (New Mexico)",
-  "description": "To seek deep spiritual purification, some members historically participated in extreme ritualistic flagellation and simulated crucifixions, performing these intense acts of devotion in isolated, private meeting houses known as moradas, often hidden far from the public eye.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Penitentes_(New_Mexico)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Penitente_procession_viewers.jpg/330px-Penitente_procession_viewers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-22"
+  "headline": "The Forgotten Civil-War Legislator",
+  "context": "Ezra Wheeler was a Wisconsin politician and judge who served a single, consequential term as a U.S. Representative during the American Civil War era.",
+  "eventTitle": "Ezra Wheeler",
+  "description": "Despite his political career, Wheeler is a surprisingly elusive historical figure; his biographical entry is so bare-bones that he remains one of the few congressmen whose primary legacy is defined almost entirely by his total disappearance from the historical record.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ezra_Wheeler",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ezra_Wheeler_%28Wisconsin_Congressman%29.jpg/330px-Ezra_Wheeler_%28Wisconsin_Congressman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-23"
 }
