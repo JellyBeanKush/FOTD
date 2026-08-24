@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Jupiter’s Secret Ocean Finder",
+    "context": "Margaret G. Kivelson is a legendary space physicist and planetary scientist who has spent decades unlocking the mysteries of the magnetic fields surrounding giant planets. She is a distinguished professor emeritus at UCLA, renowned for her transformative work on how magnetospheres behave in the far reaches of our solar system.",
+    "eventTitle": "Margaret G. Kivelson",
+    "description": "She didn't just study Jupiter; she fundamentally changed our understanding of the solar system by analyzing magnetic data to prove that Jupiter’s moon, Europa, hides a massive, salty liquid water ocean beneath its icy, frozen crust.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Margaret_G._Kivelson",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Margaret_Galland_Kivelson.png/330px-Margaret_Galland_Kivelson.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-24"
+  },
+  {
     "headline": "The Forgotten Civil-War Legislator",
     "context": "Ezra Wheeler was a Wisconsin politician and judge who served a single, consequential term as a U.S. Representative during the American Civil War era.",
     "eventTitle": "Ezra Wheeler",
@@ -881,12 +890,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Greenland_shark",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Greenland_shark.jpg",
     "generatedDate": "2026-03-08"
-  },
-  {
-    "eventTitle": "Time Dilation",
-    "description": "Did you know that because of time dilation, astronauts on the ISS age slightly slower than people on Earth? You literally age less the faster you move through space.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Time_dilation",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/International_Space_Station_after_undocking_of_Soyuz_TMA-19.jpg",
-    "generatedDate": "2026-03-07"
   }
 ]

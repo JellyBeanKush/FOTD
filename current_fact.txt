@@ -1,9 +1,9 @@
 {
-  "headline": "The Forgotten Civil-War Legislator",
-  "context": "Ezra Wheeler was a Wisconsin politician and judge who served a single, consequential term as a U.S. Representative during the American Civil War era.",
-  "eventTitle": "Ezra Wheeler",
-  "description": "Despite his political career, Wheeler is a surprisingly elusive historical figure; his biographical entry is so bare-bones that he remains one of the few congressmen whose primary legacy is defined almost entirely by his total disappearance from the historical record.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ezra_Wheeler",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ezra_Wheeler_%28Wisconsin_Congressman%29.jpg/330px-Ezra_Wheeler_%28Wisconsin_Congressman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-23"
+  "headline": "Jupiter’s Secret Ocean Finder",
+  "context": "Margaret G. Kivelson is a legendary space physicist and planetary scientist who has spent decades unlocking the mysteries of the magnetic fields surrounding giant planets. She is a distinguished professor emeritus at UCLA, renowned for her transformative work on how magnetospheres behave in the far reaches of our solar system.",
+  "eventTitle": "Margaret G. Kivelson",
+  "description": "She didn't just study Jupiter; she fundamentally changed our understanding of the solar system by analyzing magnetic data to prove that Jupiter’s moon, Europa, hides a massive, salty liquid water ocean beneath its icy, frozen crust.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Margaret_G._Kivelson",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Margaret_Galland_Kivelson.png/330px-Margaret_Galland_Kivelson.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-24"
 }
