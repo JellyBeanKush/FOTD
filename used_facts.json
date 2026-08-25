@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Cosmic Time-Eater",
+    "context": "Mahakali is a powerful Hindu goddess revered as the ultimate embodiment of time, death, and transformative energy, often depicted as the supreme force behind the cycle of existence.",
+    "eventTitle": "Mahakali",
+    "description": "In some tantric traditions, Mahakali is considered so fundamental to reality that she represents the 'night' that existed before creation itself, effectively predating the gods of the standard pantheon and existing as the void from which all consciousness emerges.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mahakali",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Goddess_Mahakali_-_National_Museum%2C_Delhi.jpg/330px-Goddess_Mahakali_-_National_Museum%2C_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-25"
+  },
+  {
     "headline": "Jupiter’s Secret Ocean Finder",
     "context": "Margaret G. Kivelson is a legendary space physicist and planetary scientist who has spent decades unlocking the mysteries of the magnetic fields surrounding giant planets. She is a distinguished professor emeritus at UCLA, renowned for her transformative work on how magnetospheres behave in the far reaches of our solar system.",
     "eventTitle": "Margaret G. Kivelson",
@@ -883,12 +892,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Paper_folding",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Paper-folding-8-times.jpg",
     "generatedDate": "2026-03-09"
-  },
-  {
-    "eventTitle": "The Longevity of Sharks",
-    "description": "Did you know that Greenland sharks can live for over 400 years? Some currently swimming were born before the invention of the telescope.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Greenland_shark",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Greenland_shark.jpg",
-    "generatedDate": "2026-03-08"
   }
 ]

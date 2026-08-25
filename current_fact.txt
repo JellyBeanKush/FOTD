@@ -1,9 +1,9 @@
 {
-  "headline": "Jupiter’s Secret Ocean Finder",
-  "context": "Margaret G. Kivelson is a legendary space physicist and planetary scientist who has spent decades unlocking the mysteries of the magnetic fields surrounding giant planets. She is a distinguished professor emeritus at UCLA, renowned for her transformative work on how magnetospheres behave in the far reaches of our solar system.",
-  "eventTitle": "Margaret G. Kivelson",
-  "description": "She didn't just study Jupiter; she fundamentally changed our understanding of the solar system by analyzing magnetic data to prove that Jupiter’s moon, Europa, hides a massive, salty liquid water ocean beneath its icy, frozen crust.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Margaret_G._Kivelson",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Margaret_Galland_Kivelson.png/330px-Margaret_Galland_Kivelson.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-24"
+  "headline": "The Cosmic Time-Eater",
+  "context": "Mahakali is a powerful Hindu goddess revered as the ultimate embodiment of time, death, and transformative energy, often depicted as the supreme force behind the cycle of existence.",
+  "eventTitle": "Mahakali",
+  "description": "In some tantric traditions, Mahakali is considered so fundamental to reality that she represents the 'night' that existed before creation itself, effectively predating the gods of the standard pantheon and existing as the void from which all consciousness emerges.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mahakali",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Goddess_Mahakali_-_National_Museum%2C_Delhi.jpg/330px-Goddess_Mahakali_-_National_Museum%2C_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-25"
 }
