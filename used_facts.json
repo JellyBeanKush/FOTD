@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Penang's Engineering Tightrope Walk",
+    "context": "The Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass is a massive infrastructure project in George Town, Malaysia, designed to bridge the gap between the mountainous Farlim neighborhood and the coastal expressway.",
+    "eventTitle": "Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass",
+    "description": "To minimize disruption to the dense urban landscape below, portions of this bypass are being constructed as elevated highways, essentially weaving a high-speed concrete ribbon directly over existing neighborhoods and pre-existing traffic arteries.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ayer_Itam%E2%80%93Tun_Dr_Lim_Chong_Eu_Expressway_Bypass",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Construction_of_Ayer_Itam_Tun_Dr_Lim_Chong_Eu_Expressway_Bypass%2C_2024%282%29.jpg/330px-Construction_of_Ayer_Itam_Tun_Dr_Lim_Chong_Eu_Expressway_Bypass%2C_2024%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-26"
+  },
+  {
     "headline": "The Cosmic Time-Eater",
     "context": "Mahakali is a powerful Hindu goddess revered as the ultimate embodiment of time, death, and transformative energy, often depicted as the supreme force behind the cycle of existence.",
     "eventTitle": "Mahakali",
@@ -885,12 +894,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Quantum_entanglement",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Quantum_entanglement.jpg",
     "generatedDate": "2026-03-10"
-  },
-  {
-    "eventTitle": "Paper to the Moon",
-    "description": "Did you know that if you could fold a standard piece of paper 42 times, its thickness would be enough to reach the Moon? That's the power of exponential growth!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Paper_folding",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Paper-folding-8-times.jpg",
-    "generatedDate": "2026-03-09"
   }
 ]
