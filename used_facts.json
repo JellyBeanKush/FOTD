@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Frieza's Workout Routine",
+    "context": "Dragon Ball Z: Resurrection 'F' is a Japanese animated film where the iconic space tyrant Frieza is brought back to life to seek revenge against the legendary martial artist Goku. It serves as a climactic showdown in the Dragon Ball franchise.",
+    "eventTitle": "Dragon Ball Z: Resurrection 'F'",
+    "description": "Frieza had never trained a single day in his life before this movie. Despite being a galactic emperor who conquered planets for decades, his terrifying power was purely natural talent until he finally hit the gym to unlock his Golden form.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Ball_Z%3A_Resurrection_'F'",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/DBZ_THE_MOVIE_NO._15.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-08-27"
+  },
+  {
     "headline": "Penang's Engineering Tightrope Walk",
     "context": "The Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass is a massive infrastructure project in George Town, Malaysia, designed to bridge the gap between the mountainous Farlim neighborhood and the coastal expressway.",
     "eventTitle": "Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass",
@@ -887,12 +896,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Dente",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sam_Dente_1952.jpg",
     "generatedDate": "2026-03-11"
-  },
-  {
-    "eventTitle": "Quantum Entanglement",
-    "description": "Did you know that particles can be linked so that changing one instantly affects the other, even if they are on opposite sides of the universe? Einstein called it 'spooky action at a distance.'",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Quantum_entanglement",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Quantum_entanglement.jpg",
-    "generatedDate": "2026-03-10"
   }
 ]

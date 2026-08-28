@@ -1,9 +1,9 @@
 {
-  "headline": "Penang's Engineering Tightrope Walk",
-  "context": "The Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass is a massive infrastructure project in George Town, Malaysia, designed to bridge the gap between the mountainous Farlim neighborhood and the coastal expressway.",
-  "eventTitle": "Ayer Itam–Tun Dr Lim Chong Eu Expressway Bypass",
-  "description": "To minimize disruption to the dense urban landscape below, portions of this bypass are being constructed as elevated highways, essentially weaving a high-speed concrete ribbon directly over existing neighborhoods and pre-existing traffic arteries.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ayer_Itam%E2%80%93Tun_Dr_Lim_Chong_Eu_Expressway_Bypass",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Construction_of_Ayer_Itam_Tun_Dr_Lim_Chong_Eu_Expressway_Bypass%2C_2024%282%29.jpg/330px-Construction_of_Ayer_Itam_Tun_Dr_Lim_Chong_Eu_Expressway_Bypass%2C_2024%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-26"
+  "headline": "Frieza's Workout Routine",
+  "context": "Dragon Ball Z: Resurrection 'F' is a Japanese animated film where the iconic space tyrant Frieza is brought back to life to seek revenge against the legendary martial artist Goku. It serves as a climactic showdown in the Dragon Ball franchise.",
+  "eventTitle": "Dragon Ball Z: Resurrection 'F'",
+  "description": "Frieza had never trained a single day in his life before this movie. Despite being a galactic emperor who conquered planets for decades, his terrifying power was purely natural talent until he finally hit the gym to unlock his Golden form.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Ball_Z%3A_Resurrection_'F'",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/DBZ_THE_MOVIE_NO._15.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-08-27"
 }
