@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Paul's Radical Moral Audit",
+    "context": "Romans 2 is a foundational chapter in the New Testament written by Paul the Apostle to the early church in Rome. It serves as a philosophical argument challenging the hypocrisy of those who judge others while practicing the same sins.",
+    "eventTitle": "Romans 2",
+    "description": "Paul utilized a rhetorical device called 'diatribe' to argue his point. He essentially staged an imaginary debate with a heckler, anticipating and preemptively answering his critics' objections to prove that moral superiority is an empty illusion.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Romans_2",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Heidelberg%2C_Universit%C3%A4t_Heidelberg%2C_Institut_f%C3%BCr_Papyrologie_Ms_P._Heid._Inv._G_645_%28Papyrus_40%29_Plate_2_%E2%80%94_Fragments_c%E2%80%93h_recto_Romans_1%2C_24%E2%80%9327.jpg/330px-Heidelberg%2C_Universit%C3%A4t_Heidelberg%2C_Institut_f%C3%BCr_Papyrologie_Ms_P._Heid._Inv._G_645_%28Papyrus_40%29_Plate_2_%E2%80%94_Fragments_c%E2%80%93h_recto_Romans_1%2C_24%E2%80%9327.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-29"
+  },
+  {
     "headline": "Paris's Secret Resistance Hero",
     "context": "Cécile Rol-Tanguy was a French communist and crucial Resistance operative during World War II who served as a liaison officer in Paris. She played a pivotal role in the capital's liberation by managing dangerous clandestine communications.",
     "eventTitle": "Cécile Rol-Tanguy",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Taxodium_dubium",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fossil-leaf_Taxodium_dubium_Tertiary_Germany.jpg/330px-Fossil-leaf_Taxodium_dubium_Tertiary_Germany.jpg",
     "generatedDate": "2026-05-21"
-  },
-  {
-    "headline": "Redcar's Sea Giants",
-    "context": "Teesside Wind Farm is a collection of 27 massive offshore wind turbines situated in the North Sea, specifically positioned just off the coast of Redcar in Northern England.",
-    "eventTitle": "Teesside Wind Farm",
-    "description": "These turbines were specifically engineered with a unique 'monopile' foundation design that allows them to withstand the intense, shifting seabed currents of the North Sea, effectively turning a rugged industrial coastline into a massive renewable power station.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Teesside_Wind_Farm",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg/330px-Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg",
-    "generatedDate": "2026-05-20"
   }
 ]
