@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Paris's Secret Resistance Hero",
+    "context": "Cécile Rol-Tanguy was a French communist and crucial Resistance operative during World War II who served as a liaison officer in Paris. She played a pivotal role in the capital's liberation by managing dangerous clandestine communications.",
+    "eventTitle": "Cécile Rol-Tanguy",
+    "description": "While hiding in an underground bunker to coordinate the liberation of Paris, she famously insisted on keeping her two small children with her, refusing to leave them behind despite the constant threat of discovery by Nazi forces.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/C%C3%A9cile_Rol-Tanguy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/C%C3%A9cile_Rol-Tanguy_and_her_husband%2C_Henri_Rol-Tanguy.jpeg/330px-C%C3%A9cile_Rol-Tanguy_and_her_husband%2C_Henri_Rol-Tanguy.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-28"
+  },
+  {
     "headline": "Frieza's Workout Routine",
     "context": "Dragon Ball Z: Resurrection 'F' is a Japanese animated film where the iconic space tyrant Frieza is brought back to life to seek revenge against the legendary martial artist Goku. It serves as a climactic showdown in the Dragon Ball franchise.",
     "eventTitle": "Dragon Ball Z: Resurrection 'F'",
@@ -889,12 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Teesside_Wind_Farm",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg/330px-Surfing_in_Penny_Hole_-_geograph.org.uk_-_3853430.jpg",
     "generatedDate": "2026-05-20"
-  },
-  {
-    "eventTitle": "Sam Dente",
-    "description": "Did you know Sam Dente was an MLB shortstop who famously became the first player to ever hit a grand slam in a World Series game while playing for the Cleveland Indians in 1948?",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Dente",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sam_Dente_1952.jpg",
-    "generatedDate": "2026-03-11"
   }
 ]

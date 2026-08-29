@@ -1,9 +1,9 @@
 {
-  "headline": "Frieza's Workout Routine",
-  "context": "Dragon Ball Z: Resurrection 'F' is a Japanese animated film where the iconic space tyrant Frieza is brought back to life to seek revenge against the legendary martial artist Goku. It serves as a climactic showdown in the Dragon Ball franchise.",
-  "eventTitle": "Dragon Ball Z: Resurrection 'F'",
-  "description": "Frieza had never trained a single day in his life before this movie. Despite being a galactic emperor who conquered planets for decades, his terrifying power was purely natural talent until he finally hit the gym to unlock his Golden form.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Ball_Z%3A_Resurrection_'F'",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/DBZ_THE_MOVIE_NO._15.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-08-27"
+  "headline": "Paris's Secret Resistance Hero",
+  "context": "Cécile Rol-Tanguy was a French communist and crucial Resistance operative during World War II who served as a liaison officer in Paris. She played a pivotal role in the capital's liberation by managing dangerous clandestine communications.",
+  "eventTitle": "Cécile Rol-Tanguy",
+  "description": "While hiding in an underground bunker to coordinate the liberation of Paris, she famously insisted on keeping her two small children with her, refusing to leave them behind despite the constant threat of discovery by Nazi forces.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/C%C3%A9cile_Rol-Tanguy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/C%C3%A9cile_Rol-Tanguy_and_her_husband%2C_Henri_Rol-Tanguy.jpeg/330px-C%C3%A9cile_Rol-Tanguy_and_her_husband%2C_Henri_Rol-Tanguy.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-28"
 }
