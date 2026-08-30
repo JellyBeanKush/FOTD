@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Military Medicine's Hidden Giant",
+    "context": "The San Antonio Market acts as the massive centralized hub for military healthcare in Texas, integrating multiple Army and Air Force medical facilities under the Defense Health Agency. It functions as a singular healthcare system for thousands of service members and their families.",
+    "eventTitle": "San Antonio Market (Defense Health Agency)",
+    "description": "It is home to the only Level I Trauma Center in the entire Department of Defense, meaning this specific Texas market serves as the ultimate national safety net for complex battlefield injuries and specialized emergency care.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio_Market_(Defense_Health_Agency)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_Defense_Health_Agency.svg/330px-Seal_of_Defense_Health_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-08-30"
+  },
+  {
     "headline": "Paul's Radical Moral Audit",
     "context": "Romans 2 is a foundational chapter in the New Testament written by Paul the Apostle to the early church in Rome. It serves as a philosophical argument challenging the hypocrisy of those who judge others while practicing the same sins.",
     "eventTitle": "Romans 2",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Beijing_Beer",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Beijing_Beer_Asahi_Co_Ltd_%2820220418135405%29.jpg/330px-Beijing_Beer_Asahi_Co_Ltd_%2820220418135405%29.jpg",
     "generatedDate": "2026-05-22"
-  },
-  {
-    "headline": "Ancient Global Forest Ghost",
-    "context": "Taxodium dubium is an extinct species of cypress tree that once formed massive, swampy forests across the Northern Hemisphere. These prehistoric giants were once so widespread that their fossils can be found spanning across North America, Europe, and Asia.",
-    "eventTitle": "Taxodium dubium",
-    "description": "These trees were so incredibly prolific across the globe that their fossilized needles are essentially the 'DNA' used to identify ancient wetlands, proving that millions of years ago, the Arctic was actually a lush, temperate swamp filled with cypress.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Taxodium_dubium",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fossil-leaf_Taxodium_dubium_Tertiary_Germany.jpg/330px-Fossil-leaf_Taxodium_dubium_Tertiary_Germany.jpg",
-    "generatedDate": "2026-05-21"
   }
 ]

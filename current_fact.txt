@@ -1,9 +1,9 @@
 {
-  "headline": "Paul's Radical Moral Audit",
-  "context": "Romans 2 is a foundational chapter in the New Testament written by Paul the Apostle to the early church in Rome. It serves as a philosophical argument challenging the hypocrisy of those who judge others while practicing the same sins.",
-  "eventTitle": "Romans 2",
-  "description": "Paul utilized a rhetorical device called 'diatribe' to argue his point. He essentially staged an imaginary debate with a heckler, anticipating and preemptively answering his critics' objections to prove that moral superiority is an empty illusion.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Romans_2",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Heidelberg%2C_Universit%C3%A4t_Heidelberg%2C_Institut_f%C3%BCr_Papyrologie_Ms_P._Heid._Inv._G_645_%28Papyrus_40%29_Plate_2_%E2%80%94_Fragments_c%E2%80%93h_recto_Romans_1%2C_24%E2%80%9327.jpg/330px-Heidelberg%2C_Universit%C3%A4t_Heidelberg%2C_Institut_f%C3%BCr_Papyrologie_Ms_P._Heid._Inv._G_645_%28Papyrus_40%29_Plate_2_%E2%80%94_Fragments_c%E2%80%93h_recto_Romans_1%2C_24%E2%80%9327.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-29"
+  "headline": "Military Medicine's Hidden Giant",
+  "context": "The San Antonio Market acts as the massive centralized hub for military healthcare in Texas, integrating multiple Army and Air Force medical facilities under the Defense Health Agency. It functions as a singular healthcare system for thousands of service members and their families.",
+  "eventTitle": "San Antonio Market (Defense Health Agency)",
+  "description": "It is home to the only Level I Trauma Center in the entire Department of Defense, meaning this specific Texas market serves as the ultimate national safety net for complex battlefield injuries and specialized emergency care.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio_Market_(Defense_Health_Agency)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_Defense_Health_Agency.svg/330px-Seal_of_Defense_Health_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-08-30"
 }
