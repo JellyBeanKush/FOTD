@@ -1,9 +1,9 @@
 {
-  "headline": "Military Medicine's Hidden Giant",
-  "context": "The San Antonio Market acts as the massive centralized hub for military healthcare in Texas, integrating multiple Army and Air Force medical facilities under the Defense Health Agency. It functions as a singular healthcare system for thousands of service members and their families.",
-  "eventTitle": "San Antonio Market (Defense Health Agency)",
-  "description": "It is home to the only Level I Trauma Center in the entire Department of Defense, meaning this specific Texas market serves as the ultimate national safety net for complex battlefield injuries and specialized emergency care.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio_Market_(Defense_Health_Agency)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_Defense_Health_Agency.svg/330px-Seal_of_Defense_Health_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-08-30"
+  "headline": "Miyamoto's Hidden Space Inspiration",
+  "context": "Star Luster is a pioneering first-person space combat simulator for the Nintendo Famicom, developed by Namco. It puts players in a cockpit to defend bases across a non-linear star map.",
+  "eventTitle": "Star Luster",
+  "description": "Shigeru Miyamoto was such a massive fan of this obscure title that he frequently cited it as the primary inspiration for Star Fox. Without this 8-bit cockpit shooter, Nintendo's most famous space-faring fox might never have taken flight!",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Star_Luster",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/StarLuster_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-01"
 }
