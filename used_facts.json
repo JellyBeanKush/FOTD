@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Renaissance Dance Icon",
+    "context": "Leonor Orosa-Goquingco was a legendary Filipino artist who transformed Philippine creative dance by blending indigenous traditions with modern choreography. She was a multidisciplinary genius who mastered everything from sculpting to theater direction.",
+    "eventTitle": "Leonor Orosa-Goquingco",
+    "description": "Beyond dance, she was a fierce critic who once challenged an entire national narrative; she famously went undercover as a writer using the pseudonym 'Cristina Luna' to critique the arts landscape with a razor-sharp, anonymous wit.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Leonor_Orosa-Goquingco",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Leonor_Orosa-Goquingco_2010_stamp_of_the_Philippines.jpg/330px-Leonor_Orosa-Goquingco_2010_stamp_of_the_Philippines.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-02"
+  },
+  {
     "headline": "Miyamoto's Hidden Space Inspiration",
     "context": "Star Luster is a pioneering first-person space combat simulator for the Nintendo Famicom, developed by Namco. It puts players in a cockpit to defend bases across a non-linear star map.",
     "eventTitle": "Star Luster",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2%3A_American_Teenage_Garage_Hoot_1965%E2%80%931967",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Last_of_the_Garage_Punk_Unknowns%2C_Volumes_1_%26_2.jpg",
     "generatedDate": "2026-05-24"
-  },
-  {
-    "headline": "Milton's Secret Source",
-    "context": "Genesis B is a fragment of Old English poetry found in an 11th-century manuscript that retells the biblical Fall of Satan and humanity. It stands out because it was translated from a lost Old Saxon original poem.",
-    "eventTitle": "Genesis B",
-    "description": "Scholars believe John Milton likely read this poem before writing 'Paradise Lost.' The poem's vivid, cinematic depiction of a prideful, rebellious Satan echoes so closely in Milton’s epic that Genesis B is often considered the stylistic ancestor of his masterpiece.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Genesis_B",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg/330px-Bodleian_Libraries%2C_C%C3%A6dmon_Manuscript_13.jpg",
-    "generatedDate": "2026-05-23"
   }
 ]
