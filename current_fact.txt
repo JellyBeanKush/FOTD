@@ -1,9 +1,9 @@
 {
-  "headline": "The Renaissance Dance Icon",
-  "context": "Leonor Orosa-Goquingco was a legendary Filipino artist who transformed Philippine creative dance by blending indigenous traditions with modern choreography. She was a multidisciplinary genius who mastered everything from sculpting to theater direction.",
-  "eventTitle": "Leonor Orosa-Goquingco",
-  "description": "Beyond dance, she was a fierce critic who once challenged an entire national narrative; she famously went undercover as a writer using the pseudonym 'Cristina Luna' to critique the arts landscape with a razor-sharp, anonymous wit.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Leonor_Orosa-Goquingco",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Leonor_Orosa-Goquingco_2010_stamp_of_the_Philippines.jpg/330px-Leonor_Orosa-Goquingco_2010_stamp_of_the_Philippines.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-02"
+  "headline": "Literary Giants on Tracks",
+  "context": "The NBR J class was a fleet of powerful Scottish steam engines designed to haul passengers across the rugged terrain of the North British Railway.",
+  "eventTitle": "NBR J class",
+  "description": "These massive machines were essentially a high-speed library; every single locomotive was named after characters or titles from Sir Walter Scott’s novels, transforming heavy industrial engineering into a rolling tribute to 19th-century romantic literature.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/NBR_J_class",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NBR_J_class_No._898_Sir_Walter_Scott.jpg/330px-NBR_J_class_No._898_Sir_Walter_Scott.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-03"
 }
