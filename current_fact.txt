@@ -1,9 +1,9 @@
 {
-  "headline": "Literary Giants on Tracks",
-  "context": "The NBR J class was a fleet of powerful Scottish steam engines designed to haul passengers across the rugged terrain of the North British Railway.",
-  "eventTitle": "NBR J class",
-  "description": "These massive machines were essentially a high-speed library; every single locomotive was named after characters or titles from Sir Walter Scott’s novels, transforming heavy industrial engineering into a rolling tribute to 19th-century romantic literature.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/NBR_J_class",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NBR_J_class_No._898_Sir_Walter_Scott.jpg/330px-NBR_J_class_No._898_Sir_Walter_Scott.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-03"
+  "headline": "Hidden Charles River Gem",
+  "context": "Cedariver is a 55-acre protected open space reserve nestled along the banks of the Charles River in Millis, Massachusetts. Managed by The Trustees of Reservations, it offers a scenic landscape of wild farm fields and dense woodlots.",
+  "eventTitle": "Cedariver",
+  "description": "Before becoming a serene sanctuary, this land was known as The Baker Reservation, intentionally preserved to keep a vital mile-long stretch of the Charles River from being swallowed by suburban development, effectively acting as a permanent ecological time capsule.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Cedariver",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Charles_River%2C_Cedariver%2C_Millis_MA.jpg/330px-Charles_River%2C_Cedariver%2C_Millis_MA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-04"
 }

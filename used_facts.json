@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Hidden Charles River Gem",
+    "context": "Cedariver is a 55-acre protected open space reserve nestled along the banks of the Charles River in Millis, Massachusetts. Managed by The Trustees of Reservations, it offers a scenic landscape of wild farm fields and dense woodlots.",
+    "eventTitle": "Cedariver",
+    "description": "Before becoming a serene sanctuary, this land was known as The Baker Reservation, intentionally preserved to keep a vital mile-long stretch of the Charles River from being swallowed by suburban development, effectively acting as a permanent ecological time capsule.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cedariver",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Charles_River%2C_Cedariver%2C_Millis_MA.jpg/330px-Charles_River%2C_Cedariver%2C_Millis_MA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-04"
+  },
+  {
     "headline": "Literary Giants on Tracks",
     "context": "The NBR J class was a fleet of powerful Scottish steam engines designed to haul passengers across the rugged terrain of the North British Railway.",
     "eventTitle": "NBR J class",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Statue_of_a_Liberated_Woman",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/36/Statue_of_a_Liberated_Woman_in_Baku.jpg",
     "generatedDate": "2026-05-26"
-  },
-  {
-    "headline": "Poetry Carved in Bark",
-    "context": "Popeswood is a small, historic village in Berkshire, England, located between the towns of Binfield and Bracknell. It is a quiet residential area that grew out of ancient woodland once used for royal hunting.",
-    "eventTitle": "Popeswood",
-    "description": "The village is named after poet Alexander Pope, who spent his youth wandering the local forest. He was so obsessed with a specific oak tree that he carved 'Here Pope Sang' into its bark, making it a literary landmark.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Popeswood",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Moor_Close%2C_Newbold_College%2C_Binfield.jpg/330px-Moor_Close%2C_Newbold_College%2C_Binfield.jpg",
-    "generatedDate": "2026-05-25"
   }
 ]
