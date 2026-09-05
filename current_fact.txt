@@ -1,9 +1,9 @@
 {
-  "headline": "Hidden Charles River Gem",
-  "context": "Cedariver is a 55-acre protected open space reserve nestled along the banks of the Charles River in Millis, Massachusetts. Managed by The Trustees of Reservations, it offers a scenic landscape of wild farm fields and dense woodlots.",
-  "eventTitle": "Cedariver",
-  "description": "Before becoming a serene sanctuary, this land was known as The Baker Reservation, intentionally preserved to keep a vital mile-long stretch of the Charles River from being swallowed by suburban development, effectively acting as a permanent ecological time capsule.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Cedariver",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Charles_River%2C_Cedariver%2C_Millis_MA.jpg/330px-Charles_River%2C_Cedariver%2C_Millis_MA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-04"
+  "headline": "The River That Escapes",
+  "context": "The Lužnice is a river flowing through the borders of Austria and the Czech Republic, serving as a significant tributary to the Vltava. It winds through picturesque landscapes and historic Bohemian regions.",
+  "eventTitle": "Lužnice (river)",
+  "description": "The Lužnice features a bizarre 'artificial' bifurcation. Part of its water is diverted through a man-made canal called the Golden Canal, which was engineered to supply water to a massive system of medieval fish ponds, effectively forcing the river to feed an artificial ecosystem.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lu%C5%BEnice_(river)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/V%C3%BDhled_na_jez.jpg/330px-V%C3%BDhled_na_jez.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-05"
 }

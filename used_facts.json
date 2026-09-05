@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The River That Escapes",
+    "context": "The Lužnice is a river flowing through the borders of Austria and the Czech Republic, serving as a significant tributary to the Vltava. It winds through picturesque landscapes and historic Bohemian regions.",
+    "eventTitle": "Lužnice (river)",
+    "description": "The Lužnice features a bizarre 'artificial' bifurcation. Part of its water is diverted through a man-made canal called the Golden Canal, which was engineered to supply water to a massive system of medieval fish ponds, effectively forcing the river to feed an artificial ecosystem.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lu%C5%BEnice_(river)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/V%C3%BDhled_na_jez.jpg/330px-V%C3%BDhled_na_jez.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-05"
+  },
+  {
     "headline": "Hidden Charles River Gem",
     "context": "Cedariver is a 55-acre protected open space reserve nestled along the banks of the Charles River in Millis, Massachusetts. Managed by The Trustees of Reservations, it offers a scenic landscape of wild farm fields and dense woodlots.",
     "eventTitle": "Cedariver",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Julia_Brainerd_Hall",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Julia_Brainerd_Hall_1881_Oberlin_College_Senior_Year_Portrait_by_Arthur_Courtland_Falor.jpg/330px-Julia_Brainerd_Hall_1881_Oberlin_College_Senior_Year_Portrait_by_Arthur_Courtland_Falor.jpg",
     "generatedDate": "2026-05-27"
-  },
-  {
-    "headline": "Bronze Defiance in Baku",
-    "context": "Located in Baku, Azerbaijan, the Statue of a Liberated Woman is a monument depicting a woman boldly casting off her traditional veil. It serves as a tribute to the social movement that brought women out of seclusion and into public society.",
-    "eventTitle": "Statue of a Liberated Woman",
-    "description": "This is one of the world's few monuments celebrating the specific act of shedding a garment. It represents the 'Hujum' era, when women publicly burned their veils in bonfires, an act of defiance so radical it often sparked literal street riots.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Statue_of_a_Liberated_Woman",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/36/Statue_of_a_Liberated_Woman_in_Baku.jpg",
-    "generatedDate": "2026-05-26"
   }
 ]
