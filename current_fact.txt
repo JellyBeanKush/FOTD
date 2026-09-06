@@ -1,9 +1,9 @@
 {
-  "headline": "The River That Escapes",
-  "context": "The Lužnice is a river flowing through the borders of Austria and the Czech Republic, serving as a significant tributary to the Vltava. It winds through picturesque landscapes and historic Bohemian regions.",
-  "eventTitle": "Lužnice (river)",
-  "description": "The Lužnice features a bizarre 'artificial' bifurcation. Part of its water is diverted through a man-made canal called the Golden Canal, which was engineered to supply water to a massive system of medieval fish ponds, effectively forcing the river to feed an artificial ecosystem.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Lu%C5%BEnice_(river)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/V%C3%BDhled_na_jez.jpg/330px-V%C3%BDhled_na_jez.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-05"
+  "headline": "The Silent Military Guardian",
+  "context": "WZZP is an active rock radio station based in Hopkinsville, Kentucky, that broadcasts to the neighboring military hub of Fort Campbell.",
+  "eventTitle": "WZZP",
+  "description": "Because it serves Fort Campbell, the station functions as a critical communications backbone for the U.S. Army’s 101st Airborne Division, often embedding its broadcast signal into local military emergency protocols that aren't available to standard civilian commercial stations.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/WZZP",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/WZZP_Z97.5_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-06"
 }
