@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Gravity's Train Sorting Masterpiece",
+    "context": "Cedar Hill Yard is a massive rail classification hub spanning parts of New Haven, North Haven, and Hamden, Connecticut. It serves as a vital logistics artery for sorting and organizing cargo trains.",
+    "eventTitle": "Cedar Hill Yard",
+    "description": "It utilizes two artificial 'humps' that rely entirely on gravity to sort train cars. Uncoupled cars roll down these slopes at precise speeds, automatically switching tracks to assemble new trains without needing a locomotive to push them into place.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cedar_Hill_Yard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/New_York%2C_New_Haven_and_Hartford_RR-_East_New_Haven_Shops_and_Yards._East_New_Haven%2C_New_Haven_Co.%2C_CT._%28Not_on_NEC%29._-_Northeast_Railroad_Corridor%2C_Amtrak_Route_between_New_HAER_CONN%2C5-NEWHA%2C37-81_%28cropped%29.tif/lossy-page1-330px-thumbnail.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-07"
+  },
+  {
     "headline": "The Silent Military Guardian",
     "context": "WZZP is an active rock radio station based in Hopkinsville, Kentucky, that broadcasts to the neighboring military hub of Fort Campbell.",
     "eventTitle": "WZZP",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Johnny_Frank_Garrett's_Last_Word",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Johnny_Frank_Garrett%27s_Last_Word_poster.jpg",
     "generatedDate": "2026-05-29"
-  },
-  {
-    "headline": "A Global Racing Icon",
-    "context": "Loves Only You is a legendary Japanese Thoroughbred racehorse who dominated elite turf racing across three different continents.",
-    "eventTitle": "Loves Only You",
-    "description": "She made history by becoming the first Japanese-trained horse to ever win a Breeders' Cup race, effectively proving that a Japanese mare could conquer the highest stakes on American soil and forever change the international racing hierarchy.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Loves_Only_You",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Loves_Only_You%28JPN%29_IMG_7016-1_20191110.jpg/330px-Loves_Only_You%28JPN%29_IMG_7016-1_20191110.jpg",
-    "generatedDate": "2026-05-28"
   }
 ]
