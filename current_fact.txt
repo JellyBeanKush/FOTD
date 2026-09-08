@@ -1,9 +1,9 @@
 {
-  "headline": "Gravity's Train Sorting Masterpiece",
-  "context": "Cedar Hill Yard is a massive rail classification hub spanning parts of New Haven, North Haven, and Hamden, Connecticut. It serves as a vital logistics artery for sorting and organizing cargo trains.",
-  "eventTitle": "Cedar Hill Yard",
-  "description": "It utilizes two artificial 'humps' that rely entirely on gravity to sort train cars. Uncoupled cars roll down these slopes at precise speeds, automatically switching tracks to assemble new trains without needing a locomotive to push them into place.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Cedar_Hill_Yard",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/New_York%2C_New_Haven_and_Hartford_RR-_East_New_Haven_Shops_and_Yards._East_New_Haven%2C_New_Haven_Co.%2C_CT._%28Not_on_NEC%29._-_Northeast_Railroad_Corridor%2C_Amtrak_Route_between_New_HAER_CONN%2C5-NEWHA%2C37-81_%28cropped%29.tif/lossy-page1-330px-thumbnail.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-07"
+  "headline": "Nevada's Hidden Giant Basin",
+  "context": "Steptoe Valley is a vast, 100-mile-long basin in northeastern Nevada surrounded by towering mountain ranges like the Egan and Schell Creek ranges. It serves as a historic corridor for early transit routes and home to unique state parks.",
+  "eventTitle": "Steptoe Valley",
+  "description": "It contains the Ward Charcoal Ovens, massive beehive-shaped stone structures that look like ancient ruins. These eerie, windowless towers were once used to fuel the local mining industry and now stand as haunting, perfectly preserved monuments in the desert silence.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Steptoe_Valley",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2022-03-24_19_27_12_UTC_minus_7_View_north_and_down_from_an_airplane_looking_up_Steptoe_Valley_in_southern_White_Pine_County%2C_Nevada%2C_with_the_Schell_Creek_Range_visible_to_the_right_and_the_Egan_Range_to_the_left.jpg/330px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-08"
 }

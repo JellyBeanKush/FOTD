@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Nevada's Hidden Giant Basin",
+    "context": "Steptoe Valley is a vast, 100-mile-long basin in northeastern Nevada surrounded by towering mountain ranges like the Egan and Schell Creek ranges. It serves as a historic corridor for early transit routes and home to unique state parks.",
+    "eventTitle": "Steptoe Valley",
+    "description": "It contains the Ward Charcoal Ovens, massive beehive-shaped stone structures that look like ancient ruins. These eerie, windowless towers were once used to fuel the local mining industry and now stand as haunting, perfectly preserved monuments in the desert silence.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Steptoe_Valley",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2022-03-24_19_27_12_UTC_minus_7_View_north_and_down_from_an_airplane_looking_up_Steptoe_Valley_in_southern_White_Pine_County%2C_Nevada%2C_with_the_Schell_Creek_Range_visible_to_the_right_and_the_Egan_Range_to_the_left.jpg/330px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-08"
+  },
+  {
     "headline": "Gravity's Train Sorting Masterpiece",
     "context": "Cedar Hill Yard is a massive rail classification hub spanning parts of New Haven, North Haven, and Hamden, Connecticut. It serves as a vital logistics artery for sorting and organizing cargo trains.",
     "eventTitle": "Cedar Hill Yard",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Caryophyllaceae",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_campion_close_700.jpg/330px-Red_campion_close_700.jpg",
     "generatedDate": "2026-05-30"
-  },
-  {
-    "headline": "The Cursed Execution Film",
-    "context": "Johnny Frank Garrett was a Texas man executed for a crime he consistently denied, inspiring a film that explores the chilling aftermath of his death sentence. The movie dramatizes the claims that his execution triggered a series of lethal, supernatural repercussions for those involved in his conviction.",
-    "eventTitle": "Johnny Frank Garrett's Last Word",
-    "description": "The film’s production was reportedly so eerie that crew members experienced bizarre technical failures and unsettling coincidences. Many locals in Amarillo, where the real-life trial occurred, still refuse to speak about the case, fearing a lingering curse associated with the man's final proclamation of innocence.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Johnny_Frank_Garrett's_Last_Word",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Johnny_Frank_Garrett%27s_Last_Word_poster.jpg",
-    "generatedDate": "2026-05-29"
   }
 ]
