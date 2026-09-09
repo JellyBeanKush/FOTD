@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Pioneer of Vertical Flight",
+    "context": "David Albritton was a legendary American track and field athlete from Alabama who revolutionized high jumping. Beyond his fame as an Olympian, he also served as an influential educator and a member of the Ohio House of Representatives.",
+    "eventTitle": "Dave Albritton",
+    "description": "Albritton didn't just jump; he changed the physics of the sport by being one of the absolute pioneers of the 'straddle' technique. He literally taught himself how to clear the bar face-down, effectively inventing the modern mechanics of high jumping.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dave_Albritton",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg/330px-David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-09"
+  },
+  {
     "headline": "Nevada's Hidden Giant Basin",
     "context": "Steptoe Valley is a vast, 100-mile-long basin in northeastern Nevada surrounded by towering mountain ranges like the Egan and Schell Creek ranges. It serves as a historic corridor for early transit routes and home to unique state parks.",
     "eventTitle": "Steptoe Valley",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Western_Defense_Command",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Western_Defense_Command_WWII.png/330px-Western_Defense_Command_WWII.png",
     "generatedDate": "2026-05-31"
-  },
-  {
-    "headline": "The Carnation's Deadly Secret",
-    "context": "The Caryophyllaceae family is a widespread group of flowering plants, including familiar favorites like carnations and baby's breath. They thrive across the globe, particularly in the northern hemisphere's temperate regions.",
-    "eventTitle": "Caryophyllaceae",
-    "description": "Don't be fooled by their delicate petals. Many members of this family are packed with saponins, toxic compounds that act like natural detergents. When these plants end up in a waterway, they can literally foam up and suffocate fish by destroying their gills.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Caryophyllaceae",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_campion_close_700.jpg/330px-Red_campion_close_700.jpg",
-    "generatedDate": "2026-05-30"
   }
 ]

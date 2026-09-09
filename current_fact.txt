@@ -1,9 +1,9 @@
 {
-  "headline": "Nevada's Hidden Giant Basin",
-  "context": "Steptoe Valley is a vast, 100-mile-long basin in northeastern Nevada surrounded by towering mountain ranges like the Egan and Schell Creek ranges. It serves as a historic corridor for early transit routes and home to unique state parks.",
-  "eventTitle": "Steptoe Valley",
-  "description": "It contains the Ward Charcoal Ovens, massive beehive-shaped stone structures that look like ancient ruins. These eerie, windowless towers were once used to fuel the local mining industry and now stand as haunting, perfectly preserved monuments in the desert silence.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Steptoe_Valley",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2022-03-24_19_27_12_UTC_minus_7_View_north_and_down_from_an_airplane_looking_up_Steptoe_Valley_in_southern_White_Pine_County%2C_Nevada%2C_with_the_Schell_Creek_Range_visible_to_the_right_and_the_Egan_Range_to_the_left.jpg/330px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-08"
+  "headline": "Pioneer of Vertical Flight",
+  "context": "David Albritton was a legendary American track and field athlete from Alabama who revolutionized high jumping. Beyond his fame as an Olympian, he also served as an influential educator and a member of the Ohio House of Representatives.",
+  "eventTitle": "Dave Albritton",
+  "description": "Albritton didn't just jump; he changed the physics of the sport by being one of the absolute pioneers of the 'straddle' technique. He literally taught himself how to clear the bar face-down, effectively inventing the modern mechanics of high jumping.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dave_Albritton",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg/330px-David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-09"
 }
