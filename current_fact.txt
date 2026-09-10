@@ -1,9 +1,9 @@
 {
-  "headline": "Pioneer of Vertical Flight",
-  "context": "David Albritton was a legendary American track and field athlete from Alabama who revolutionized high jumping. Beyond his fame as an Olympian, he also served as an influential educator and a member of the Ohio House of Representatives.",
-  "eventTitle": "Dave Albritton",
-  "description": "Albritton didn't just jump; he changed the physics of the sport by being one of the absolute pioneers of the 'straddle' technique. He literally taught himself how to clear the bar face-down, effectively inventing the modern mechanics of high jumping.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Dave_Albritton",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg/330px-David_D._Albritton_-_85th_District_-_Ohio_House_of_Representatives_109th_General_Assembly_-_DPLA_-_5586be78567b1fe89fca76f0a79cfcb8_%28page_6%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-09"
+  "headline": "Melody of Defiance",
+  "context": "Shervin Hajipour is an Iranian singer-songwriter whose music became an accidental anthem for social movements. \"Ashghal\" is his introspective soft rock ballad reflecting on the personal toll of his sudden rise to global fame and subsequent legal trouble.",
+  "eventTitle": "Ashghal (song)",
+  "description": "The title literally translates to 'trash' or 'rubbish,' a biting piece of self-deprecation where Hajipour addresses the irony of how his music—once celebrated as a voice for the voiceless—was branded as a nuisance by the authorities who detained him.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ashghal_(song)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ashghal.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-10"
 }

@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Melody of Defiance",
+    "context": "Shervin Hajipour is an Iranian singer-songwriter whose music became an accidental anthem for social movements. \"Ashghal\" is his introspective soft rock ballad reflecting on the personal toll of his sudden rise to global fame and subsequent legal trouble.",
+    "eventTitle": "Ashghal (song)",
+    "description": "The title literally translates to 'trash' or 'rubbish,' a biting piece of self-deprecation where Hajipour addresses the irony of how his music—once celebrated as a voice for the voiceless—was branded as a nuisance by the authorities who detained him.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ashghal_(song)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ashghal.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-09-10"
+  },
+  {
     "headline": "Pioneer of Vertical Flight",
     "context": "David Albritton was a legendary American track and field athlete from Alabama who revolutionized high jumping. Beyond his fame as an Olympian, he also served as an influential educator and a member of the Ohio House of Representatives.",
     "eventTitle": "Dave Albritton",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Scranton_House",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/GoshenNH_ScrantonHouse.jpg/330px-GoshenNH_ScrantonHouse.jpg",
     "generatedDate": "2026-06-01"
-  },
-  {
-    "headline": "Guarding the Pacific Coast",
-    "context": "The Western Defense Command was the primary United States Army formation responsible for protecting the Pacific coastline and training ground troops for overseas combat during global conflict.",
-    "eventTitle": "Western Defense Command",
-    "description": "General John L. DeWitt, the commander, became obsessed with the threat of Japanese invasion, even going so far as to command the construction of secret, elaborate decoy airfields across the desert to distract enemy bombers from actual strategic assets.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Defense_Command",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Western_Defense_Command_WWII.png/330px-Western_Defense_Command_WWII.png",
-    "generatedDate": "2026-05-31"
   }
 ]
