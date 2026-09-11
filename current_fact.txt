@@ -1,9 +1,9 @@
 {
-  "headline": "Melody of Defiance",
-  "context": "Shervin Hajipour is an Iranian singer-songwriter whose music became an accidental anthem for social movements. \"Ashghal\" is his introspective soft rock ballad reflecting on the personal toll of his sudden rise to global fame and subsequent legal trouble.",
-  "eventTitle": "Ashghal (song)",
-  "description": "The title literally translates to 'trash' or 'rubbish,' a biting piece of self-deprecation where Hajipour addresses the irony of how his music—once celebrated as a voice for the voiceless—was branded as a nuisance by the authorities who detained him.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ashghal_(song)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ashghal.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-09-10"
+  "headline": "The Rosetta Stone of Growth",
+  "context": "Economic Development Quarterly is a scholarly journal focused on the growth of local and regional economies. Published in partnership with Cleveland State University, it serves as the primary link between university researchers and the people running city governments.",
+  "eventTitle": "Economic Development Quarterly",
+  "description": "While most economics journals are purely theoretical, this publication acts as a 'Rosetta Stone' for city streets. It forces elite academics to translate complex data into tactical blueprints that mayors can actually use to revitalize struggling neighborhoods.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Economic_Development_Quarterly",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c4/Economic_Development_Quarterly_journal_front_cover_image.tif/lossy-page1-120px-Economic_Development_Quarterly_journal_front_cover_image.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-11"
 }
