@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Synthpop's Secret Chameleon",
+    "context": "Christopher Anton is an American singer-songwriter who carved out a niche in the synthpop world, most notably as the lead vocalist for the legendary electronic act Information Society.",
+    "eventTitle": "Christopher Anton",
+    "description": "Beyond his electronic roots, Anton once operated under the alias 'christopher ANTON,' intentionally utilizing double commas in his stylization—a bizarre stylistic choice designed to make his name virtually unsearchable and difficult for standard web algorithms to index.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Christopher_Anton",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a9/ChristopherANTON.jpg/330px-ChristopherANTON.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-13"
+  },
+  {
     "headline": "The Forest That's One",
     "context": "Pando is a massive clonal colony of quaking aspen trees located in Utah that shares a single, sprawling underground root system. Despite looking like a dense forest, every trunk is genetically identical and part of the same organism.",
     "eventTitle": "Pando (tree)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Liljana_Bishop",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Liljana_Bishop.JPG",
     "generatedDate": "2026-06-04"
-  },
-  {
-    "headline": "Rome's Hall of Fame",
-    "context": "The Fasti Triumphales are ancient stone inscriptions discovered in the Roman Forum that serve as a glorified list of Roman commanders awarded a triumph. They meticulously tracked which generals were permitted to parade through Rome after securing legendary military victories.",
-    "eventTitle": "Fasti Triumphales",
-    "description": "These stone slabs were effectively the Roman version of a verified trophy case; being erased or excluded from this list was the ultimate political humiliation, stripping a commander of his legacy and his permanent place in Rome’s collective historical memory.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Fasti_Triumphales",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CILI%282%29p47fgtXXFastitriumphales.jpg/330px-CILI%282%29p47fgtXXFastitriumphales.jpg",
-    "generatedDate": "2026-06-03"
   }
 ]
