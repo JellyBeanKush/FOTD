@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Mission District’s Creative Haven",
+    "context": "The Ruby is a unique coworking and event space located in San Francisco's Mission District, designed specifically to foster community among nonbinary, transfeminine, and woman-identified creatives.",
+    "eventTitle": "The Ruby (space)",
+    "description": "Beyond just being a workspace, the venue was famously founded by novelist Rachel Khong with the specific goal of filling a void for women and gender-nonconforming artists who lacked a dedicated, safe, and collaborative creative sanctuary in the city.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Ruby_(space)",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Community_Arts_Workshop.jpg/330px-Community_Arts_Workshop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-14"
+  },
+  {
     "headline": "Synthpop's Secret Chameleon",
     "context": "Christopher Anton is an American singer-songwriter who carved out a niche in the synthpop world, most notably as the lead vocalist for the legendary electronic act Information Society.",
     "eventTitle": "Christopher Anton",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Samurai_Warriors_2",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Samurai_Warriors_2_NA_cover.jpg",
     "generatedDate": "2026-06-05"
-  },
-  {
-    "headline": "Soapy Tragedy Takes Flight",
-    "context": "Liljana Bishop was a central character in the long-running Australian soap opera Neighbours, portrayed by actress Marcella Russo during the mid-2000s.",
-    "eventTitle": "Liljana Bishop",
-    "description": "Her exit remains one of the most surreal moments in television history; she was killed off in a dramatic plane crash, but the showrunners insisted the character's death was essential to trigger a massive, years-long mystery plot regarding the flight's mysterious disappearance.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Liljana_Bishop",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Liljana_Bishop.JPG",
-    "generatedDate": "2026-06-04"
   }
 ]
