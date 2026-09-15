@@ -1,9 +1,9 @@
 {
-  "headline": "Mission District’s Creative Haven",
-  "context": "The Ruby is a unique coworking and event space located in San Francisco's Mission District, designed specifically to foster community among nonbinary, transfeminine, and woman-identified creatives.",
-  "eventTitle": "The Ruby (space)",
-  "description": "Beyond just being a workspace, the venue was famously founded by novelist Rachel Khong with the specific goal of filling a void for women and gender-nonconforming artists who lacked a dedicated, safe, and collaborative creative sanctuary in the city.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/The_Ruby_(space)",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Community_Arts_Workshop.jpg/330px-Community_Arts_Workshop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-14"
+  "headline": "A General's Hidden Legacy",
+  "context": "Edgar T. Collins was a highly decorated career officer who served the United States Army across three major conflicts, eventually rising to the rank of major general.",
+  "eventTitle": "Edgar T. Collins",
+  "description": "Beyond his battlefield accolades, Collins served as the Assistant Chief of Staff of the Army, a critical role where he effectively acted as one of the primary architects of American military operations during the interwar period's complex structural transitions.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Edgar_T._Collins",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Edgar_T._Collins_%28U.S._Army_major_general%29.jpg/330px-Edgar_T._Collins_%28U.S._Army_major_general%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-15"
 }

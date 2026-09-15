@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A General's Hidden Legacy",
+    "context": "Edgar T. Collins was a highly decorated career officer who served the United States Army across three major conflicts, eventually rising to the rank of major general.",
+    "eventTitle": "Edgar T. Collins",
+    "description": "Beyond his battlefield accolades, Collins served as the Assistant Chief of Staff of the Army, a critical role where he effectively acted as one of the primary architects of American military operations during the interwar period's complex structural transitions.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Edgar_T._Collins",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Edgar_T._Collins_%28U.S._Army_major_general%29.jpg/330px-Edgar_T._Collins_%28U.S._Army_major_general%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-15"
+  },
+  {
     "headline": "Mission District’s Creative Haven",
     "context": "The Ruby is a unique coworking and event space located in San Francisco's Mission District, designed specifically to foster community among nonbinary, transfeminine, and woman-identified creatives.",
     "eventTitle": "The Ruby (space)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Pregnant_in_Heels",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Pregnant_in_Heels.jpg",
     "generatedDate": "2026-06-06"
-  },
-  {
-    "headline": "Hack-and-Slash Historical Remix",
-    "context": "Samurai Warriors 2 is a popular Japanese video game developed by Omega Force that reimagines the brutal Sengoku period of civil war as an over-the-top, fast-paced action spectacle.",
-    "eventTitle": "Samurai Warriors 2",
-    "description": "The game features a mini-game called Sugoroku, which is a complex board game variant that functions like a full-blown digital Monopoly. It’s arguably more addictive than the actual combat, turning ruthless warlords into ruthless real-estate moguls.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Samurai_Warriors_2",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Samurai_Warriors_2_NA_cover.jpg",
-    "generatedDate": "2026-06-05"
   }
 ]
