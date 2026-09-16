@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Plymouth’s Hidden Creative Powerhouse",
+    "context": "Arts University Plymouth is a specialized public institution located in South West England dedicated entirely to arts, design, and digital media. It transitioned from a regional college to a full-fledged university after decades of training generations of creative professionals.",
+    "eventTitle": "Arts University Plymouth",
+    "description": "Hidden within its creative curriculum is a world-class focus on 'Material Practice,' where students still utilize ancient, industrial-scale equipment—including massive historic printing presses—to ensure that traditional craftsmanship survives alongside cutting-edge digital fabrication tools.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arts_University_Plymouth",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Plymouth_College_of_Art%2C_Tavistock_Place.jpg/330px-Plymouth_College_of_Art%2C_Tavistock_Place.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-16"
+  },
+  {
     "headline": "A General's Hidden Legacy",
     "context": "Edgar T. Collins was a highly decorated career officer who served the United States Army across three major conflicts, eventually rising to the rank of major general.",
     "eventTitle": "Edgar T. Collins",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Hamahara_Dam",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hamahara-1731-r1.JPG/330px-Hamahara-1731-r1.JPG",
     "generatedDate": "2026-06-07"
-  },
-  {
-    "headline": "Pregnancy's Most Expensive Stylist",
-    "context": "Pregnant in Heels was a reality series following Rosie Pope, a high-end maternity concierge in New York City, as she navigated the eccentric demands of ultra-wealthy expectant parents.",
-    "eventTitle": "Pregnant in Heels",
-    "description": "Rosie Pope wasn't just a TV personality; she actually pioneered the 'maternity concierge' industry, charging elite clients thousands of dollars to curate everything from nursery interior design to hospital wardrobe planning for the fabulously wealthy.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Pregnant_in_Heels",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Pregnant_in_Heels.jpg",
-    "generatedDate": "2026-06-06"
   }
 ]

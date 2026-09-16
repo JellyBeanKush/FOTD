@@ -1,9 +1,9 @@
 {
-  "headline": "A General's Hidden Legacy",
-  "context": "Edgar T. Collins was a highly decorated career officer who served the United States Army across three major conflicts, eventually rising to the rank of major general.",
-  "eventTitle": "Edgar T. Collins",
-  "description": "Beyond his battlefield accolades, Collins served as the Assistant Chief of Staff of the Army, a critical role where he effectively acted as one of the primary architects of American military operations during the interwar period's complex structural transitions.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Edgar_T._Collins",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Edgar_T._Collins_%28U.S._Army_major_general%29.jpg/330px-Edgar_T._Collins_%28U.S._Army_major_general%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-15"
+  "headline": "Plymouth’s Hidden Creative Powerhouse",
+  "context": "Arts University Plymouth is a specialized public institution located in South West England dedicated entirely to arts, design, and digital media. It transitioned from a regional college to a full-fledged university after decades of training generations of creative professionals.",
+  "eventTitle": "Arts University Plymouth",
+  "description": "Hidden within its creative curriculum is a world-class focus on 'Material Practice,' where students still utilize ancient, industrial-scale equipment—including massive historic printing presses—to ensure that traditional craftsmanship survives alongside cutting-edge digital fabrication tools.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Arts_University_Plymouth",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Plymouth_College_of_Art%2C_Tavistock_Place.jpg/330px-Plymouth_College_of_Art%2C_Tavistock_Place.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-16"
 }
