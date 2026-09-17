@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Pop Star DIY Legend",
+    "context": "Killer on the Rampage is the massive breakthrough album by Eddy Grant, a British-Guyanese singer-songwriter who dominated global charts with his unique fusion of pop, reggae, and electronic sounds.",
+    "eventTitle": "Killer on the Rampage",
+    "description": "Eddy Grant didn't just record this album; he operated entirely as a one-man production house, writing, playing every single instrument, and engineering the tracks himself in his own studio. He even managed the distribution independently, keeping total control of his artistic output.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Killer_on_the_Rampage",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Eddy_Grant_Killer_On_The_Rampage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-09-17"
+  },
+  {
     "headline": "Plymouth’s Hidden Creative Powerhouse",
     "context": "Arts University Plymouth is a specialized public institution located in South West England dedicated entirely to arts, design, and digital media. It transitioned from a regional college to a full-fledged university after decades of training generations of creative professionals.",
     "eventTitle": "Arts University Plymouth",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spontaneous_Parametric_Downconversion.png/330px-Spontaneous_Parametric_Downconversion.png",
     "generatedDate": "2026-06-08"
-  },
-  {
-    "headline": "Japan's Hidden Power Giant",
-    "context": "Hamahara Dam is a significant gravity dam tucked away in the Shimane Prefecture of Japan, designed primarily for hydroelectric power generation.",
-    "eventTitle": "Hamahara Dam",
-    "description": "Despite its modest profile, the dam manages an enormous catchment area of 3,000 square kilometers, effectively harnessing the flow of the Gō-no-kawa river system to fuel the regional power grid with remarkable efficiency.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hamahara_Dam",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hamahara-1731-r1.JPG/330px-Hamahara-1731-r1.JPG",
-    "generatedDate": "2026-06-07"
   }
 ]

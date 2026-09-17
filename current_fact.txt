@@ -1,9 +1,9 @@
 {
-  "headline": "Plymouth’s Hidden Creative Powerhouse",
-  "context": "Arts University Plymouth is a specialized public institution located in South West England dedicated entirely to arts, design, and digital media. It transitioned from a regional college to a full-fledged university after decades of training generations of creative professionals.",
-  "eventTitle": "Arts University Plymouth",
-  "description": "Hidden within its creative curriculum is a world-class focus on 'Material Practice,' where students still utilize ancient, industrial-scale equipment—including massive historic printing presses—to ensure that traditional craftsmanship survives alongside cutting-edge digital fabrication tools.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Arts_University_Plymouth",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Plymouth_College_of_Art%2C_Tavistock_Place.jpg/330px-Plymouth_College_of_Art%2C_Tavistock_Place.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-16"
+  "headline": "Pop Star DIY Legend",
+  "context": "Killer on the Rampage is the massive breakthrough album by Eddy Grant, a British-Guyanese singer-songwriter who dominated global charts with his unique fusion of pop, reggae, and electronic sounds.",
+  "eventTitle": "Killer on the Rampage",
+  "description": "Eddy Grant didn't just record this album; he operated entirely as a one-man production house, writing, playing every single instrument, and engineering the tracks himself in his own studio. He even managed the distribution independently, keeping total control of his artistic output.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Killer_on_the_Rampage",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Eddy_Grant_Killer_On_The_Rampage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-17"
 }
