@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Windows' Digital Time Machine",
+    "context": "System Restore is a built-in Windows utility that acts like an 'undo' button for your operating system's critical files and settings. It reverts your computer's configuration to a previous state to fix errors without touching your personal photos or documents.",
+    "eventTitle": "System Restore",
+    "description": "While it protects your system files, it is notoriously oblivious to malware. Because it tracks changes in your system state, it can actually accidentally restore deleted viruses or corrupted drivers that you thought you had already purged from your machine.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/System_Restore",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1f/Windows_10_System_Restore_screenshot.png/330px-Windows_10_System_Restore_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-18"
+  },
+  {
     "headline": "Pop Star DIY Legend",
     "context": "Killer on the Rampage is the massive breakthrough album by Eddy Grant, a British-Guyanese singer-songwriter who dominated global charts with his unique fusion of pop, reggae, and electronic sounds.",
     "eventTitle": "Killer on the Rampage",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Tagbanwa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coron_Island%2C_Palawan%2C_Philippines.jpg/330px-Coron_Island%2C_Palawan%2C_Philippines.jpg",
     "generatedDate": "2026-06-09"
-  },
-  {
-    "headline": "Photons Splitting Into Twins",
-    "context": "Spontaneous parametric down-conversion is a quantum mechanical process where a single high-energy photon strikes a specialized crystal and splits into two lower-energy \"daughter\" photons. This process acts as a bridge between classical light and the strange, interconnected world of quantum physics.",
-    "eventTitle": "Spontaneous parametric down-conversion",
-    "description": "It is so rare that it only happens to about one in every billion photons passing through the crystal. You are essentially waiting for a billion-to-one cosmic lottery win just to manufacture a single pair of entangled light particles.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spontaneous_Parametric_Downconversion.png/330px-Spontaneous_Parametric_Downconversion.png",
-    "generatedDate": "2026-06-08"
   }
 ]

@@ -1,9 +1,9 @@
 {
-  "headline": "Pop Star DIY Legend",
-  "context": "Killer on the Rampage is the massive breakthrough album by Eddy Grant, a British-Guyanese singer-songwriter who dominated global charts with his unique fusion of pop, reggae, and electronic sounds.",
-  "eventTitle": "Killer on the Rampage",
-  "description": "Eddy Grant didn't just record this album; he operated entirely as a one-man production house, writing, playing every single instrument, and engineering the tracks himself in his own studio. He even managed the distribution independently, keeping total control of his artistic output.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Killer_on_the_Rampage",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Eddy_Grant_Killer_On_The_Rampage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-09-17"
+  "headline": "Windows' Digital Time Machine",
+  "context": "System Restore is a built-in Windows utility that acts like an 'undo' button for your operating system's critical files and settings. It reverts your computer's configuration to a previous state to fix errors without touching your personal photos or documents.",
+  "eventTitle": "System Restore",
+  "description": "While it protects your system files, it is notoriously oblivious to malware. Because it tracks changes in your system state, it can actually accidentally restore deleted viruses or corrupted drivers that you thought you had already purged from your machine.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/System_Restore",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1f/Windows_10_System_Restore_screenshot.png/330px-Windows_10_System_Restore_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-18"
 }
