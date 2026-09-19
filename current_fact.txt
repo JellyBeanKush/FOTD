@@ -1,9 +1,9 @@
 {
-  "headline": "Windows' Digital Time Machine",
-  "context": "System Restore is a built-in Windows utility that acts like an 'undo' button for your operating system's critical files and settings. It reverts your computer's configuration to a previous state to fix errors without touching your personal photos or documents.",
-  "eventTitle": "System Restore",
-  "description": "While it protects your system files, it is notoriously oblivious to malware. Because it tracks changes in your system state, it can actually accidentally restore deleted viruses or corrupted drivers that you thought you had already purged from your machine.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/System_Restore",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1f/Windows_10_System_Restore_screenshot.png/330px-Windows_10_System_Restore_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-18"
+  "headline": "Anglicanism Across Tropical Seas",
+  "context": "The Church of the Province of the Indian Ocean is a unique Anglican province spanning the island nations of Madagascar, Mauritius, and the Seychelles. It functions as a single ecclesiastical body despite the vast geographic distances separating its dioceses across the Indian Ocean.",
+  "eventTitle": "Church of the Province of the Indian Ocean",
+  "description": "It is a logistical marvel; the province encompasses vastly different cultures and languages, yet remains united. Most surprisingly, the vast majority of its massive membership resides in Madagascar, making it a distinctly Malagasy-led powerhouse within the global Anglican Communion.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_the_Province_of_the_Indian_Ocean",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cath%C3%A9drale_St_Laurent_Ambohimanoro.jpg/330px-Cath%C3%A9drale_St_Laurent_Ambohimanoro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-19"
 }
