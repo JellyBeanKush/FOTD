@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Siberia's Grass Burning Crisis",
+    "context": "The 2025 Russian wildfires were a series of devastating forest and land fires that swept across massive stretches of the Russian Far East. These blazes were fueled by extreme heat and drought, threatening remote ecosystems and local settlements.",
+    "eventTitle": "2025 Russian wildfires",
+    "description": "It sounds like a natural disaster, but nearly 90% of the wildfires in the Republic of Buryatia were actually triggered by the archaic rural practice of intentionally burning old grass to clear fields, which spiraled violently out of control.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/2025_Russian_wildfires",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg/330px-Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-20"
+  },
+  {
     "headline": "Anglicanism Across Tropical Seas",
     "context": "The Church of the Province of the Indian Ocean is a unique Anglican province spanning the island nations of Madagascar, Mauritius, and the Seychelles. It functions as a single ecclesiastical body despite the vast geographic distances separating its dioceses across the Indian Ocean.",
     "eventTitle": "Church of the Province of the Indian Ocean",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Old_Huntington_Jail",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Old_Huntington_Jail%2C_West_View.JPG/330px-Old_Huntington_Jail%2C_West_View.JPG",
     "generatedDate": "2026-06-11"
-  },
-  {
-    "headline": "Finland's Student Mega-City",
-    "context": "The Turku Student Village is a massive residential complex in Finland that houses thousands of university students across nearly a hundred buildings. It serves as a dense, self-contained community for those attending the city's major academic institutions.",
-    "eventTitle": "Turku Student Village",
-    "description": "It features a legendary tower called 'Ikituuri,' which was once the tallest student apartment building in the world and serves as a local landmark that literally defines the skyline for students navigating the maze-like campus.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Turku_Student_Village",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/TYS_ikituuri_001.jpg/330px-TYS_ikituuri_001.jpg",
-    "generatedDate": "2026-06-10"
   }
 ]

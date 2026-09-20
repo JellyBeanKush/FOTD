@@ -1,9 +1,9 @@
 {
-  "headline": "Anglicanism Across Tropical Seas",
-  "context": "The Church of the Province of the Indian Ocean is a unique Anglican province spanning the island nations of Madagascar, Mauritius, and the Seychelles. It functions as a single ecclesiastical body despite the vast geographic distances separating its dioceses across the Indian Ocean.",
-  "eventTitle": "Church of the Province of the Indian Ocean",
-  "description": "It is a logistical marvel; the province encompasses vastly different cultures and languages, yet remains united. Most surprisingly, the vast majority of its massive membership resides in Madagascar, making it a distinctly Malagasy-led powerhouse within the global Anglican Communion.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_the_Province_of_the_Indian_Ocean",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cath%C3%A9drale_St_Laurent_Ambohimanoro.jpg/330px-Cath%C3%A9drale_St_Laurent_Ambohimanoro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-19"
+  "headline": "Siberia's Grass Burning Crisis",
+  "context": "The 2025 Russian wildfires were a series of devastating forest and land fires that swept across massive stretches of the Russian Far East. These blazes were fueled by extreme heat and drought, threatening remote ecosystems and local settlements.",
+  "eventTitle": "2025 Russian wildfires",
+  "description": "It sounds like a natural disaster, but nearly 90% of the wildfires in the Republic of Buryatia were actually triggered by the archaic rural practice of intentionally burning old grass to clear fields, which spiraled violently out of control.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/2025_Russian_wildfires",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg/330px-Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-20"
 }
