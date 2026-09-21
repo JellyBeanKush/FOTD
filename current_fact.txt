@@ -1,9 +1,9 @@
 {
-  "headline": "Siberia's Grass Burning Crisis",
-  "context": "The 2025 Russian wildfires were a series of devastating forest and land fires that swept across massive stretches of the Russian Far East. These blazes were fueled by extreme heat and drought, threatening remote ecosystems and local settlements.",
-  "eventTitle": "2025 Russian wildfires",
-  "description": "It sounds like a natural disaster, but nearly 90% of the wildfires in the Republic of Buryatia were actually triggered by the archaic rural practice of intentionally burning old grass to clear fields, which spiraled violently out of control.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/2025_Russian_wildfires",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg/330px-Burn_Scars_in_Russia_%28MODIS_2025-05-08%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-20"
+  "headline": "A Literal False Start",
+  "context": "Apollo Justice: Ace Attorney is a Japanese legal-thriller video game where players take on the role of a defense attorney solving murders in a high-stakes courtroom. It serves as the fourth entry in a series famous for its quirky characters and dramatic courtroom showdowns.",
+  "eventTitle": "Apollo Justice: Ace Attorney",
+  "description": "The game's original Japanese title was actually 'Gyakuten Saiban 4,' but the development team initially experimented with making the game feature a completely different, new protagonist entirely, nearly ditching the series' iconic defense attorney tradition before finally settling on Apollo.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Apollo_Justice%3A_Ace_Attorney",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Apollo-justice-english-cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-21"
 }

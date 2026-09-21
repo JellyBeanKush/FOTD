@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A Literal False Start",
+    "context": "Apollo Justice: Ace Attorney is a Japanese legal-thriller video game where players take on the role of a defense attorney solving murders in a high-stakes courtroom. It serves as the fourth entry in a series famous for its quirky characters and dramatic courtroom showdowns.",
+    "eventTitle": "Apollo Justice: Ace Attorney",
+    "description": "The game's original Japanese title was actually 'Gyakuten Saiban 4,' but the development team initially experimented with making the game feature a completely different, new protagonist entirely, nearly ditching the series' iconic defense attorney tradition before finally settling on Apollo.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apollo_Justice%3A_Ace_Attorney",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Apollo-justice-english-cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-09-21"
+  },
+  {
     "headline": "Siberia's Grass Burning Crisis",
     "context": "The 2025 Russian wildfires were a series of devastating forest and land fires that swept across massive stretches of the Russian Far East. These blazes were fueled by extreme heat and drought, threatening remote ecosystems and local settlements.",
     "eventTitle": "2025 Russian wildfires",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Brian_the_Lion",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/BrianTheLion.jpg",
     "generatedDate": "2026-06-12"
-  },
-  {
-    "headline": "Corporate Private Prison Roots",
-    "context": "The Old Huntington Jail is a small, stone detention facility located in the mining town of Huntington, Arkansas. It was constructed by the Kansas and Texas Coal Company to maintain order within the settlement they established.",
-    "eventTitle": "Old Huntington Jail",
-    "description": "It wasn't a government project; it was a company-built lockup. The mining corporation literally owned the town's legal system, effectively turning the jail into a private tool for controlling their workforce in a lawless, remote industrial outpost.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Old_Huntington_Jail",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Old_Huntington_Jail%2C_West_View.JPG/330px-Old_Huntington_Jail%2C_West_View.JPG",
-    "generatedDate": "2026-06-11"
   }
 ]
