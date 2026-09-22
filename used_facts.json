@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Poet of Cubism's Origins",
+    "context": "Alexandre Mercereau was a French symbolist poet and influential art critic who operated at the heart of the early 20th-century avant-garde movement in Paris.",
+    "eventTitle": "Alexandre Mercereau",
+    "description": "Mercereau ran the Villa Médicis Libre, a bold social experiment that housed both struggling high-society artists and troubled, delinquent teenagers under the same roof, hoping that shared creative life would fundamentally reform the youth.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alexandre_Mercereau",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Alexandre_Mercereau%2C_circa_1910.jpg/330px-Alexandre_Mercereau%2C_circa_1910.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-22"
+  },
+  {
     "headline": "A Literal False Start",
     "context": "Apollo Justice: Ace Attorney is a Japanese legal-thriller video game where players take on the role of a defense attorney solving murders in a high-stakes courtroom. It serves as the fourth entry in a series famous for its quirky characters and dramatic courtroom showdowns.",
     "eventTitle": "Apollo Justice: Ace Attorney",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Manu_Uncle",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Manu_Uncle.png",
     "generatedDate": "2026-06-13"
-  },
-  {
-    "headline": "Amiga's Forgotten Mascot",
-    "context": "Brian the Lion is a 1994 platformer for the Amiga and CD32 where you guide a stylized, bipedal lion through vibrant, challenging levels. Developed by Reflections, it stands as one of the final major platforming efforts for the iconic 16-bit computer.",
-    "eventTitle": "Brian the Lion",
-    "description": "While most platformers relied on static pixels, Brian was animated with a bizarre 'claymation' style look, yet the developers secretly programmed the game so the lion’s tail movement occasionally triggers a frame-skip glitch that makes him briefly invincible to projectiles.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Brian_the_Lion",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/BrianTheLion.jpg",
-    "generatedDate": "2026-06-12"
   }
 ]
