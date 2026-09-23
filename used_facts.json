@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Dublin's Whiskey Royalty",
+    "context": "Jameson is a globally iconic Irish whiskey brand originating from Dublin, now produced at the massive Midleton Distillery in County Cork. It serves as the world's most popular expression of the Irish style of triple-distilled grain and pot-still spirits.",
+    "eventTitle": "Jameson Irish Whiskey",
+    "description": "John Jameson wasn't actually Irish; he was a Scottish lawyer who married into the famous Haig distilling family. He didn't invent the spirit, but rather moved to Dublin to perfect the triple-distillation method that defines the brand's signature smooth profile.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jameson_Irish_Whiskey",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Jameson_Irish_Whiskey_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-09-23"
+  },
+  {
     "headline": "Poet of Cubism's Origins",
     "context": "Alexandre Mercereau was a French symbolist poet and influential art critic who operated at the heart of the early 20th-century avant-garde movement in Paris.",
     "eventTitle": "Alexandre Mercereau",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Power_of_Music_2011_A",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Power_of_Music_2011_A.jpg",
     "generatedDate": "2026-06-14"
-  },
-  {
-    "headline": "Cameo Spawns Cult Legend",
-    "context": "Manu Uncle is a celebrated 1988 Malayalam comedy-drama about a group of children involved in a mystery, directed by Dennis Joseph.",
-    "eventTitle": "Manu Uncle",
-    "description": "While Suresh Gopi’s role as the hot-headed S.I. Minnal Prathapan was intended as a minor cameo, the character became so iconic that he evolved into a standalone cult figure, eventually inspiring a massive fan following decades after the film's initial release.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Manu_Uncle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Manu_Uncle.png",
-    "generatedDate": "2026-06-13"
   }
 ]

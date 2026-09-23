@@ -1,9 +1,9 @@
 {
-  "headline": "Poet of Cubism's Origins",
-  "context": "Alexandre Mercereau was a French symbolist poet and influential art critic who operated at the heart of the early 20th-century avant-garde movement in Paris.",
-  "eventTitle": "Alexandre Mercereau",
-  "description": "Mercereau ran the Villa Médicis Libre, a bold social experiment that housed both struggling high-society artists and troubled, delinquent teenagers under the same roof, hoping that shared creative life would fundamentally reform the youth.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Alexandre_Mercereau",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Alexandre_Mercereau%2C_circa_1910.jpg/330px-Alexandre_Mercereau%2C_circa_1910.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-22"
+  "headline": "Dublin's Whiskey Royalty",
+  "context": "Jameson is a globally iconic Irish whiskey brand originating from Dublin, now produced at the massive Midleton Distillery in County Cork. It serves as the world's most popular expression of the Irish style of triple-distilled grain and pot-still spirits.",
+  "eventTitle": "Jameson Irish Whiskey",
+  "description": "John Jameson wasn't actually Irish; he was a Scottish lawyer who married into the famous Haig distilling family. He didn't invent the spirit, but rather moved to Dublin to perfect the triple-distillation method that defines the brand's signature smooth profile.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Jameson_Irish_Whiskey",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Jameson_Irish_Whiskey_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-23"
 }
