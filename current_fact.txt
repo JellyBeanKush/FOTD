@@ -1,9 +1,9 @@
 {
-  "headline": "Dublin's Whiskey Royalty",
-  "context": "Jameson is a globally iconic Irish whiskey brand originating from Dublin, now produced at the massive Midleton Distillery in County Cork. It serves as the world's most popular expression of the Irish style of triple-distilled grain and pot-still spirits.",
-  "eventTitle": "Jameson Irish Whiskey",
-  "description": "John Jameson wasn't actually Irish; he was a Scottish lawyer who married into the famous Haig distilling family. He didn't invent the spirit, but rather moved to Dublin to perfect the triple-distillation method that defines the brand's signature smooth profile.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Jameson_Irish_Whiskey",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Jameson_Irish_Whiskey_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-09-23"
+  "headline": "The Sultan’s Untouchable Outlaws",
+  "context": "The Hamidiye were irregular cavalry units formed from diverse tribal groups to patrol the Ottoman Empire's eastern borders. These fierce riders acted as a paramilitary force directly under the Sultan’s personal command to maintain control over remote provinces.",
+  "eventTitle": "Hamidiye (cavalry)",
+  "description": "Designed to mirror Russian Cossacks, these horsemen were granted near-total legal immunity. This 'license to loot' meant they could seize property and settle blood feuds with zero fear of civilian prosecution, effectively making them a law unto themselves!",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hamidiye_(cavalry)",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Lynch_Armenia_Hamidiye_cavalry_at_village_of_Gumgum.png/330px-Lynch_Armenia_Hamidiye_cavalry_at_village_of_Gumgum.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-24"
 }
