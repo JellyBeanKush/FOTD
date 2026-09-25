@@ -1,9 +1,9 @@
 {
-  "headline": "The Sultan’s Untouchable Outlaws",
-  "context": "The Hamidiye were irregular cavalry units formed from diverse tribal groups to patrol the Ottoman Empire's eastern borders. These fierce riders acted as a paramilitary force directly under the Sultan’s personal command to maintain control over remote provinces.",
-  "eventTitle": "Hamidiye (cavalry)",
-  "description": "Designed to mirror Russian Cossacks, these horsemen were granted near-total legal immunity. This 'license to loot' meant they could seize property and settle blood feuds with zero fear of civilian prosecution, effectively making them a law unto themselves!",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Hamidiye_(cavalry)",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Lynch_Armenia_Hamidiye_cavalry_at_village_of_Gumgum.png/330px-Lynch_Armenia_Hamidiye_cavalry_at_village_of_Gumgum.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-24"
+  "headline": "The Continent-Hopping Amphibian",
+  "context": "Schmidtler's smooth newt is a small, elusive amphibian native to the borderlands between southeastern Europe and northwestern Turkey. It thrives in the region spanning from Greece and Bulgaria across the Bosphorus strait into Anatolia.",
+  "eventTitle": "Schmidtler's smooth newt",
+  "description": "Remarkably, these tiny creatures bridge two continents. By living on both sides of the Bosphorus, they are essentially geographical commuters, physically occupying a unique ecological crossroads that separates Europe from Asia.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Schmidtler's_smooth_newt",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Lissotriton_schmidtleri_distribution.svg/330px-Lissotriton_schmidtleri_distribution.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-25"
 }

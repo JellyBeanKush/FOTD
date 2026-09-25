@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Continent-Hopping Amphibian",
+    "context": "Schmidtler's smooth newt is a small, elusive amphibian native to the borderlands between southeastern Europe and northwestern Turkey. It thrives in the region spanning from Greece and Bulgaria across the Bosphorus strait into Anatolia.",
+    "eventTitle": "Schmidtler's smooth newt",
+    "description": "Remarkably, these tiny creatures bridge two continents. By living on both sides of the Bosphorus, they are essentially geographical commuters, physically occupying a unique ecological crossroads that separates Europe from Asia.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Schmidtler's_smooth_newt",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Lissotriton_schmidtleri_distribution.svg/330px-Lissotriton_schmidtleri_distribution.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-25"
+  },
+  {
     "headline": "The Sultan’s Untouchable Outlaws",
     "context": "The Hamidiye were irregular cavalry units formed from diverse tribal groups to patrol the Ottoman Empire's eastern borders. These fierce riders acted as a paramilitary force directly under the Sultan’s personal command to maintain control over remote provinces.",
     "eventTitle": "Hamidiye (cavalry)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Governor's_House%2C_Knutsford",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Around_Knutsford_%2816%29_-_geograph.org.uk_-_7104156.jpg/330px-Around_Knutsford_%2816%29_-_geograph.org.uk_-_7104156.jpg",
     "generatedDate": "2026-06-16"
-  },
-  {
-    "headline": "Olympian’s Unexpected Secret Talent",
-    "context": "Leon Taylor is a celebrated British diver who reached the pinnacle of his sport by winning a silver medal at the Athens Olympic Games. Beyond the pool, he has built a multifaceted career as an executive coach, mental wellness advocate, and BBC commentator.",
-    "eventTitle": "Leon Taylor",
-    "description": "While known for defying gravity in the water, Taylor actually became a certified yoga instructor to save his own career. He credits this rigorous practice with healing the chronic back injuries that nearly forced his early retirement from high-level professional diving.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Leon_Taylor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Leon-Taylor-presenting-June-2019.jpg/330px-Leon-Taylor-presenting-June-2019.jpg",
-    "generatedDate": "2026-06-15"
   }
 ]
