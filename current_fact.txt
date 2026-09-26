@@ -1,9 +1,9 @@
 {
-  "headline": "The Continent-Hopping Amphibian",
-  "context": "Schmidtler's smooth newt is a small, elusive amphibian native to the borderlands between southeastern Europe and northwestern Turkey. It thrives in the region spanning from Greece and Bulgaria across the Bosphorus strait into Anatolia.",
-  "eventTitle": "Schmidtler's smooth newt",
-  "description": "Remarkably, these tiny creatures bridge two continents. By living on both sides of the Bosphorus, they are essentially geographical commuters, physically occupying a unique ecological crossroads that separates Europe from Asia.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Schmidtler's_smooth_newt",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Lissotriton_schmidtleri_distribution.svg/330px-Lissotriton_schmidtleri_distribution.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-25"
+  "headline": "Rock's Ultimate Session Secret",
+  "context": "Chris Frazier is a high-profile American session drummer who has anchored the rhythm sections for some of the biggest names in hard rock and heavy metal history.",
+  "eventTitle": "Chris Frazier",
+  "description": "Before he became a rock icon, Frazier was essentially a human metronome for the virtuoso world, transitioning seamlessly from the chaotic, complex shredding of Steve Vai to the polished, massive stadium sound of Whitesnake without missing a single beat.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Chris_Frazier",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Chris_Frazier.jpg/330px-Chris_Frazier.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-26"
 }
