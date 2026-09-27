@@ -1,9 +1,9 @@
 {
-  "headline": "Rock's Ultimate Session Secret",
-  "context": "Chris Frazier is a high-profile American session drummer who has anchored the rhythm sections for some of the biggest names in hard rock and heavy metal history.",
-  "eventTitle": "Chris Frazier",
-  "description": "Before he became a rock icon, Frazier was essentially a human metronome for the virtuoso world, transitioning seamlessly from the chaotic, complex shredding of Steve Vai to the polished, massive stadium sound of Whitesnake without missing a single beat.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Chris_Frazier",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Chris_Frazier.jpg/330px-Chris_Frazier.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-26"
+  "headline": "Aural Espionage Realism",
+  "context": "The Silent War is a Hong Kong-Chinese espionage thriller following a blind piano tuner with superhuman hearing who is recruited by a secret government agency to hunt enemy radio signals. It is based on the novel Plot Against by author Mai Jia.",
+  "eventTitle": "The Silent War (2012 film)",
+  "description": "To prepare for the lead role, Tony Leung Chiu-wai famously spent months training with a blind mentor, eventually mastering the ability to navigate complex sets and interact with props using only his remaining senses to maintain total authenticity.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/The_Silent_War_(2012_film)",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Silent_War_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-09-27"
 }
