@@ -1,9 +1,9 @@
 {
-  "headline": "Aural Espionage Realism",
-  "context": "The Silent War is a Hong Kong-Chinese espionage thriller following a blind piano tuner with superhuman hearing who is recruited by a secret government agency to hunt enemy radio signals. It is based on the novel Plot Against by author Mai Jia.",
-  "eventTitle": "The Silent War (2012 film)",
-  "description": "To prepare for the lead role, Tony Leung Chiu-wai famously spent months training with a blind mentor, eventually mastering the ability to navigate complex sets and interact with props using only his remaining senses to maintain total authenticity.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/The_Silent_War_(2012_film)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Silent_War_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-09-27"
+  "headline": "Pioneering Digital Life Simulators",
+  "context": "Demetri Terzopoulos is a renowned computer scientist and UCLA professor who leads the field in computer graphics, specifically focusing on how virtual objects can mimic physical reality.",
+  "eventTitle": "Demetri Terzopoulos",
+  "description": "He didn't just study graphics; he created 'artificial fishes' that possess their own autonomous brains, allowing them to swim, hunt, and socialize in virtual oceans. His work fundamentally changed how movies and simulations handle complex, realistic motion in computer-generated imagery.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Demetri_Terzopoulos",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Professor_Demetri_Terzopoulos_FRS.jpg/330px-Professor_Demetri_Terzopoulos_FRS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-29"
 }

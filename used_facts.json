@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Pioneering Digital Life Simulators",
+    "context": "Demetri Terzopoulos is a renowned computer scientist and UCLA professor who leads the field in computer graphics, specifically focusing on how virtual objects can mimic physical reality.",
+    "eventTitle": "Demetri Terzopoulos",
+    "description": "He didn't just study graphics; he created 'artificial fishes' that possess their own autonomous brains, allowing them to swim, hunt, and socialize in virtual oceans. His work fundamentally changed how movies and simulations handle complex, realistic motion in computer-generated imagery.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Demetri_Terzopoulos",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Professor_Demetri_Terzopoulos_FRS.jpg/330px-Professor_Demetri_Terzopoulos_FRS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-29"
+  },
+  {
     "headline": "Aural Espionage Realism",
     "context": "The Silent War is a Hong Kong-Chinese espionage thriller following a blind piano tuner with superhuman hearing who is recruited by a secret government agency to hunt enemy radio signals. It is based on the novel Plot Against by author Mai Jia.",
     "eventTitle": "The Silent War (2012 film)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ward_Brothers'_House_and_Shop",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ward_Brothers%27_Home_%2821628648495%29.jpg/330px-Ward_Brothers%27_Home_%2821628648495%29.jpg",
     "generatedDate": "2026-06-19"
-  },
-  {
-    "headline": "The Body's Fatal Betrayal",
-    "context": "An amniotic fluid embolism is a rare and catastrophic medical emergency during childbirth where fetal cells enter the mother's circulatory system. This triggers a sudden, violent immune system attack that can collapse the heart and lungs in seconds.",
-    "eventTitle": "Amniotic fluid embolism",
-    "description": "It is so mysterious that doctors still debate if it’s an actual blockage or a massive allergic reaction. Some research suggests the body perceives the fluid as a foreign invader, essentially launching a lethal autoimmune civil war against its own biology.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Amniotic_fluid_embolism",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Amniotic_fluid_embolism.jpg/330px-Amniotic_fluid_embolism.jpg",
-    "generatedDate": "2026-06-18"
   }
 ]
