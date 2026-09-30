@@ -1,9 +1,9 @@
 {
-  "headline": "Pioneering Digital Life Simulators",
-  "context": "Demetri Terzopoulos is a renowned computer scientist and UCLA professor who leads the field in computer graphics, specifically focusing on how virtual objects can mimic physical reality.",
-  "eventTitle": "Demetri Terzopoulos",
-  "description": "He didn't just study graphics; he created 'artificial fishes' that possess their own autonomous brains, allowing them to swim, hunt, and socialize in virtual oceans. His work fundamentally changed how movies and simulations handle complex, realistic motion in computer-generated imagery.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Demetri_Terzopoulos",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Professor_Demetri_Terzopoulos_FRS.jpg/330px-Professor_Demetri_Terzopoulos_FRS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-29"
+  "headline": "Island's Vaccine Diplomacy Shift",
+  "context": "COVID-19 vaccination in Sri Lanka was the massive national effort to immunize the island nation's population against the global coronavirus pandemic.",
+  "eventTitle": "COVID-19 vaccination in Sri Lanka",
+  "description": "While many nations struggled with supply chains, Sri Lanka pivoted aggressively to secure Sinopharm as their primary shield, eventually relying on it for nearly four-fifths of their entire vaccine stockpile to stabilize the country.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Sri_Lanka",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg/330px-The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-09-30"
 }

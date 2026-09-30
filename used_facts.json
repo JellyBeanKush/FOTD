@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Island's Vaccine Diplomacy Shift",
+    "context": "COVID-19 vaccination in Sri Lanka was the massive national effort to immunize the island nation's population against the global coronavirus pandemic.",
+    "eventTitle": "COVID-19 vaccination in Sri Lanka",
+    "description": "While many nations struggled with supply chains, Sri Lanka pivoted aggressively to secure Sinopharm as their primary shield, eventually relying on it for nearly four-fifths of their entire vaccine stockpile to stabilize the country.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Sri_Lanka",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg/330px-The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-09-30"
+  },
+  {
     "headline": "Pioneering Digital Life Simulators",
     "context": "Demetri Terzopoulos is a renowned computer scientist and UCLA professor who leads the field in computer graphics, specifically focusing on how virtual objects can mimic physical reality.",
     "eventTitle": "Demetri Terzopoulos",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Warren_County%2C_New_Jersey",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Delaware_Water_Gap.jpg/330px-Delaware_Water_Gap.jpg",
     "generatedDate": "2026-06-20"
-  },
-  {
-    "headline": "Masterpieces from a Barbershop",
-    "context": "The Ward Brothers' House and Shop in Crisfield, Maryland, was the modest base of operations for Lem and Steve Ward, two brothers who revolutionized American wildlife art.",
-    "eventTitle": "Ward Brothers' House and Shop",
-    "description": "While running their local barbershop, the brothers carved intricate, life-like bird decoys between haircuts. These folk-art carvings evolved from simple hunting tools into high-end collector items that now fetch hundreds of thousands of dollars at world-class auctions.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Ward_Brothers'_House_and_Shop",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ward_Brothers%27_Home_%2821628648495%29.jpg/330px-Ward_Brothers%27_Home_%2821628648495%29.jpg",
-    "generatedDate": "2026-06-19"
   }
 ]
