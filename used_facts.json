@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Ancient Ties Beyond Borders",
+    "context": "Indonesia and South Korea are two major Asian nations that currently act as key diplomatic and economic partners within global forums like the G-20. Despite their geographical distance, these countries have cultivated a deep connection through trade, culture, and shared middle-power goals.",
+    "eventTitle": "Indonesia–South Korea relations",
+    "description": "The first major contact occurred centuries ago when a Chinese merchant from Indonesia, Chen Yanxiang, traveled to Korea to facilitate trade, essentially becoming a cross-cultural pioneer long before modern diplomatic treaties ever existed between the two nations.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93South_Korea_relations",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Indonesia_South_Korea_Locator.svg/330px-Indonesia_South_Korea_Locator.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-01"
+  },
+  {
     "headline": "Island's Vaccine Diplomacy Shift",
     "context": "COVID-19 vaccination in Sri Lanka was the massive national effort to immunize the island nation's population against the global coronavirus pandemic.",
     "eventTitle": "COVID-19 vaccination in Sri Lanka",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/2007_al-Askari_mosque_bombing",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Al-Askari_Mosque_2006.jpg/330px-Al-Askari_Mosque_2006.jpg",
     "generatedDate": "2026-06-21"
-  },
-  {
-    "headline": "New Jersey's Secret Canyon",
-    "context": "Warren County is a rural, mountainous region in northwestern New Jersey defined by its dramatic topography along the Delaware River. It serves as a natural gateway between the Garden State and Pennsylvania.",
-    "eventTitle": "Warren County, New Jersey",
-    "description": "The county contains the Delaware Water Gap, a massive, stunning breach in the Appalachian Mountains. It is so geographically significant that it is one of the few places where a river cuts directly through a mountain range rather than flowing around it.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Warren_County%2C_New_Jersey",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Delaware_Water_Gap.jpg/330px-Delaware_Water_Gap.jpg",
-    "generatedDate": "2026-06-20"
   }
 ]

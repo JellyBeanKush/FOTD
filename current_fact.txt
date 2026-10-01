@@ -1,9 +1,9 @@
 {
-  "headline": "Island's Vaccine Diplomacy Shift",
-  "context": "COVID-19 vaccination in Sri Lanka was the massive national effort to immunize the island nation's population against the global coronavirus pandemic.",
-  "eventTitle": "COVID-19 vaccination in Sri Lanka",
-  "description": "While many nations struggled with supply chains, Sri Lanka pivoted aggressively to secure Sinopharm as their primary shield, eventually relying on it for nearly four-fifths of their entire vaccine stockpile to stabilize the country.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Sri_Lanka",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg/330px-The_United_States_Delivers_COVID-19_Vaccine_Doses_to_Sri_Lanka_%2851776533161%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-09-30"
+  "headline": "Ancient Ties Beyond Borders",
+  "context": "Indonesia and South Korea are two major Asian nations that currently act as key diplomatic and economic partners within global forums like the G-20. Despite their geographical distance, these countries have cultivated a deep connection through trade, culture, and shared middle-power goals.",
+  "eventTitle": "Indonesia–South Korea relations",
+  "description": "The first major contact occurred centuries ago when a Chinese merchant from Indonesia, Chen Yanxiang, traveled to Korea to facilitate trade, essentially becoming a cross-cultural pioneer long before modern diplomatic treaties ever existed between the two nations.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93South_Korea_relations",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Indonesia_South_Korea_Locator.svg/330px-Indonesia_South_Korea_Locator.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-01"
 }
