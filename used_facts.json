@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Nobility In A Name",
+    "context": "Adeline is a classic feminine name of German origin that literally translates to 'noble.' It was brought to England by the Normans and shares deep etymological roots with names like Adelaide.",
+    "eventTitle": "Adeline (given name)",
+    "description": "The name is a linguistic shapeshifter; while it sounds distinctly elegant, it is the direct ancestor of the nickname 'Ada,' which became immortalized in computer science because Ada Lovelace used it to describe her pioneering work on the world's first algorithm.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Adeline_(given_name)",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Adeline%2C_Countess_of_Cardigan_and_Lancastre_1858.png/330px-Adeline%2C_Countess_of_Cardigan_and_Lancastre_1858.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-02"
+  },
+  {
     "headline": "Ancient Ties Beyond Borders",
     "context": "Indonesia and South Korea are two major Asian nations that currently act as key diplomatic and economic partners within global forums like the G-20. Despite their geographical distance, these countries have cultivated a deep connection through trade, culture, and shared middle-power goals.",
     "eventTitle": "Indonesia–South Korea relations",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Play_It_Again%2C_Sam_(play)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Meirav_Shirom_in_Play_it_again_sam.jpg/330px-Meirav_Shirom_in_Play_it_again_sam.jpg",
     "generatedDate": "2026-06-22"
-  },
-  {
-    "headline": "Shattering Silent Sentinels",
-    "context": "The al-Askari Mosque in Samarra, Iraq, is one of the holiest sites in Shia Islam. A major bombing targeted this historic shrine, leading to the dramatic collapse of its towering minarets.",
-    "eventTitle": "2007 al-Askari mosque bombing",
-    "description": "Remarkably, despite the total destruction of the two iconic ten-story minarets, the attack resulted in zero casualties. The structural collapse was so precise that it turned these massive, ancient architectural landmarks into rubble without harming a single person nearby.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/2007_al-Askari_mosque_bombing",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Al-Askari_Mosque_2006.jpg/330px-Al-Askari_Mosque_2006.jpg",
-    "generatedDate": "2026-06-21"
   }
 ]
