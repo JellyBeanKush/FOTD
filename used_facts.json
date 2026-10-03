@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Ocean's Heaviest Grump",
+    "context": "The Pacuma toadfish is a massive, bottom-dwelling predator found lurking in the coastal waters of the Caribbean and South America. As the largest of its kind, this ambush hunter spends its time camouflaged in the sand waiting for unsuspecting prey.",
+    "eventTitle": "Pacuma toadfish",
+    "description": "These fish are world-class vocalists that communicate by rapidly vibrating their swim bladders. They produce a haunting, foghorn-like hum that is so loud it can actually be heard by people standing on the shore above the water.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pacuma_toadfish",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Batrachoides_surinamensis.jpg/330px-Batrachoides_surinamensis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-03"
+  },
+  {
     "headline": "Nobility In A Name",
     "context": "Adeline is a classic feminine name of German origin that literally translates to 'noble.' It was brought to England by the Normans and shares deep etymological roots with names like Adelaide.",
     "eventTitle": "Adeline (given name)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Muscovite_War_(1487%E2%80%931494)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VKL-1462-ru.png/330px-VKL-1462-ru.png",
     "generatedDate": "2026-06-23"
-  },
-  {
-    "headline": "Bogart's Ghostly Broadway Debut",
-    "context": "Written by and starring Woody Allen, this 1969 Broadway production follows a neurotic film critic who seeks romantic advice from the hallucinatory, cigar-chomping spirit of Humphrey Bogart.",
-    "eventTitle": "Play It Again, Sam (play)",
-    "description": "The play features the hallucinated Bogart constantly critiquing the protagonist’s life. Interestingly, Allen famously never actually says the iconic line 'Play it again, Sam' in either the original play or the subsequent film adaptation.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Play_It_Again%2C_Sam_(play)",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Meirav_Shirom_in_Play_it_again_sam.jpg/330px-Meirav_Shirom_in_Play_it_again_sam.jpg",
-    "generatedDate": "2026-06-22"
   }
 ]
