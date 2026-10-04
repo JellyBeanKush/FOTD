@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Earth's Silent Spinning Navigator",
+    "context": "A gyrocompass is a sophisticated navigation tool used on ships that finds true north by utilizing the Earth's rotation rather than magnetism. Unlike a standard compass that can be tricked by metal hulls, it uses a high-speed spinning disc to align itself with the globe's axis.",
+    "eventTitle": "Gyrocompass",
+    "description": "Because gyrocompasses rely on Earth’s rotation, they technically stop working if you place them at either of the Earth's geographic poles. At the exact axis point, the device loses its ability to sense the planet's rotation, rendering the instrument useless.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gyrocompass",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Kreiselkompass_Schnitt_Ansch%C3%BCtz.jpg/330px-Kreiselkompass_Schnitt_Ansch%C3%BCtz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-04"
+  },
+  {
     "headline": "The Ocean's Heaviest Grump",
     "context": "The Pacuma toadfish is a massive, bottom-dwelling predator found lurking in the coastal waters of the Caribbean and South America. As the largest of its kind, this ambush hunter spends its time camouflaged in the sand waiting for unsuspecting prey.",
     "eventTitle": "Pacuma toadfish",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/School_of_Kinesiology",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg/330px-Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg",
     "generatedDate": "2026-06-24"
-  },
-  {
-    "headline": "A Forgotten Border War",
-    "context": "This conflict was a territorial struggle between the Grand Duchy of Lithuania and the rising Principality of Moscow over control of borderlands and key regional influence.",
-    "eventTitle": "Lithuanian–Muscovite War (1487–1494)",
-    "description": "It featured a bizarre geopolitical crossover: the Christian-led Lithuanians fought alongside the crumbling Golden Horde against a Moscow-Crimean Khanate alliance, essentially pitting nomadic legacy powers against one another in a desperate bid to reshape the map of Eastern Europe.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Muscovite_War_(1487%E2%80%931494)",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VKL-1462-ru.png/330px-VKL-1462-ru.png",
-    "generatedDate": "2026-06-23"
   }
 ]
