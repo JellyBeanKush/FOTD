@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Elvis’s Final Ghostly Performance",
+    "context": "Elvis in Concert is a live album capturing the final performances of rock and roll icon Elvis Presley. It serves as the official soundtrack to a television special filmed shortly before his passing.",
+    "eventTitle": "Elvis in Concert (album)",
+    "description": "During the filming, Elvis was so visibly frail and struggling that the production team reportedly considered canceling the project entirely. He famously struggled to remember lyrics to his own songs, a haunting preview of his declining health captured on record.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elvis_in_Concert_(album)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Elvis_Presley_Elvis_In_Concert_LP_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-10-05"
+  },
+  {
     "headline": "Earth's Silent Spinning Navigator",
     "context": "A gyrocompass is a sophisticated navigation tool used on ships that finds true north by utilizing the Earth's rotation rather than magnetism. Unlike a standard compass that can be tricked by metal hulls, it uses a high-speed spinning disc to align itself with the globe's axis.",
     "eventTitle": "Gyrocompass",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Bloomeria_clevelandii",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/San_Diego_goldenstar_imported_from_iNaturalist_photo_122894976_on_14_March_2024.jpg/330px-San_Diego_goldenstar_imported_from_iNaturalist_photo_122894976_on_14_March_2024.jpg",
     "generatedDate": "2026-06-25"
-  },
-  {
-    "headline": "Science Behind The Sweat",
-    "context": "The School of Kinesiology at the University of Michigan is a specialized research hub in Ann Arbor dedicated to the study of human movement, exercise physiology, and athletic performance.",
-    "eventTitle": "School of Kinesiology",
-    "description": "It wasn't just built for sports; the school actually pioneered research into 'biomechanical efficiency,' using high-speed motion capture to map how humans move. They essentially turned the human body into a complex biological machine to unlock athletic secrets.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/School_of_Kinesiology",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg/330px-Edward_Henry_Kraus_Building%2C_University_of_Michigan%2C_University_Avenue%2C_Ann_Arbor%2C_MI.jpg",
-    "generatedDate": "2026-06-24"
   }
 ]
