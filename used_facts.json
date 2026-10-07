@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Protest Music Transcends Politics",
+    "context": "The 'Not in Our Name CD' is a collaborative album featuring diverse artists, including musicians and poets, who united to protest the Iraq War. It was born out of a grassroots social media movement and produced in London and Manchester studios.",
+    "eventTitle": "Not in Our Name CD",
+    "description": "It is bizarrely rare for a Facebook group to spawn a professional music compilation, but this project successfully bridged the gap between digital activism and high-fidelity art, proving that online outrage can effectively evolve into a formal, multi-genre concert record.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Not_in_Our_Name_CD",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/57/Not-in-our-name-cd-cover.jpg/330px-Not-in-our-name-cd-cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-07"
+  },
+  {
     "headline": "Elvis’s Final Ghostly Performance",
     "context": "Elvis in Concert is a live album capturing the final performances of rock and roll icon Elvis Presley. It serves as the official soundtrack to a television special filmed shortly before his passing.",
     "eventTitle": "Elvis in Concert (album)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ministry_for_Europe_and_Foreign_Affairs_(France)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Minist%C3%A8re_de_l%27Europe_et_des_Affaires_%C3%89trang%C3%A8res.svg/330px-Minist%C3%A8re_de_l%27Europe_et_des_Affaires_%C3%89trang%C3%A8res.svg.png",
     "generatedDate": "2026-06-26"
-  },
-  {
-    "headline": "The Great Genetic Imposter",
-    "context": "The San Diego goldenstar is a rare, vibrant wildflower found exclusively in a tiny strip of coastal grassland between Southern California and Mexico.",
-    "eventTitle": "Bloomeria clevelandii",
-    "description": "Despite looking identical to its cousins, genetic analysis revealed this flower was a total imposter. It spent decades classified under the genus 'Muilla'—which is 'Allium' spelled backwards—before scientists realized it was a completely different evolutionary lineage!",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Bloomeria_clevelandii",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/San_Diego_goldenstar_imported_from_iNaturalist_photo_122894976_on_14_March_2024.jpg/330px-San_Diego_goldenstar_imported_from_iNaturalist_photo_122894976_on_14_March_2024.jpg",
-    "generatedDate": "2026-06-25"
   }
 ]

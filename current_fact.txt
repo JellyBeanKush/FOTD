@@ -1,9 +1,9 @@
 {
-  "headline": "Elvis’s Final Ghostly Performance",
-  "context": "Elvis in Concert is a live album capturing the final performances of rock and roll icon Elvis Presley. It serves as the official soundtrack to a television special filmed shortly before his passing.",
-  "eventTitle": "Elvis in Concert (album)",
-  "description": "During the filming, Elvis was so visibly frail and struggling that the production team reportedly considered canceling the project entirely. He famously struggled to remember lyrics to his own songs, a haunting preview of his declining health captured on record.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Elvis_in_Concert_(album)",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Elvis_Presley_Elvis_In_Concert_LP_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-10-05"
+  "headline": "Protest Music Transcends Politics",
+  "context": "The 'Not in Our Name CD' is a collaborative album featuring diverse artists, including musicians and poets, who united to protest the Iraq War. It was born out of a grassroots social media movement and produced in London and Manchester studios.",
+  "eventTitle": "Not in Our Name CD",
+  "description": "It is bizarrely rare for a Facebook group to spawn a professional music compilation, but this project successfully bridged the gap between digital activism and high-fidelity art, proving that online outrage can effectively evolve into a formal, multi-genre concert record.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Not_in_Our_Name_CD",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/57/Not-in-our-name-cd-cover.jpg/330px-Not-in-our-name-cd-cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-07"
 }
