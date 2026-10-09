@@ -1,9 +1,9 @@
 {
-  "headline": "Empowerment Through Local Folklore",
-  "context": "The Movement for the Social Evolution of Black Africa was a grassroots political organization in the Central African Republic that campaigned for independence from French colonial rule.",
-  "eventTitle": "Movement for the Social Evolution of Black Africa",
-  "description": "The party’s founder, Barthélemy Boganda, masterfully used local legends and religious imagery to mobilize rural voters, famously framing the political struggle as a spiritual evolution to bridge the gap between traditional customs and modern governance.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Movement_for_the_Social_Evolution_of_Black_Africa",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_Mesan.svg/330px-Logo_Mesan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-08"
+  "headline": "Glassy Victorian Sugar Sculptures",
+  "context": "Clear toy candy is a traditional Pennsylvania Dutch hard candy, originating from German immigrants, that is cooked to a specific temperature to achieve a translucent, glass-like clarity. These sweets are cast into intricate metal molds, creating delicate, edible figures often displayed as festive decorations.",
+  "eventTitle": "Clear toy candy",
+  "description": "Because the candy is cooked until it is virtually moisture-free, it is incredibly hygroscopic. If you leave these sugar 'toys' out in humid air, they will literally begin to weep and dissolve, turning from a sparkling figure into a sticky, shapeless puddle.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Clear_toy_candy",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Clear_Toy_Candy_CHF-First-Friday-December-2012-038.JPG/330px-Clear_Toy_Candy_CHF-First-Friday-December-2012-038.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-09"
 }
