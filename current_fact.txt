@@ -1,9 +1,9 @@
 {
-  "headline": "The Oil Giant's Downfall",
-  "context": "The Pan American Petroleum and Transport Company was once the world's largest oil firm, founded by tycoon Edward L. Doheny to extract massive reserves across the Americas. It eventually became the backbone of what the world knows as the Amoco brand.",
-  "eventTitle": "Pan American Petroleum and Transport Company",
-  "description": "The company’s founder essentially fueled the Teapot Dome scandal by hand-delivering a \"little black bag\" containing $100,000 in cash to a government official in exchange for exclusive oil rights—a bribe so legendary it became the face of American political corruption.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Pan_American_Petroleum_and_Transport_Company",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_the_Pan-Am_petroleum_company_PAN-GAS.png/330px-Logo_of_the_Pan-Am_petroleum_company_PAN-GAS.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-10"
+  "headline": "Cornwall's Forgotten Apple Magic",
+  "context": "Allantide is a traditional Cornish festival celebrated to honor Saint Allan, featuring deep-rooted folklore that predates modern holiday conventions.",
+  "eventTitle": "Allantide",
+  "description": "It wasn't just about feasting; locals practiced 'divination by apple' using special Allan apples. Unmarried people would place these under their pillows, believing they would dream of their future spouses—a literal form of superstitious matchmaking baked into the festival's history.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Allantide",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/McIntosh.jpg/330px-McIntosh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-11"
 }
