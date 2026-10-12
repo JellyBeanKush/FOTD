@@ -1,9 +1,9 @@
 {
-  "headline": "Cornwall's Forgotten Apple Magic",
-  "context": "Allantide is a traditional Cornish festival celebrated to honor Saint Allan, featuring deep-rooted folklore that predates modern holiday conventions.",
-  "eventTitle": "Allantide",
-  "description": "It wasn't just about feasting; locals practiced 'divination by apple' using special Allan apples. Unmarried people would place these under their pillows, believing they would dream of their future spouses—a literal form of superstitious matchmaking baked into the festival's history.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Allantide",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/McIntosh.jpg/330px-McIntosh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-11"
+  "headline": "The Reluctant Politician Monk",
+  "context": "Nik Abdul Aziz Nik Mat was a legendary Malaysian cleric and long-serving Chief Minister of Kelantan who led the Pan-Malaysian Islamic Party for over two decades.",
+  "eventTitle": "Nik Abdul Aziz Nik Mat",
+  "description": "Despite his immense political power, he famously lived in a modest, simple wooden house in his home village, refusing to move into the official state-provided mansion or accept a chauffeur, choosing to drive his own car instead.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nik_Abdul_Aziz_Nik_Mat",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nik_Aziz_Kelantan_%28cropped_3to4_portrait%29.jpg/330px-Nik_Aziz_Kelantan_%28cropped_3to4_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-12"
 }
