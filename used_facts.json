@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Gold Behind The Altar",
+    "context": "The Dubrovnik Cathedral is a grand Baroque landmark located in the heart of Dubrovnik, Croatia, serving as the central religious hub for the local Diocese. It was constructed to replace older sacred buildings that once occupied this historic Adriatic site.",
+    "eventTitle": "Dubrovnik Cathedral",
+    "description": "Hidden deep inside the cathedral is a collection of over 180 golden reliquaries. Most incredible is the skull, arm, and leg of the city’s patron saint, encased in incredibly ornate, jewel-encrusted gold and silver statues crafted by local medieval masters.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dubrovnik_Cathedral",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cattedrale_di_dubrovnik%2C_ext._01.JPG/330px-Cattedrale_di_dubrovnik%2C_ext._01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-13"
+  },
+  {
     "headline": "The Reluctant Politician Monk",
     "context": "Nik Abdul Aziz Nik Mat was a legendary Malaysian cleric and long-serving Chief Minister of Kelantan who led the Pan-Malaysian Islamic Party for over two decades.",
     "eventTitle": "Nik Abdul Aziz Nik Mat",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/HMS_Nizam",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/HMS_Oracle_%281915%29_IWM_SP_1411.jpg/330px-HMS_Oracle_%281915%29_IWM_SP_1411.jpg",
     "generatedDate": "2026-07-02"
-  },
-  {
-    "headline": "The Lion Khan's Legacy",
-    "context": "Arslan Giray was a powerful ruler of the Crimean Khanate, a historically significant Turkic state based in the Crimean Peninsula. As a member of the Giray dynasty, he played a central role in the shifting political landscape between the Ottoman and Russian empires.",
-    "eventTitle": "Arslan Giray",
-    "description": "While he is best known for his rule, Arslan’s family tree was effectively a dynasty of rulers; he was one of three brothers who each served as Khan, creating a rare fraternal monopoly over the throne that was almost unprecedented.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Arslan_Giray",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Giray_tamga_grayscale.svg/330px-Giray_tamga_grayscale.svg.png",
-    "generatedDate": "2026-07-01"
   }
 ]

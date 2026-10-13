@@ -1,9 +1,9 @@
 {
-  "headline": "The Reluctant Politician Monk",
-  "context": "Nik Abdul Aziz Nik Mat was a legendary Malaysian cleric and long-serving Chief Minister of Kelantan who led the Pan-Malaysian Islamic Party for over two decades.",
-  "eventTitle": "Nik Abdul Aziz Nik Mat",
-  "description": "Despite his immense political power, he famously lived in a modest, simple wooden house in his home village, refusing to move into the official state-provided mansion or accept a chauffeur, choosing to drive his own car instead.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Nik_Abdul_Aziz_Nik_Mat",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nik_Aziz_Kelantan_%28cropped_3to4_portrait%29.jpg/330px-Nik_Aziz_Kelantan_%28cropped_3to4_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-12"
+  "headline": "Gold Behind The Altar",
+  "context": "The Dubrovnik Cathedral is a grand Baroque landmark located in the heart of Dubrovnik, Croatia, serving as the central religious hub for the local Diocese. It was constructed to replace older sacred buildings that once occupied this historic Adriatic site.",
+  "eventTitle": "Dubrovnik Cathedral",
+  "description": "Hidden deep inside the cathedral is a collection of over 180 golden reliquaries. Most incredible is the skull, arm, and leg of the city’s patron saint, encased in incredibly ornate, jewel-encrusted gold and silver statues crafted by local medieval masters.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dubrovnik_Cathedral",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cattedrale_di_dubrovnik%2C_ext._01.JPG/330px-Cattedrale_di_dubrovnik%2C_ext._01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-13"
 }
