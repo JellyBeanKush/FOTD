@@ -1,5 +1,14 @@
 [
   {
+    "headline": "The Mistaken Poet Protégé",
+    "context": "Nikolay Popovsky was an influential 18th-century Russian poet and scholar who rose from humble beginnings as a priest’s son to become a key academic protégé of Mikhail Lomonosov.",
+    "eventTitle": "Nikolay Popovsky",
+    "description": "For years, scholars were convinced that a grand ode celebrating a royal fireworks display was a masterpiece by the legendary Lomonosov, only to discover the entire work was actually a translation written by his student, Popovsky.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nikolay_Popovsky",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Nikolay_Popovsky.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-10-14"
+  },
+  {
     "headline": "Gold Behind The Altar",
     "context": "The Dubrovnik Cathedral is a grand Baroque landmark located in the heart of Dubrovnik, Croatia, serving as the central religious hub for the local Diocese. It was constructed to replace older sacred buildings that once occupied this historic Adriatic site.",
     "eventTitle": "Dubrovnik Cathedral",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Hassan_Abshir_Farah",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hassan_Abshir_Farah.jpg",
     "generatedDate": "2026-07-03"
-  },
-  {
-    "headline": "The Silent Sea Ghost",
-    "context": "HMS Nizam was an M-class destroyer built for the British Royal Navy to provide high-speed escort and patrol capabilities during global conflict.",
-    "eventTitle": "HMS Nizam",
-    "description": "Despite being engineered specifically for high-speed warfare and constant patrol, Nizam spent its entire active life avoiding the enemy. It is a rare naval anomaly: a lethal war machine that never fired a single shot at an opposing ship.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/HMS_Nizam",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/HMS_Oracle_%281915%29_IWM_SP_1411.jpg/330px-HMS_Oracle_%281915%29_IWM_SP_1411.jpg",
-    "generatedDate": "2026-07-02"
   }
 ]

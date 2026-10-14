@@ -1,9 +1,9 @@
 {
-  "headline": "Gold Behind The Altar",
-  "context": "The Dubrovnik Cathedral is a grand Baroque landmark located in the heart of Dubrovnik, Croatia, serving as the central religious hub for the local Diocese. It was constructed to replace older sacred buildings that once occupied this historic Adriatic site.",
-  "eventTitle": "Dubrovnik Cathedral",
-  "description": "Hidden deep inside the cathedral is a collection of over 180 golden reliquaries. Most incredible is the skull, arm, and leg of the city’s patron saint, encased in incredibly ornate, jewel-encrusted gold and silver statues crafted by local medieval masters.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Dubrovnik_Cathedral",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cattedrale_di_dubrovnik%2C_ext._01.JPG/330px-Cattedrale_di_dubrovnik%2C_ext._01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-13"
+  "headline": "The Mistaken Poet Protégé",
+  "context": "Nikolay Popovsky was an influential 18th-century Russian poet and scholar who rose from humble beginnings as a priest’s son to become a key academic protégé of Mikhail Lomonosov.",
+  "eventTitle": "Nikolay Popovsky",
+  "description": "For years, scholars were convinced that a grand ode celebrating a royal fireworks display was a masterpiece by the legendary Lomonosov, only to discover the entire work was actually a translation written by his student, Popovsky.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nikolay_Popovsky",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Nikolay_Popovsky.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-10-14"
 }
