@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A Vertical Tech Hub",
+    "context": "The HITEC City metro station is a high-altitude transit node on the Hyderabad Metro Blue Line in India that serves as a vital gateway to the region's bustling information technology corridor.",
+    "eventTitle": "HITEC City metro station",
+    "description": "It functions like an elevated city unto itself; the structure is essentially a vertical mall, featuring a specialized 'e-Galleria' electronics center and a dedicated skywalk that physically fuses the transit station directly into a massive commercial shopping complex.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/HITEC_City_metro_station",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Hitecmetro.jpg/330px-Hitecmetro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-15"
+  },
+  {
     "headline": "The Mistaken Poet Protégé",
     "context": "Nikolay Popovsky was an influential 18th-century Russian poet and scholar who rose from humble beginnings as a priest’s son to become a key academic protégé of Mikhail Lomonosov.",
     "eventTitle": "Nikolay Popovsky",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ethmia_randyjonesi",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ethmia_randyjonesi.jpg/330px-Ethmia_randyjonesi.jpg",
     "generatedDate": "2026-07-04"
-  },
-  {
-    "headline": "Somalia's Diplomatic Marathon Man",
-    "context": "Hassan Abshir Farah was a prominent Somali politician who navigated the country's turbulent political landscape, serving as Prime Minister of the Transitional National Government and as Mayor of Mogadishu.",
-    "eventTitle": "Hassan Abshir Farah",
-    "description": "Before rising to national leadership, Farah spent years as a high-ranking intelligence officer, effectively bridging the gap between underground security operations and the highest echelons of civilian diplomacy during one of Somalia's most fragmented political eras.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hassan_Abshir_Farah",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hassan_Abshir_Farah.jpg",
-    "generatedDate": "2026-07-03"
   }
 ]
