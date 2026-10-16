@@ -1,9 +1,9 @@
 {
-  "headline": "A Vertical Tech Hub",
-  "context": "The HITEC City metro station is a high-altitude transit node on the Hyderabad Metro Blue Line in India that serves as a vital gateway to the region's bustling information technology corridor.",
-  "eventTitle": "HITEC City metro station",
-  "description": "It functions like an elevated city unto itself; the structure is essentially a vertical mall, featuring a specialized 'e-Galleria' electronics center and a dedicated skywalk that physically fuses the transit station directly into a massive commercial shopping complex.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/HITEC_City_metro_station",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Hitecmetro.jpg/330px-Hitecmetro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-15"
+  "headline": "Hidden Architectural Time Capsule",
+  "context": "The Henry P. Fennern House is a historic residence located in Davenport, Iowa, built by a wholesale grocery shipper at the turn of the century.",
+  "eventTitle": "Henry P. Fennern House",
+  "description": "While its exterior now hides behind later additions, the house remains a masterclass in texture; it features a unique front gable that layers three distinct types of shingles around a window set in complex, curved reveals.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Henry_P._Fennern_House",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Henry_P._Fennern_House.JPG/330px-Henry_P._Fennern_House.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-16"
 }
