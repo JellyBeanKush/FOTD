@@ -1,9 +1,9 @@
 {
-  "headline": "Hidden Architectural Time Capsule",
-  "context": "The Henry P. Fennern House is a historic residence located in Davenport, Iowa, built by a wholesale grocery shipper at the turn of the century.",
-  "eventTitle": "Henry P. Fennern House",
-  "description": "While its exterior now hides behind later additions, the house remains a masterclass in texture; it features a unique front gable that layers three distinct types of shingles around a window set in complex, curved reveals.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Henry_P._Fennern_House",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Henry_P._Fennern_House.JPG/330px-Henry_P._Fennern_House.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-16"
+  "headline": "Seychelles' Predatory Culinary Staple",
+  "context": "Shark chutney is a traditional delicacy from the Seychelles Islands. This savory dish is prepared by boiling and mashing shark meat, then blending it with bilimbi juice, lime, and aromatic spices.",
+  "eventTitle": "Shark chutney",
+  "description": "While most chutneys are fruit-based condiments, this dish is a full-bodied main course. The secret lies in the bilimbi, an intensely sour fruit that neutralizes the shark’s natural ammonia scent, creating a complex, tangy flavor profile.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Shark_chutney",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/SeychellesSharkChutney.JPG/330px-SeychellesSharkChutney.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-17"
 }

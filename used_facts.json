@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Seychelles' Predatory Culinary Staple",
+    "context": "Shark chutney is a traditional delicacy from the Seychelles Islands. This savory dish is prepared by boiling and mashing shark meat, then blending it with bilimbi juice, lime, and aromatic spices.",
+    "eventTitle": "Shark chutney",
+    "description": "While most chutneys are fruit-based condiments, this dish is a full-bodied main course. The secret lies in the bilimbi, an intensely sour fruit that neutralizes the shark’s natural ammonia scent, creating a complex, tangy flavor profile.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shark_chutney",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/SeychellesSharkChutney.JPG/330px-SeychellesSharkChutney.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-17"
+  },
+  {
     "headline": "Hidden Architectural Time Capsule",
     "context": "The Henry P. Fennern House is a historic residence located in Davenport, Iowa, built by a wholesale grocery shipper at the turn of the century.",
     "eventTitle": "Henry P. Fennern House",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Heterochromia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cuando_el_color_llama_la_atenci%C3%B3n.JPG/330px-Cuando_el_color_llama_la_atenci%C3%B3n.JPG",
     "generatedDate": "2026-07-06"
-  },
-  {
-    "headline": "Olympian and Secret Polymath",
-    "context": "Eino Soinio was a legendary Finnish football pioneer who represented his country on the global stage during the 1912 Summer Olympics. He served as a cornerstone of the Finnish national team for over a decade, helping define the early era of the sport in the region.",
-    "eventTitle": "Eino Soinio",
-    "description": "Beyond the pitch, Soinio was a true Renaissance man; he wasn't just a star athlete, but a professional gymnast and a highly respected architect who helped design several iconic buildings in Helsinki, proving he could master both the goal net and the blueprint.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Eino_Soinio",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Eino_Soinio.jpg/330px-Eino_Soinio.jpg",
-    "generatedDate": "2026-07-05"
   }
 ]
