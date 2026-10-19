@@ -1,9 +1,9 @@
 {
-  "headline": "India’s Animated Pioneer",
-  "context": "Cartoon Network India is a television channel broadcasting animated content across multiple regional languages to children throughout the Indian subcontinent. It stands as the regional counterpart to the iconic American network.",
-  "eventTitle": "Cartoon Network (India)",
-  "description": "The channel once aired an exclusive, local adaptation of a popular global franchise called 'Roll No 21', which reimagined Hindu deities as students in a boarding school, blending ancient mythology with modern school-life tropes in a way seen nowhere else.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Cartoon_Network_(India)",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/330px-Cartoon_Network_2010_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-18"
+  "headline": "Poland's Theatrical Rock Titans",
+  "context": "Coma was a highly influential Polish rock band hailing from Łódź that blended alternative rock with poetic, narrative-driven lyrics. They dominated the Polish music scene for years with their intense, emotionally charged performances.",
+  "eventTitle": "Coma (band)",
+  "description": "Their frontman, Piotr Rogucki, didn't just sing; he was a trained actor who treated every concert like a dark, surreal theatrical play, often performing in elaborate costumes and masks that made the audience feel like they were inside a fever dream.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Coma_(band)",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Coma_-_Piotr_Rogucki_04.JPG/330px-Coma_-_Piotr_Rogucki_04.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-19"
 }

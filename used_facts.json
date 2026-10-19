@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Poland's Theatrical Rock Titans",
+    "context": "Coma was a highly influential Polish rock band hailing from Łódź that blended alternative rock with poetic, narrative-driven lyrics. They dominated the Polish music scene for years with their intense, emotionally charged performances.",
+    "eventTitle": "Coma (band)",
+    "description": "Their frontman, Piotr Rogucki, didn't just sing; he was a trained actor who treated every concert like a dark, surreal theatrical play, often performing in elaborate costumes and masks that made the audience feel like they were inside a fever dream.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coma_(band)",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Coma_-_Piotr_Rogucki_04.JPG/330px-Coma_-_Piotr_Rogucki_04.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-10-19"
+  },
+  {
     "headline": "India’s Animated Pioneer",
     "context": "Cartoon Network India is a television channel broadcasting animated content across multiple regional languages to children throughout the Indian subcontinent. It stands as the regional counterpart to the iconic American network.",
     "eventTitle": "Cartoon Network (India)",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Baidu",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg/330px-Baidu_Technology_Park_at_ZPark_Phase_II_%2820220502113650%29.jpg",
     "generatedDate": "2026-07-08"
-  },
-  {
-    "headline": "Junior Hockey's Hidden Tiers",
-    "context": "This tournament serves as the secondary and tertiary levels of the global under-20 ice hockey hierarchy, determining which nations move up or down in the International Ice Hockey Federation's rankings.",
-    "eventTitle": "2014 World Junior Ice Hockey Championships – Division I",
-    "description": "While elite powers grab headlines, the Division I tournament featured a bizarrely lopsided result where Kazakhstan utterly dismantled the field, finishing with a perfect record and a staggering plus-21 goal differential to earn their promotion.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/2014_World_Junior_Ice_Hockey_Championships_%E2%80%93_Division_I",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/2014_World_Junior_Ice_Hockey_Championships_%E2%80%93_Division_I.png",
-    "generatedDate": "2026-07-07"
   }
 ]
