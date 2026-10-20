@@ -1,9 +1,9 @@
 {
-  "headline": "Poland's Theatrical Rock Titans",
-  "context": "Coma was a highly influential Polish rock band hailing from Łódź that blended alternative rock with poetic, narrative-driven lyrics. They dominated the Polish music scene for years with their intense, emotionally charged performances.",
-  "eventTitle": "Coma (band)",
-  "description": "Their frontman, Piotr Rogucki, didn't just sing; he was a trained actor who treated every concert like a dark, surreal theatrical play, often performing in elaborate costumes and masks that made the audience feel like they were inside a fever dream.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Coma_(band)",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Coma_-_Piotr_Rogucki_04.JPG/330px-Coma_-_Piotr_Rogucki_04.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-10-19"
+  "headline": "From Duos to Dynasties",
+  "context": "Rikako Fukase is a versatile Japanese-Canadian skater who achieved international success representing Japan in elite ice dancing.",
+  "eventTitle": "Rikako Fukase",
+  "description": "Beyond her ice dance medals, she pulled off a stunning discipline swap by moving to Canada to join the world-renowned Nexxice synchronized skating team, shifting from intimate partner routines to the complex, high-speed geometry of sixteen-person formations.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Rikako_Fukase",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Rikako_Fukase_and_Aru_Tateno_at_the_2018_Four_Continents_Championships_-_SD.jpg/330px-Rikako_Fukase_and_Aru_Tateno_at_the_2018_Four_Continents_Championships_-_SD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-10-20"
 }
