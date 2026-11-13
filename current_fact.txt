@@ -1,9 +1,9 @@
 {
-  "headline": "Spain's Literary Wild Card",
-  "context": "The Fernando Lara Novel Award is a prestigious annual Spanish literary prize presented by the Planeta publishing house and the José Manuel Lara Foundation. It celebrates unpublished works of fiction written in Spanish.",
-  "eventTitle": "Fernando Lara Novel Award",
-  "description": "While most literary prizes strictly honor the winner, this award creates a bizarre limbo for the runner-up: there is zero obligation to publish their work, essentially leaving the second-best book of the year in a ghost-state of perpetual obscurity.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Fernando_Lara_Novel_Award",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Antonio_Garrido_Ganador_Fernando_Lara_Novela_2015.jpg/330px-Antonio_Garrido_Ganador_Fernando_Lara_Novela_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-12"
+  "headline": "China's Silicon Giant",
+  "context": "Tsinghua Unigroup is a massive Beijing-based technology conglomerate owned by the Chinese state that dominates the semiconductor and digital infrastructure sectors. It operates as the parent company for major hardware entities like UNISOC, which designs chips powering millions of mobile phones globally.",
+  "eventTitle": "Tsinghua Unigroup",
+  "description": "While they are a powerhouse of modern microchips, the company actually sprouted from the prestigious Tsinghua University, functioning originally as a vehicle to commercialize academic research and turn laboratory breakthroughs into the massive industrial hardware that now underpins the global tech supply chain.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Tsinghua_Unigroup",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Beihang_Zhizhen_Tower_%2820240731151727%29.jpg/330px-Beihang_Zhizhen_Tower_%2820240731151727%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-13"
 }

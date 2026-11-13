@@ -1,5 +1,14 @@
 [
   {
+    "headline": "China's Silicon Giant",
+    "context": "Tsinghua Unigroup is a massive Beijing-based technology conglomerate owned by the Chinese state that dominates the semiconductor and digital infrastructure sectors. It operates as the parent company for major hardware entities like UNISOC, which designs chips powering millions of mobile phones globally.",
+    "eventTitle": "Tsinghua Unigroup",
+    "description": "While they are a powerhouse of modern microchips, the company actually sprouted from the prestigious Tsinghua University, functioning originally as a vehicle to commercialize academic research and turn laboratory breakthroughs into the massive industrial hardware that now underpins the global tech supply chain.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tsinghua_Unigroup",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Beihang_Zhizhen_Tower_%2820240731151727%29.jpg/330px-Beihang_Zhizhen_Tower_%2820240731151727%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-11-13"
+  },
+  {
     "headline": "Spain's Literary Wild Card",
     "context": "The Fernando Lara Novel Award is a prestigious annual Spanish literary prize presented by the Planeta publishing house and the José Manuel Lara Foundation. It celebrates unpublished works of fiction written in Spanish.",
     "eventTitle": "Fernando Lara Novel Award",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Puhinui_Reserve",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Puhinui_Craters_2018.jpg/330px-Puhinui_Craters_2018.jpg",
     "generatedDate": "2026-07-11"
-  },
-  {
-    "headline": "A Revengeful Fashion Twist",
-    "context": "Directed by Robert Bresson, this French film is a stylish, modernized update of an 18th-century literary plot centered on a jilted noblewoman’s elaborate scheme to ruin her former lover. It takes place in Paris and focuses on the high-stakes manipulation of social reputation.",
-    "eventTitle": "Les Dames du Bois de Boulogne",
-    "description": "Jean Cocteau wrote the film's dialogue, but Bresson famously forced his actors to deliver their lines in a flat, emotionless monotone. He wanted them to perform like puppets, stripping away all theatricality to let the viewer discover the emotion themselves.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Les_Dames_du_Bois_de_Boulogne",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Lesdamesduboisdeboulogne.png",
-    "generatedDate": "2026-07-10"
   }
 ]
