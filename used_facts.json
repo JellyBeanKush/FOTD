@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A Battlefield Cabin Survivor",
+    "context": "The Hoskins House Historic District is a collection of preserved 18th-century log structures in Greensboro, North Carolina, serving as a landmark site for the American Revolutionary War.",
+    "eventTitle": "Hoskins House Historic District",
+    "description": "This unassuming log cabin served as the direct epicenter for the British Army's initial assault during a major Revolutionary War battle; even while cannon fire tore through the area, the humble wooden dwelling somehow remained standing as a silent witness to history.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hoskins_House_Historic_District",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hoskins_House_%28Greensboro%2C_North_Carolina%29_1.jpg/330px-Hoskins_House_%28Greensboro%2C_North_Carolina%29_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-11-14"
+  },
+  {
     "headline": "China's Silicon Giant",
     "context": "Tsinghua Unigroup is a massive Beijing-based technology conglomerate owned by the Chinese state that dominates the semiconductor and digital infrastructure sectors. It operates as the parent company for major hardware entities like UNISOC, which designs chips powering millions of mobile phones globally.",
     "eventTitle": "Tsinghua Unigroup",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/John_Keegan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/John_Keegan.jpg",
     "generatedDate": "2026-07-12"
-  },
-  {
-    "headline": "Auckland's Secret Volcanic Scars",
-    "context": "Puhinui Reserve is a vast protected landscape in South Auckland that features a working farm and crucial wetlands situated on the edge of the Manukau Harbour. It serves as a historically significant site for local iwi, specifically the Te Ākitai Waiohua and Ngāti Te Ata tribes.",
-    "eventTitle": "Puhinui Reserve",
-    "description": "Hidden within the reserve are the Puhinui Craters, a rare geological curiosity where the land literally collapsed. Unlike standard explosive volcanoes, these craters were formed by unique 'phreatic' eruptions—steam explosions caused by boiling groundwater hitting hot lava trapped beneath the surface.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Puhinui_Reserve",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Puhinui_Craters_2018.jpg/330px-Puhinui_Craters_2018.jpg",
-    "generatedDate": "2026-07-11"
   }
 ]
