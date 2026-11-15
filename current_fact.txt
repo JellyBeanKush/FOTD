@@ -1,9 +1,9 @@
 {
-  "headline": "A Battlefield Cabin Survivor",
-  "context": "The Hoskins House Historic District is a collection of preserved 18th-century log structures in Greensboro, North Carolina, serving as a landmark site for the American Revolutionary War.",
-  "eventTitle": "Hoskins House Historic District",
-  "description": "This unassuming log cabin served as the direct epicenter for the British Army's initial assault during a major Revolutionary War battle; even while cannon fire tore through the area, the humble wooden dwelling somehow remained standing as a silent witness to history.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Hoskins_House_Historic_District",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hoskins_House_%28Greensboro%2C_North_Carolina%29_1.jpg/330px-Hoskins_House_%28Greensboro%2C_North_Carolina%29_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-14"
+  "headline": "Deadly Glassy Poison",
+  "context": "Arsenic pentoxide is a highly toxic, glassy white chemical compound primarily known for being an unstable relative of the more common arsenic trioxide. It is an inorganic substance rarely used in modern industry due to its extreme danger to living organisms.",
+  "eventTitle": "Arsenic pentoxide",
+  "description": "It is so fiercely deliquescent that it literally drinks the air. If left exposed, it rapidly absorbs moisture from the atmosphere until it collapses into a syrupy, concentrated liquid pool of liquid death.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Arsenic_pentoxide",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Arsenic-pentoxide-3D-polyhedra.png/330px-Arsenic-pentoxide-3D-polyhedra.png",
+  "generatedDate": "2026-11-15"
 }
