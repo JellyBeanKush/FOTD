@@ -1,9 +1,9 @@
 {
-  "headline": "Karma's Muscular Parable",
-  "context": "Running on Karma is a Hong Kong action thriller about a bodybuilder who uses his psychic ability to see past-life transgressions to track down criminals. The film serves as a complex Buddhist allegory exploring the inescapable consequences of one's actions.",
-  "eventTitle": "Running on Karma",
-  "description": "To play the hyper-muscular protagonist, Andy Lau wore an elaborate, heavy silicone muscle suit that took hours to apply. The production team had to constantly spray him with water to prevent the suit from melting under the intense film set lights.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Running_on_Karma",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Running_on_Karma.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-11-16"
+  "headline": "Pop's Vulnerable Alchemist",
+  "context": "Perfume Genius is the stage name of American musician Michael Hadreas, a singer-songwriter known for crafting emotionally raw, atmospheric indie-pop that explores themes of identity, illness, and societal struggle.",
+  "eventTitle": "Perfume Genius",
+  "description": "Before achieving acclaim, Hadreas worked as a mortgage clerk in Seattle, using the mundane job as a necessary grounding force while he secretly nurtured the haunting, deeply intimate musical persona that would eventually define his career.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Perfume_Genius",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/AllPointsEastAug2022_%28143_of_385%29_%2852327503550%29_%28cropped%29.jpg/330px-AllPointsEastAug2022_%28143_of_385%29_%2852327503550%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-17"
 }
