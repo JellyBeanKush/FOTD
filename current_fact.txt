@@ -1,9 +1,9 @@
 {
-  "headline": "Pop's Vulnerable Alchemist",
-  "context": "Perfume Genius is the stage name of American musician Michael Hadreas, a singer-songwriter known for crafting emotionally raw, atmospheric indie-pop that explores themes of identity, illness, and societal struggle.",
-  "eventTitle": "Perfume Genius",
-  "description": "Before achieving acclaim, Hadreas worked as a mortgage clerk in Seattle, using the mundane job as a necessary grounding force while he secretly nurtured the haunting, deeply intimate musical persona that would eventually define his career.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Perfume_Genius",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/AllPointsEastAug2022_%28143_of_385%29_%2852327503550%29_%28cropped%29.jpg/330px-AllPointsEastAug2022_%28143_of_385%29_%2852327503550%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-17"
+  "headline": "Vietnam's Secret Tech Hub",
+  "context": "Ho Chi Minh City University of Technology and Engineering is a premier public institution in Vietnam dedicated to training the next generation of engineers and technical experts. Located in the heart of Ho Chi Minh City, it serves as a massive incubator for the nation's burgeoning industrial sector.",
+  "eventTitle": "Ho Chi Minh City University of Technology and Engineering",
+  "description": "While most see a standard technical school, the university is actually a powerhouse of 'do-it-yourself' robotics. Their students have pioneered specialized automated systems that are quietly revolutionizing agricultural processing techniques across rural provinces, often building complex machines from recycled industrial parts.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_University_of_Technology_and_Engineering",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_H%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_K%E1%BB%B9_Thu%E1%BA%ADt_TP_H%E1%BB%93_Ch%C3%AD_Minh.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-11-18"
 }
