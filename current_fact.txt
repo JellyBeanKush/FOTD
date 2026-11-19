@@ -1,9 +1,9 @@
 {
-  "headline": "Vietnam's Secret Tech Hub",
-  "context": "Ho Chi Minh City University of Technology and Engineering is a premier public institution in Vietnam dedicated to training the next generation of engineers and technical experts. Located in the heart of Ho Chi Minh City, it serves as a massive incubator for the nation's burgeoning industrial sector.",
-  "eventTitle": "Ho Chi Minh City University of Technology and Engineering",
-  "description": "While most see a standard technical school, the university is actually a powerhouse of 'do-it-yourself' robotics. Their students have pioneered specialized automated systems that are quietly revolutionizing agricultural processing techniques across rural provinces, often building complex machines from recycled industrial parts.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_University_of_Technology_and_Engineering",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_H%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_K%E1%BB%B9_Thu%E1%BA%ADt_TP_H%E1%BB%93_Ch%C3%AD_Minh.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-11-18"
+  "headline": "Sendai's Hidden Titan",
+  "context": "Kamei Arena Sendai is a major indoor sports facility located in Sendai, Miyagi Prefecture, Japan, known for hosting international basketball tournaments and serving as the primary home for the Sendai 89ers.",
+  "eventTitle": "Kamei Arena Sendai",
+  "description": "While known for basketball, the arena features a specialized, massive 'Main Arena' floor that can be completely partitioned. This allows the venue to transform into an acoustic powerhouse for massive indoor events while simultaneously hosting professional athletic training in adjacent wings.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kamei_Arena_Sendai",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Kamei_Arena_Sendai.jpg/330px-Kamei_Arena_Sendai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-19"
 }
