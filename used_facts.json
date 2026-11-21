@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Your First Virtual Roommate",
+    "context": "Little Computer People is a pioneering social simulation game where players inhabit a house on their screen, observing and interacting with a tiny, autonomous character living inside.",
+    "eventTitle": "Little Computer People",
+    "description": "Each copy of the game featured a unique, procedurally generated character with their own distinct personality, name, and secret preferences, meaning your digital roommate was essentially a one-of-a-kind individual that no one else in the world owned.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Little_Computer_People",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Little_computer_people_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "generatedDate": "2026-11-21"
+  },
+  {
     "headline": "Milwaukee's Vanished German Outpost",
     "context": "The New Coeln House is a historic brick inn located in what was once the isolated German farming hamlet of New Coeln, Wisconsin, long before the area was swallowed by the expansion of Milwaukee.",
     "eventTitle": "New Coeln House",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/The_Last_Time_(Rolling_Stones_song)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/RollStones-Single1965_TheLastTime.jpg",
     "generatedDate": "2026-07-19"
-  },
-  {
-    "headline": "A Shared Crown Mystery",
-    "context": "The 1927 USSR Chess Championship was a high-stakes tournament held in Moscow's prestigious Hall of Columns, featuring the cream of Soviet chess talent. It ultimately resulted in a rare, permanent stalemate where two players were declared joint champions.",
-    "eventTitle": "1927 USSR Chess Championship",
-    "description": "Because a tie-break match couldn't be scheduled between Fedir Bohatyrchuk and Peter Romanovsky, they were crowned joint winners. Even crazier, this tournament served as the launching pad for 16-year-old Mikhail Botvinnik, who would eventually transform the entire world of professional chess.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/1927_USSR_Chess_Championship",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bogatirchuk_%281923%29.jpg",
-    "generatedDate": "2026-07-18"
   }
 ]

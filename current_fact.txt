@@ -1,9 +1,9 @@
 {
-  "headline": "Milwaukee's Vanished German Outpost",
-  "context": "The New Coeln House is a historic brick inn located in what was once the isolated German farming hamlet of New Coeln, Wisconsin, long before the area was swallowed by the expansion of Milwaukee.",
-  "eventTitle": "New Coeln House",
-  "description": "This unassuming roadside inn acted as a crucial scales-house for farmers, but its most wild secret is that it served as the literal gateway for immigrant caravans navigating the treacherous, muddy wilderness between Racine and Milwaukee by horse and wagon.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/New_Coeln_House",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/New_Coeln_House_Dec09.jpg/330px-New_Coeln_House_Dec09.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-20"
+  "headline": "Your First Virtual Roommate",
+  "context": "Little Computer People is a pioneering social simulation game where players inhabit a house on their screen, observing and interacting with a tiny, autonomous character living inside.",
+  "eventTitle": "Little Computer People",
+  "description": "Each copy of the game featured a unique, procedurally generated character with their own distinct personality, name, and secret preferences, meaning your digital roommate was essentially a one-of-a-kind individual that no one else in the world owned.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Little_Computer_People",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Little_computer_people_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "generatedDate": "2026-11-21"
 }
