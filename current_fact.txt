@@ -1,9 +1,9 @@
 {
-  "headline": "Your First Virtual Roommate",
-  "context": "Little Computer People is a pioneering social simulation game where players inhabit a house on their screen, observing and interacting with a tiny, autonomous character living inside.",
-  "eventTitle": "Little Computer People",
-  "description": "Each copy of the game featured a unique, procedurally generated character with their own distinct personality, name, and secret preferences, meaning your digital roommate was essentially a one-of-a-kind individual that no one else in the world owned.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Little_Computer_People",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Little_computer_people_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "generatedDate": "2026-11-21"
+  "headline": "Incheon's Vanishing Commuter King",
+  "context": "Geomdan Sageori Station is an underground stop on Line 2 of the Incheon Subway system, located in the rapidly growing Geomdan District of South Korea.",
+  "eventTitle": "Geomdan Sageori station",
+  "description": "When the line first launched, this station was the undisputed, busiest hub of the entire transit network, but it has since been dethroned by the Seo-gu Office station as the region's commuter landscape shifted permanently.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Geomdan_Sageori_station",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/ITC-Geomdansageori_Stn-Gate.jpg/330px-ITC-Geomdansageori_Stn-Gate.jpg",
+  "generatedDate": "2026-11-22"
 }
