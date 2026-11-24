@@ -1,9 +1,9 @@
 {
-  "headline": "Incheon's Vanishing Commuter King",
-  "context": "Geomdan Sageori Station is an underground stop on Line 2 of the Incheon Subway system, located in the rapidly growing Geomdan District of South Korea.",
-  "eventTitle": "Geomdan Sageori station",
-  "description": "When the line first launched, this station was the undisputed, busiest hub of the entire transit network, but it has since been dethroned by the Seo-gu Office station as the region's commuter landscape shifted permanently.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Geomdan_Sageori_station",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/ITC-Geomdansageori_Stn-Gate.jpg/330px-ITC-Geomdansageori_Stn-Gate.jpg",
-  "generatedDate": "2026-11-22"
+  "headline": "Turkey's Definitive Foreign Chronicler",
+  "context": "Erik-Jan Zürcher is a prominent Dutch Turkologist and academic at Leiden University who is widely regarded as one of the world's leading experts on the history of modern Turkey.",
+  "eventTitle": "Erik-Jan Zürcher",
+  "description": "Zürcher famously debunked the 'clash of civilizations' narrative by proving through Ottoman archives that the Young Turks were not merely nationalist rebels, but were deeply influenced by the same European positivist philosophies they were actively fighting against.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Erik-Jan_Z%C3%BCrcher",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Erik-Jan_Z%C3%BCrcher.jpg/330px-Erik-Jan_Z%C3%BCrcher.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-23"
 }
