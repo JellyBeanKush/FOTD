@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Seeds Save Our Future",
+    "context": "SeedChange is a global non-profit organization that partners with small-scale farmers to preserve biodiversity and promote sustainable agricultural practices. They focus on protecting locally adapted seeds to ensure food security for communities worldwide.",
+    "eventTitle": "SeedChange",
+    "description": "Their founder, Lotta Hitschmanova, became a household icon in Canada by starring in her own charity TV spots, eventually becoming so recognizable that she had to wear custom-made uniforms to prevent imposters from impersonating her to solicit donations.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SeedChange",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sebastiana_Montan_in_Bolivia.jpg/330px-Sebastiana_Montan_in_Bolivia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-11-24"
+  },
+  {
     "headline": "Turkey's Definitive Foreign Chronicler",
     "context": "Erik-Jan Zürcher is a prominent Dutch Turkologist and academic at Leiden University who is widely regarded as one of the world's leading experts on the history of modern Turkey.",
     "eventTitle": "Erik-Jan Zürcher",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canyon_Lodge",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Grand_Canyon_view_from_Grand_Canyon_Lodge.jpg/330px-Grand_Canyon_view_from_Grand_Canyon_Lodge.jpg",
     "generatedDate": "2026-07-22"
-  },
-  {
-    "headline": "A Romanesque Legal Fortress",
-    "context": "The Old Post Office and Courthouse is a historic federal building located on Genesee Street in Auburn, New York, serving as a pillar of the United States District Court for the Northern District of New York.",
-    "eventTitle": "Old Post Office and Courthouse (Auburn, New York)",
-    "description": "While it looks like a standard fortress, the building was designed using the Richardsonian Romanesque style, intentionally featuring massive, heavy stonework intended to project an image of unshakeable federal authority to anyone walking through its doors.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Old_Post_Office_and_Courthouse_(Auburn%2C_New_York)",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Post_Office_and_Federal_Court_House_Auburn.jpg/330px-Post_Office_and_Federal_Court_House_Auburn.jpg",
-    "generatedDate": "2026-07-21"
   }
 ]
