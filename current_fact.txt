@@ -1,9 +1,9 @@
 {
-  "headline": "Seeds Save Our Future",
-  "context": "SeedChange is a global non-profit organization that partners with small-scale farmers to preserve biodiversity and promote sustainable agricultural practices. They focus on protecting locally adapted seeds to ensure food security for communities worldwide.",
-  "eventTitle": "SeedChange",
-  "description": "Their founder, Lotta Hitschmanova, became a household icon in Canada by starring in her own charity TV spots, eventually becoming so recognizable that she had to wear custom-made uniforms to prevent imposters from impersonating her to solicit donations.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/SeedChange",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sebastiana_Montan_in_Bolivia.jpg/330px-Sebastiana_Montan_in_Bolivia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-24"
+  "headline": "TV's Dark Angel Architect",
+  "context": "Charles H. Eglee is a prolific American screenwriter and producer known for shaping the landscape of prestige television during the 1990s and 2000s.",
+  "eventTitle": "Charles H. Eglee",
+  "description": "Before he was co-creating cult sci-fi hits with James Cameron, Eglee served as a lead writer and producer for 'The Shield,' helping craft the gritty, morally compromised tone that redefined the golden age of anti-hero television forever.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Charles_H._Eglee",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Charles_Eglee_at_ATX_2014.jpg/330px-Charles_Eglee_at_ATX_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-25"
 }
