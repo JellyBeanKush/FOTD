@@ -1,9 +1,9 @@
 {
-  "headline": "A Royal Mary Mob",
-  "context": "The Marys of the Empire were a massive, spontaneous collective of women sharing the name Mary who pooled their personal funds to buy extravagant wedding and coronation gifts for the British royal family.",
-  "eventTitle": "The Marys of the Empire",
-  "description": "It wasn't just a small group; over 100,000 women named Mary donated pennies to fund a solid gold writing set. They essentially operated as a massive, informal, name-based fundraising army that essentially worshipped the Queen through sheer shared identity.",
-  "sourceUrl": "https://en.wikipedia.org/wiki/The_Marys_of_the_Empire",
-  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Queen_Mary_in_Garter_Ceremonial_Robes.jpg/330px-Queen_Mary_in_Garter_Ceremonial_Robes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "generatedDate": "2026-11-26"
+  "headline": "KLIA's High-Speed Superpower",
+  "context": "The Express Rail Link is a high-speed private railway connecting Kuala Lumpur's city center with the main international airport, 57 kilometers away. It operates two distinct services: a non-stop express line and a local commuter variant.",
+  "eventTitle": "Express Rail Link",
+  "description": "The train system uses Siemens Desiro ET 425 M electric multiple units that can reach speeds of 160 km/h, making it one of the fastest airport rail links in the world, allowing for a blistering transit time of only 28 minutes.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Express_Rail_Link",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/KLIA_Express_train_set_X2-10.jpg/330px-KLIA_Express_train_set_X2-10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "generatedDate": "2026-11-27"
 }

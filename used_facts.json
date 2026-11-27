@@ -1,5 +1,14 @@
 [
   {
+    "headline": "KLIA's High-Speed Superpower",
+    "context": "The Express Rail Link is a high-speed private railway connecting Kuala Lumpur's city center with the main international airport, 57 kilometers away. It operates two distinct services: a non-stop express line and a local commuter variant.",
+    "eventTitle": "Express Rail Link",
+    "description": "The train system uses Siemens Desiro ET 425 M electric multiple units that can reach speeds of 160 km/h, making it one of the fastest airport rail links in the world, allowing for a blistering transit time of only 28 minutes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Express_Rail_Link",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/KLIA_Express_train_set_X2-10.jpg/330px-KLIA_Express_train_set_X2-10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-11-27"
+  },
+  {
     "headline": "A Royal Mary Mob",
     "context": "The Marys of the Empire were a massive, spontaneous collective of women sharing the name Mary who pooled their personal funds to buy extravagant wedding and coronation gifts for the British royal family.",
     "eventTitle": "The Marys of the Empire",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Agglomerate",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Agglomerate.jpg/330px-Agglomerate.jpg",
     "generatedDate": "2026-07-25"
-  },
-  {
-    "headline": "Warships' Endless Decorative Tail",
-    "context": "A commissioning pennant is a long, thin streamer flown from the masthead of a warship to signify that it is officially in service. It acts as a visual badge, marking the ship as an active vessel commanded by a commissioned officer.",
-    "eventTitle": "Commissioning pennant",
-    "description": "When a ship finally retires, it flies a 'paying off' pennant that can be hundreds of feet long. Sailors often stitch extra pieces of fabric to the end, ensuring the streamer is physically longer than the entire ship itself.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Commissioning_pennant",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/USS_Constitution_commissioning_pennant.jpg/320px-USS_Constitution_commissioning_pennant.jpg",
-    "generatedDate": "2026-07-24"
   }
 ]
