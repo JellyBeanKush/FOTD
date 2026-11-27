@@ -1,5 +1,14 @@
 [
   {
+    "headline": "A Royal Mary Mob",
+    "context": "The Marys of the Empire were a massive, spontaneous collective of women sharing the name Mary who pooled their personal funds to buy extravagant wedding and coronation gifts for the British royal family.",
+    "eventTitle": "The Marys of the Empire",
+    "description": "It wasn't just a small group; over 100,000 women named Mary donated pennies to fund a solid gold writing set. They essentially operated as a massive, informal, name-based fundraising army that essentially worshipped the Queen through sheer shared identity.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Marys_of_the_Empire",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Queen_Mary_in_Garter_Ceremonial_Robes.jpg/330px-Queen_Mary_in_Garter_Ceremonial_Robes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "generatedDate": "2026-11-26"
+  },
+  {
     "headline": "TV's Dark Angel Architect",
     "context": "Charles H. Eglee is a prolific American screenwriter and producer known for shaping the landscape of prestige television during the 1990s and 2000s.",
     "eventTitle": "Charles H. Eglee",
@@ -889,14 +898,5 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Commissioning_pennant",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/USS_Constitution_commissioning_pennant.jpg/320px-USS_Constitution_commissioning_pennant.jpg",
     "generatedDate": "2026-07-24"
-  },
-  {
-    "headline": "The Lizard That Swims",
-    "context": "The Southern California legless lizard is a small, burrowing reptile native to the sandy soils of Southern California and Baja California. Despite appearing like a snake, it is actually a lizard that evolved to lose its legs for efficient navigation through loose sediment.",
-    "eventTitle": "Anniella stebbinsi",
-    "description": "These lizards effectively 'swim' through sand rather than crawling on top of it. They possess specialized shovel-shaped snouts that allow them to plunge headfirst into loose substrate, disappearing into the ground in mere seconds to hunt insects hidden beneath the surface.",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Anniella_stebbinsi",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Anniella_stebbinsi_8672345.jpg/330px-Anniella_stebbinsi_8672345.jpg",
-    "generatedDate": "2026-07-23"
   }
 ]
